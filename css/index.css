@@ -1,0 +1,55 @@
+html  {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+body  {
+  background-image: url(main-pg.png);
+  background-repeat: no-repeat;
+}
+
+nav  {
+  display: block;
+  position: fixed;
+  top: 0;
+  z-index: 100
+
+}
+
+nav a[href]  {
+  color: #10d648;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 155%;
+  padding-right: 0px;
+}
+
+nav ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  top: 0;
+}
+
+nav li  {
+  display: inline;
+  padding-left: 91px;
+}
+
+nav li a:hover  {
+  color: #c4d5e6;
+}
+
+nav li a[class="active"]:hover  {
+  color: #c4d5e6;
+  font-size: 135%;
+}
+
+.active {
+  background-color: #d5e0ef;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
