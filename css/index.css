@@ -12,15 +12,16 @@ nav  {
   display: block;
   position: fixed;
   top: 0;
-  z-index: 100
+  width: 100%;
+  z-index: 100;
+  padding-left: 0px;
 
 }
 
 nav a[href]  {
   color: #10d648;
   font-family: 'Philosopher', sans-serif;
-  font-size: 155%;
-  padding-right: 0px;
+  font-size: 135%;
 }
 
 nav ul  {
@@ -28,12 +29,12 @@ nav ul  {
   margin: 0;
   padding: 0;
   background-color: white;
-  top: 0;
 }
 
 nav li  {
   display: inline;
-  padding-left: 91px;
+  padding-left: 0px;
+  margin-right: 154px;
 }
 
 nav li a:hover  {
@@ -42,7 +43,7 @@ nav li a:hover  {
 
 nav li a[class="active"]:hover  {
   color: #c4d5e6;
-  font-size: 135%;
+  font-size: 125%;
 }
 
 .active {
@@ -52,4 +53,3 @@ nav li a[class="active"]:hover  {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
-
