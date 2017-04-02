@@ -3,6 +3,11 @@ html  {
   margin: 0 auto;
 }
 
+body  {
+  background-repeat: no-repeat;
+  margin-bottom: 120px;
+}
+
 nav  {
   display: block;
   position: fixed;
