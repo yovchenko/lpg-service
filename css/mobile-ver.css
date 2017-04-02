@@ -1,0 +1,46 @@
+html  {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+nav  {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+nav a[href]  {
+  color: #10d648;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 135%;
+}
+
+nav ul  {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  background-color: white;
+}
+
+nav li  {
+  padding-right: 0px;
+}
+
+nav li a:hover  {
+  color: #c4d5e6;
+}
+
+nav li a[class="active"]:hover  {
+  color: #c4d5e6;
+  font-size: 125%;
+}
+
+.active {
+  background-color: #d5e0ef;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
