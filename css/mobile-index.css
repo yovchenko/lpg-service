@@ -12,8 +12,6 @@ body  {
 nav  {
   display: block;
   position: static;
-  top: 0;
-  left:0;
 }
 
 nav a[href]  {
