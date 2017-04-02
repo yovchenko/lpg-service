@@ -8,13 +8,12 @@ body  {
   background-image: url(brand-sign.png);
   background-repeat: no-repeat;
   right:0;
-  position: fixed;
- 
+  
 }
 
 nav  {
   display: block;
-  position: fixed;
+  position: static;
   top: 0;
   left:0;
   width: 100%;
