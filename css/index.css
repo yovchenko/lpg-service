@@ -6,10 +6,13 @@ html  {
 body {
   margin-bottom:120px;
 }
+
 #header-pic {
+
   margin-left: auto;
   margin-right: auto;
-width: 50%;
+  width: 50%;
+ 
 }
 
 #lsidebar{
