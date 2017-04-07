@@ -1,17 +1,23 @@
 html  {
-  max-width: 1300px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-body  {
-  background-image: url(main-pg.png);
-  background-repeat: no-repeat;
-  margin-bottom: 120px;
+body {
+  margin-bottom:120px;
+}
+#header-pic {
+  margin-left: auto;
+  margin-right: auto;
+width: 50%;
 }
 
+#lsidebar{
+
+}
 nav  {
   display: block;
-  position: fixed;
+  position: inherit;
   top: 0;
   width: 100%;
   z-index: 100;
@@ -32,7 +38,10 @@ nav ul  {
 
 nav li  {
   display: inline;
-  margin-left: 105px;
+    text-align: center;
+    float: left;
+    width:20%;
+   
 }
 
 nav li a:hover  {
@@ -51,3 +60,4 @@ nav li a[class="active"]:hover  {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
+
