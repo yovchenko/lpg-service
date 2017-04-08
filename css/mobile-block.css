@@ -7,8 +7,10 @@ h1 {
 }
 
 .block3 {
-    position: inherit;
+    position: relative;
     text-align: center;
+    margin-top: 22%;
+    
 }
 
 div .block4 {
