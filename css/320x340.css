@@ -41,18 +41,12 @@ nav a[href] {
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: white;
-
 }
 
 nav li {
-    display: inline;
-    text-align: center;
-    padding-right: 800px;
-    
+    display: list-item;
+    margin-top: 4px;
 }
 
 nav li a:hover {
@@ -75,15 +69,33 @@ h1 {
     margin-top: 0.0px;
     margin-left: 0.0px;
     color: #1ccc66;
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
+}
+
+p { 
+    font-family: 'Philosopher', sans-serif;
+}
+
+.name-part-1 {
+    font-size: 30px; 
+    color:blue;
+}
+
+.name-part-2 {
+    font-size: 30px; 
+    color: #1ccc66;
+}
+
+.info {
+    font-size: 26px;
+    color: #1ccc66;
 }
 
 .block3 {
     position: relative;
     text-align: center;
     margin-top: 22%;
-    
 }
 
 div .block4 {
@@ -93,9 +105,4 @@ div .block4 {
     margin-top: 0.0px;
     float: left;
     position: inherit;
-}
-
-p {
-    font-size: 25px;
-    color: #1ccc66;
 }

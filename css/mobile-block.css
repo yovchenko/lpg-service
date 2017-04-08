@@ -6,11 +6,29 @@ h1 {
     text-align: center;
 }
 
+p { 
+    font-family: 'Philosopher', sans-serif;
+}
+
+.name-part-1 {
+    font-size: 30px; 
+    color:blue;
+}
+
+.name-part-2 {
+    font-size: 30px; 
+    color: #1ccc66;
+}
+
+.info {
+    font-size: 26px;
+    color: #1ccc66;
+}
+
 .block3 {
     position: relative;
     text-align: center;
     margin-top: 22%;
-    
 }
 
 div .block4 {
@@ -20,9 +38,4 @@ div .block4 {
     margin-top: 0.0px;
     float: left;
     position: inherit;
-}
-
-p {
-    font-size: 35px;
-    color: #1ccc66;
 }
