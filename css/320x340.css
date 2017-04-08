@@ -59,6 +59,7 @@ nav li a[class="active"]:hover {
 }
 
 .active {
+    font-weight: bold;
     background-color: #d5e0ef;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
