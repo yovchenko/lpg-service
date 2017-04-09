@@ -6,6 +6,10 @@ h1 {
     text-align: center;
 }
 
+div{
+   font-family: 'Philosopher', sans-serif;  
+}
+
 p { 
     font-family: 'Philosopher', sans-serif;
 }
@@ -13,30 +17,27 @@ p {
 .name-part-1 {
     font-size: 30px; 
     color:blue;
+    text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .name-part-2 {
     font-size: 30px; 
     color: #1ccc66;
+    text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .info {
     font-size: 26px;
     color: #1ccc66;
+    text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .block3 {
-    position: inherit;
+    position: relative;
     text-align: center;
+    margin-top: 16%;
 }
 
-div .block4 {
-    background: white;
-    padding: 0px;
-    margin-left: 0.0px;
-    margin-top: 0.0px;
-    float: left;
-    position: inherit;
-}
-
-
+.licenses {
+    background-color: white;
+} 

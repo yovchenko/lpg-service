@@ -37,7 +37,8 @@ nav {
 nav a[href] {
     color: #10d648;
     font-family: 'Philosopher', sans-serif;
-    font-size: 135%;
+    font-size: 140%;
+    text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 nav ul {
@@ -81,16 +82,19 @@ p {
 .name-part-1 {
     font-size: 30px; 
     color:blue;
+    text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .name-part-2 {
     font-size: 30px; 
     color: #1ccc66;
+    text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .info {
     font-size: 26px;
     color: #1ccc66;
+    text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .block3 {
