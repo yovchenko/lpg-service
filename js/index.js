@@ -3,7 +3,14 @@ function sendForm(e) {
   var form = document.querySelector('#comment');
   if (form.checkValidity()) {
 	  e.preventDefault(); 
-    alert('keep calm and wait for the message');
+    $.ajax({
+    url: "https://formspree.io/yovchenko.w@gmail.com",
+    method: "POST",
+    data: {
+        textarea: $('#comment').val()
+    },
+    dataType: "json"
+});
   }
 }
 

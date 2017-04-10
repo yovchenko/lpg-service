@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="../css/reset.css">
-        
         <link rel="stylesheet" media="(min-width: 900px)" href="../css/content.css">
         <link rel="stylesheet" media="(min-width: 900px)" href="../css/index.css">
         <link rel="stylesheet" media="(max-width: 899px) and (min-width: 320px)" href="../css/mobile-content.css">
@@ -19,7 +18,7 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="../index.html">О компании</a>
+                            <a href="../index.html">О кампании</a>
                         </li>
                         <li>
                             <a href="installation-pg.html">Установка ГБО</a>
@@ -38,21 +37,29 @@
             </div>
             <div id="header-pic">
                 <div class="imageIDpng">
-                    <img src="empty" class="imageID" style=width:100% alt="gas-centr"/>
+                    <img src="/pictures/header.png" class="imageID" style=width:100% alt="gas-centr"/>
                 </div>
             </div>
         </header>
         <main>
+           
+            <h1><span class="adress">Наш адрес</span></h1>
+            <div id="map">
+           
+            </div>
             <form>
-            <label ><p>Ваш отзыв:</p>
-                <textarea id="comment"></textarea>
+            <label ><p><span class="response-text">Обратная связь:</span></p>
+                <textarea id="comment" required></textarea><br>
                 <button id="send">Отправить</button>
             </label>
             </form>
+           
         </main>
         <aside></aside>
         <footer></footer>
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="../js/index.js"></script>
+        <script type="text/javascript" src="/js/index.js"></script>
+        <script type="text/javascript" src="/js/map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaHL0FMGIKqW0s2cpN5MvfZv-T2cXxeM4&callback=myMap"></script>
     </body>
 </html>

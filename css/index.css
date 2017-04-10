@@ -9,7 +9,7 @@ body {
 
 @media screen and (min-width: 900px) {
     .imageID {
-        content: url("../pictures/header.png");
+      
         margin-left: auto;
         margin-right: auto;
         width: 100%;
