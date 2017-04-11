@@ -78,3 +78,13 @@ main li {
     background-color: white;
 }
 
+.arrow {
+  position: absolute;
+  padding-left: 5px;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
+	60% { -webkit-transform: translateX(-10px); }
+}
