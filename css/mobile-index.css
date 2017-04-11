@@ -13,7 +13,7 @@ body {
     width: 40%;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 900px) {
     .imageID {
         content: url("../pictures/mobile-header.png");
     }
