@@ -11,7 +11,10 @@ div{
 }
 
 p { 
-    font-family: 'Philosopher', sans-serif;
+     color: #30d900;
+     font-family: 'Philosopher', sans-serif;
+     font-size: 140%;
+     text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .name-part-1 {
@@ -41,3 +44,45 @@ p {
 .licenses {
     background-color: white;
 } 
+
+form {
+    float: right;
+     margin:10%;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #4CAF30; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#map {
+    display: block;
+    float: left;
+    width: 80%;
+    height: 350px;
+    margin: 10%;
+}
+
+.contact-info {
+    float: left;
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.response-text {
+  font-size: 18px;
+}

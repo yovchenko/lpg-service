@@ -4,7 +4,7 @@ function sendForm(e) {
   if (form.checkValidity()) {
 	  e.preventDefault(); 
     $.ajax({
-    url: "https://formspree.io/yovchenko.w@gmail.com",
+    url: "https://formspree.io/pavel-yovchenko@mail.ru",
     method: "POST",
     data: {
         textarea: $('#comment').val()

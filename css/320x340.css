@@ -76,7 +76,10 @@ h1 {
 }
 
 p { 
+    color: #30d900;
     font-family: 'Philosopher', sans-serif;
+    font-size: 140%;
+    text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .name-part-1 {
@@ -122,3 +125,4 @@ div .block4 {
 	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
 	60% { -webkit-transform: translateX(-10px); }
 }
+
