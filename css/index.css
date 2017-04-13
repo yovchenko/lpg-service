@@ -51,7 +51,7 @@ nav li a[class="active"]:hover {
     font-size: 125%;
 }
 
-.active {
+.active-1 {
     position: inherit;
     font-weight: bold;
     background-color: #d5e0ef;

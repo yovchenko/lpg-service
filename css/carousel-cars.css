@@ -1,0 +1,35 @@
+.carousel-control {
+    background-color: none;
+}
+
+.carousel-inner img {
+    margin: 0 auto;
+    max-height: 900px;
+}
+
+.carousel-control.right {
+background-image: none;
+}
+
+.carousel-control.left {
+background-image: none;
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.active {
+    background-color: #d5e0ef;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+a {
+    text-decoration: underline;
+}
