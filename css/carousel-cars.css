@@ -1,3 +1,12 @@
+body {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: underline;
+}
+
 .carousel-control {
     background-color: none;
 }
@@ -8,11 +17,11 @@
 }
 
 .carousel-control.right {
-background-image: none;
+    background-image: none;
 }
 
 .carousel-control.left {
-background-image: none;
+    background-image: none;
 }
 
 .wrapper {
@@ -30,6 +39,5 @@ background-image: none;
     border-top-left-radius: 10px;
 }
 
-a {
-    text-decoration: underline;
-}
+
+
