@@ -1,6 +1,8 @@
 body {
     max-width: 1350px;
     margin: 0 auto;
+    font-size: 143%;
+    font-family: 'Philosopher', sans-serif;
 }
 
 a {
