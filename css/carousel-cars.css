@@ -1,8 +1,18 @@
+* {
+    box-sizing: content-box;
+}
+
+html {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 71%;
+}
+
 body {
     max-width: 1350px;
     margin: 0 auto;
     font-size: 141%;
     font-family: 'Philosopher', sans-serif;
+    line-height: 1.2;
 }
 
 a {
@@ -29,7 +39,7 @@ a {
 .wrapper {
     margin-left: 5%;
     margin-right: 5%;
-    padding-top: 5%;
+    padding-top: 8%;
     margin-bottom: 5%;
 }
 

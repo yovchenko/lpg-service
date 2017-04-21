@@ -2,6 +2,7 @@ body {
     max-width: 1350px;
     margin: 0 auto;
     margin-bottom: 120px;
+    line-height: 1.2;
 }
 
 @media screen and (min-width: 899px) {
