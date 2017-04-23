@@ -6,8 +6,8 @@ body {
 }
 
 @media {
-    .imageID {
-         content: url("../pictures/header.png");
+    .imageID2 {
+         display: none;
     }
 }
 

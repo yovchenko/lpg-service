@@ -15,8 +15,8 @@ body {
 }
 
 @media {
-    .imageID {
-         content: url("../pictures/mobile-header.png");
+    .imageID1 {
+         display: none;
     } 
 }
 
