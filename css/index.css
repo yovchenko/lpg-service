@@ -5,11 +5,9 @@ body {
     line-height: 1.2;
 }
 
-@media screen and (min-width: 899px) {
+@media screen and (min-width: 900px) {
     .imageID {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+         content: url("../pictures/header.png");
     }
 }
 

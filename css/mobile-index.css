@@ -14,12 +14,10 @@ body {
     width: 40%;
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 899px) {
+  
     .imageID {
-        content: url("../pictures/mobile-header.png");
-    }
-    .imageID: after {
-        content: url("../pictures/mobile-header.png");
+         content: url("../pictures/mobile-header.png");
     } 
 }
 
