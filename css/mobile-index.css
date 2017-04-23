@@ -15,8 +15,7 @@ body {
 }
 
 @media (max-width: 899px) {
-  
-    .imageID {
+    .imageID:after {
          content: url("../pictures/mobile-header.png");
     } 
 }
