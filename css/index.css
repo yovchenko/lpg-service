@@ -8,7 +8,6 @@ body {
 @media screen and (min-width: 900px) {
     .imageID {
          content: url("../pictures/header.png");
-         background-size: contain;
     }
 }
 
