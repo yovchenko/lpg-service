@@ -18,6 +18,9 @@ body {
     .imageID {
         content: url("../pictures/mobile-header.png");
     }
+    .imageID: after {
+        content: url("../pictures/mobile-header.png");
+    } 
 }
 
 .imageIDpng {
