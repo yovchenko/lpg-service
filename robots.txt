@@ -1,4 +1,4 @@
 User-Agent:*
-Host: github.com/yovchenko/gas-service-.git
+Host: gascentr.com
 
-Sitemap: https://github.com/yovchenko/gas-service-.git/sitemap.xml
+Sitemap:  http://gascentr.com/sitemap.xml
