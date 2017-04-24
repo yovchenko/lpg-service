@@ -1,6 +1,4 @@
 User-Agent:*
-Disallow: /admin
-Disallow: /img
 Host: github.com/yovchenko/gas-service-.git
 
 Sitemap: https://github.com/yovchenko/gas-service-.git/sitemap.xml
