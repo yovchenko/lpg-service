@@ -13,18 +13,18 @@ div{
 p { 
      color: #30d900;
      font-family: 'Philosopher', sans-serif;
-     font-size: 135%;
+     font-size: 125%;
      text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .name-part-1 {
-    font-size: 30px; 
+    font-size: 25px; 
     color:blue;
     text-shadow: 2px 2px 8px #c4d5e6;
 }
 
 .name-part-2 {
-    font-size: 30px; 
+    font-size: 25px; 
     color: #30d900;
     text-shadow: 2px 2px 8px #c4d5e6;
 }
