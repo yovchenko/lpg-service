@@ -1,5 +1,5 @@
 body {
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 120px;
     line-height: 1.2;
@@ -22,7 +22,7 @@ nav {
 nav a[href] {
     color: #30d900;
     font-family: 'Philosopher', sans-serif;
-    font-size: 130%;
+    font-size: 140%;
     text-shadow: 2px 2px 8px #c4d5e6;
     margin-left: 17px;
 }
@@ -43,11 +43,7 @@ nav li {
 
 nav li a:hover {
     color: #c4d5e6;
-}
-
-nav li a[class="active"]:hover {
-    color: #c4d5e6;
-    font-size: 125%;
+    font-size: 127%;
 }
 
 .active-1 {
