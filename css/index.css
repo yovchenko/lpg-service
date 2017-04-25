@@ -1,5 +1,5 @@
 body {
-    max-width: 1350px;
+    max-width: 960px;
     margin: 0 auto;
     margin-bottom: 120px;
     line-height: 1.2;
@@ -22,7 +22,7 @@ nav {
 nav a[href] {
     color: #30d900;
     font-family: 'Philosopher', sans-serif;
-    font-size: 145%;
+    font-size: 130%;
     text-shadow: 2px 2px 8px #c4d5e6;
     margin-left: 17px;
 }

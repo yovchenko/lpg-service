@@ -3,6 +3,8 @@
 }
 
 html {
+    max-width: 1000px;
+    margin: 0 auto;
     font-family: 'Philosopher', sans-serif;
     font-size: 71%;
 }
@@ -25,7 +27,7 @@ a {
 
 .carousel-inner img {
     margin: 0 auto;
-    max-height: 900px;
+    max-height: 450px;
 }
 
 .carousel-control.right {
@@ -43,13 +45,7 @@ a {
     margin-bottom: 5%;
 }
 
-.active {
-    background-color: #d5e0ef;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
+
 
 
 
