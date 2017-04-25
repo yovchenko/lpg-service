@@ -66,9 +66,9 @@ main li {
 }
 
 .arrow {
-  position: absolute;
-  padding-left: 5px;
-  -webkit-animation: bounce 2s infinite ease-in-out;
+    position: absolute;
+    padding-left: 5px;
+    -webkit-animation: bounce 2s infinite ease-in-out;
 }
 
 @-webkit-keyframes bounce {
