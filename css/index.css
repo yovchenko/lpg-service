@@ -6,7 +6,8 @@ body {
 }
 
 h1 {
-    font-size: inherit;    
+    font-size: inherit;  
+    font-family: 'Philosopher', sans-serif;
 }
 
 @media {
