@@ -8,6 +8,10 @@ body {
     line-height: 1.3;
 }
 
+h1 {
+    font-size: inherit;    
+}
+
 #header-pic {
     margin-left: auto;
     margin-right: auto;

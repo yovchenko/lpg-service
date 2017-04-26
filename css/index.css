@@ -5,6 +5,10 @@ body {
     line-height: 1.2;
 }
 
+h1 {
+    font-size: inherit;    
+}
+
 @media {
     .imageID2 {
          display: none;
