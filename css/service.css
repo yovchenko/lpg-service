@@ -2,9 +2,22 @@ main {
     text-align: center;
 }
 
+h1 {
+ 	font-size: 1.4em;
+	color: white;
+	position: relative;
+    top: 50%;
+	  transform: translateY(-50%);
+}
+
+.ch-grid {
+	padding-left: 5%;
+ 	margin: 0 auto;
+}
+
 .content-img {
     display: inline-block;
-    width:30%;
+    width: 28%;
     margin: 35px 15px 35px 15px;
 }
 
@@ -19,7 +32,6 @@ main {
 	-o-perspective: 900px;
 	-ms-perspective: 900px;
 	perspective: 900px;
-    display: inline-block;
 }
 .ch-info{
 	position: absolute;
@@ -48,6 +60,7 @@ main {
 	-o-transform-origin: 50% 0%;
 	-ms-transform-origin: 50% 0%;
 	transform-origin: 50% 0%;
+	border: 10px solid #10d648;
 }
 
 .ch-info .ch-info-front {
@@ -66,24 +79,28 @@ main {
 
 .ch-img-1 { 
 	background-image: url(../pictures/service/diagnostic.png);
-    background-size: 80% 80%;
-    border-radius: 60px;
-    background-repeat: no-repeat;
-}
+    background-size: 120% 120%;
+    }
 
 .ch-img-2 { 
-	background-image: url(../pictures/service/ignition-test.png);
-    background-size: 80% 80%;
-    border-radius: 60px;
-    background-repeat: no-repeat;
-}
+	background-image: url(../pictures/service/fire.png);
+    background-size: 120% 120%;
+    }
 
 .ch-img-3 { 
+	background-image: url(../pictures/service/setting-injectors.png);
+    background-size: 120% 120%;
+    }
+
+.ch-img-4 { 
+	background-image: url(../pictures/service/injector-cleaning.png);
+    background-size: 120% 120%;
+    }
+
+.ch-img-5 { 
 	background-image: url(../pictures/service/maintenance.png);
-    background-size: 80% 80%;
-    border-radius: 60px;
-    background-repeat: no-repeat;
-}
+    background-size: 120% 120%;
+    }
 
 .ch-info h3 {
 	color: #fff;
@@ -148,29 +165,13 @@ footer {
     margin-top: 60px;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 899px) {
 .content-img {
-    width:42%;
+    width: 45%;
     }
-.ch-item {
-    width: 150px;
-	height: 150px;
-	border-radius: 30%;
-	position: relative;
-	cursor: default;
-	-webkit-perspective: 900px;
-	-moz-perspective: 900px;
-	-o-perspective: 900px;
-	-ms-perspective: 900px;
-	perspective: 900px;
-    display: inline-block;
-    }
-}
-
-@media all and (max-width: 700px) {
-.content-img {
-    width:50%;
-    }
+.ch-grid {
+	padding:0 5% 0 0;
+	}
 .ch-item {
     width: 180px;
 	height: 180px;
@@ -183,6 +184,28 @@ footer {
 	-ms-perspective: 900px;
 	perspective: 900px;
     display: inline-block;
-
-    }
+	}
 }
+
+@media all and (max-width: 320px) {
+.content-img {
+    width: 45%;
+    }
+.ch-grid {
+	padding:0 5% 0 0;
+	}
+.ch-item {
+    width: 140px;
+	height: 140px;
+	border-radius: 30%;
+	position: relative;
+	cursor: default;
+	-webkit-perspective: 900px;
+	-moz-perspective: 900px;
+	-o-perspective: 900px;
+	-ms-perspective: 900px;
+	perspective: 900px;
+    display: inline-block;
+	}
+}
+
