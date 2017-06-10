@@ -15,7 +15,7 @@ h1 {
 .content-img {
     display: inline-block;
     width: 28%;
-    margin: 35px 15px 35px 15px;
+    margin: 25px 15px 25px 15px;
 }
 
 .ch-item {
@@ -171,7 +171,7 @@ footer {
     }
 
     .ch-grid {
-        padding: 0 0 0 0;
+        padding: 0 10% 0 0;
     }
 
     .ch-item {
@@ -201,7 +201,7 @@ footer {
     }
 
     .ch-grid {
-        padding: 0 0 0 0;
+        padding: 0 10% 0 0;
     }
 
     .ch-item {
