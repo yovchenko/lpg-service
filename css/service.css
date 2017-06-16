@@ -1,5 +1,6 @@
 .wrap-1 {
-    padding-left: 5%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 main {
@@ -13,9 +14,6 @@ h1 {
 
 .ch-grid {
     display: inline;
-    margin: 0 auto;
-    padding: 0 0 0 0;
-    zoom:1;
 }
 
 .content-img {
@@ -173,18 +171,15 @@ footer {
 }
 
 @media all and (max-width: 899px) {
-    .wrap-1 {
-        padding:0 0 0 0;
-    }
-    
     .content-img {
-        width:45%;
-        display: inline-block;
-        margin: 25px 25px 25px 5px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
     }
 
     .ch-grid {
         padding: 0 0 0 0;	
+        margin: 0 0 0 0;
     }
 
     .ch-item {
