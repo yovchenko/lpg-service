@@ -1,0 +1,85 @@
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    align-self: center;
+    display: flex;
+    font-size: 1.5em;
+}
+
+h3 {
+     color: #10d648;
+     font-family: 'Philosopher', sans-serif;
+     font-size: 1.5em;
+     text-shadow: 6px 6px 12px #c4d5e6;
+}
+
+.price-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #10d648;
+    margin: 2% 3% 2% 3%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: #c4d5e6;
+}
+
+.price-value {
+    display: flex;
+    width: 100%;
+    
+}
+
+.price-value > div {
+    margin: 1%;
+    border: 1px solid #10d648;
+    flex-basis: 33.3333%;
+    height: 90%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.price {
+    display: flex;
+    flex-basis: 100%;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.cylinder {
+    padding: 2% 0 0 0;
+    display: inline-block;
+    width: 35px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 899px) {
+    .cylinder {
+    padding: 2% 0 0 0;
+    display: inline-block;
+    width: 30px;
+    margin: 0 auto;
+}
+}
+
+svg {
+   fill:#10d648;
+}
+
+footer {
+    padding-top: 3%;
+}
