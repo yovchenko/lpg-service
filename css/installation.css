@@ -18,7 +18,7 @@ h3 {
      text-shadow: 6px 6px 12px #c4d5e6;
 }
 
-.price-wrapper{
+.price-wrapper-1{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -32,12 +32,46 @@ h3 {
     align-items: flex-end;
     flex-wrap: wrap;
     background-color: #c4d5e6;
+    -webkit-animation: bounceInUp 4s ease-in-out;
+}
+
+.price-wrapper-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #10d648;
+    margin: 2% 3% 2% 3%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: #c4d5e6;
+    -webkit-animation: bounceInUp 6s ease-in-out;
+}
+
+.price-wrapper-3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #10d648;
+    margin: 2% 3% 2% 3%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: #c4d5e6;
+    -webkit-animation: bounceInUp 8s ease-in-out;
 }
 
 .price-value {
     display: flex;
     width: 100%;
-    
 }
 
 .price-value > div {
@@ -82,4 +116,17 @@ svg {
 
 footer {
     padding-top: 3%;
+}
+
+.arrow {
+    float: right;
+    width: 32px;
+    padding-left: 2px;
+    padding-top: 7px;
+    -webkit-animation: bounce-1 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce-1 {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
+	60% { -webkit-transform: translateX(5px); }
 }
