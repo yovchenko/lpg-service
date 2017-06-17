@@ -33,6 +33,7 @@ h3 {
     flex-wrap: wrap;
     background-color: #c4d5e6;
     -webkit-animation: bounceInUp 4s ease-in-out;
+    -moz-animation: bounceInUp 4s ease-in-out;
 }
 
 .price-wrapper-2{
@@ -50,6 +51,7 @@ h3 {
     flex-wrap: wrap;
     background-color: #c4d5e6;
     -webkit-animation: bounceInUp 6s ease-in-out;
+     -moz-animation: bounceInUp 6s ease-in-out;
 }
 
 .price-wrapper-3{
@@ -67,6 +69,7 @@ h3 {
     flex-wrap: wrap;
     background-color: #c4d5e6;
     -webkit-animation: bounceInUp 8s ease-in-out;
+    -moz-animation: bounceInUp 8s ease-in-out;
 }
 
 .price-value {
@@ -111,14 +114,17 @@ h3 {
     .price-wrapper-1 {
     margin: 3% 3% 3% 3%;
     -webkit-animation: bounceInUp 3s ease-in-out;
+    -moz-animation: bounceInUp 3s ease-in-out;
     }
     .price-wrapper-2 {
     margin: 3% 3% 3% 3%;
      -webkit-animation: bounceInUp 5s ease-in-out;
+     -moz-animation: bounceInUp 5s ease-in-out;
     }
     .price-wrapper-3 {
     margin: 3% 3% 3% 3%; 
     -webkit-animation: bounceInUp 7s ease-in-out;
+    -moz-animation: bounceInUp 7s ease-in-out;
     }
     header {
         padding-bottom: 8px;
@@ -139,6 +145,7 @@ footer {
     padding-left: 2px;
     padding-top: 7px;
     -webkit-animation: bounce-1 2s infinite ease-in-out;
+    animation: bounce-1 2s infinite ease-in-out;
 }
 
 @-webkit-keyframes bounce-1 {
