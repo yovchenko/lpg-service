@@ -244,12 +244,24 @@ main li {
   padding-left: 5px;
   padding-top: 5px;
   -webkit-animation: bounce 2s infinite ease-in-out;
+  -moz-animation: bounce-1 1.6s infinite ease-in-out;
+  animation: bounce-1 2s infinite ease-in-out;
   z-index: 2;
 }
 
 @-webkit-keyframes bounce {
 	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
 	60% { -webkit-transform: translateX(-10px); }
+}
+
+@-moz-keyframes bounce-1 {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
+	40% { -webkit-transform: translateX(5px); }
+}
+
+@keyframes bounce-1 {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
+	40% { -webkit-transform: translateX(5px); }
 }
 
 footer {
