@@ -110,15 +110,18 @@ h3 {
     }
     .price-wrapper-1 {
     margin: 3% 3% 3% 3%;
+    -webkit-animation: bounceInUp 3s ease-in-out;
     }
     .price-wrapper-2 {
     margin: 3% 3% 3% 3%;
+     -webkit-animation: bounceInUp 5s ease-in-out;
     }
     .price-wrapper-3 {
     margin: 3% 3% 3% 3%; 
     }
     header {
         padding-bottom: 8px;
+        -webkit-animation: bounceInUp 7s ease-in-out;
     }
 }
 
