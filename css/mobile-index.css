@@ -33,19 +33,21 @@ p {
     font-size: 1.6rem; 
     color:blue;
     text-shadow: 6px 6px 12px #c4d5e6;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .name-part-2 {
     font-size: 1.6rem; 
     color: #10d648;
     text-shadow: 6px 6px 12px #c4d5e6;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .info {
     font-size: 1.2em;
     color: #10d648;
     text-shadow: 6px 6px 12px #c4d5e6;
-
+    font-family: 'Philosopher', sans-serif;
 }
 
 .block3 {
@@ -300,3 +302,7 @@ footer > .icons {
 .name-part-2 + .info {
     font-size: 1.2em;
 }
+
+.brands {
+     padding: 5px 0 5px 0;
+} 

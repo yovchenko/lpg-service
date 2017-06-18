@@ -20,7 +20,7 @@ h1 {
 h3 {
      color: #10d648;
      font-family: 'Philosopher', sans-serif;
-     font-size: 1.5em;
+     font-size: 1.45em;
      text-shadow: 6px 6px 12px #c4d5e6;
 }
 
@@ -49,7 +49,7 @@ nav a[href] {
     display: inline-block;
     color: #10d648;
     font-family: 'Philosopher', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.45em;
     text-shadow: 6px 6px 12px #c4d5e6;
     transition:transform 3s ease-in-out;
     line-height: 33.3px;
@@ -156,12 +156,14 @@ footer {
     font-size: 27px; 
     color: blue;
     text-shadow: 6px 6px 12px #c4d5e6;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .name-part-2 {
     font-size: 27px; 
     color: #10d648;
     text-shadow: 6px 6px 12px #c4d5e6;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .licenses {
@@ -173,6 +175,7 @@ footer {
 .info {
     color: #10d648;
     text-shadow: 6px 6px 12px #c4d5e6;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .block3 {
@@ -262,7 +265,7 @@ button {
 }
 
 .name-part-2 + .info {
-    font-size: 1.5em;
+    font-size: 1.45em;
 }
 
 .div-active-li {
@@ -276,5 +279,11 @@ button {
     position: relative;
     right: 12px;
 }
-    
 
+.brands {
+     padding: 5px 0 5px 0;
+}    
+
+.licenses {
+     padding: 10px 0 10px 0;
+}

@@ -89,17 +89,20 @@ p {
     font-size: 30px; 
     color:blue;
     text-shadow: 6px 6px 12px #c4d5e6;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .name-part-2 {
     font-size: 30px; 
     color: #10d648;
     text-shadow: 6px 6px 12px #c4d5e6;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .info {
     color: #10d648;
     text-shadow: 6px 6px 12px #c4d5e6;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .block3 {
@@ -238,3 +241,7 @@ textarea {
     height: 210px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
 }
+
+.brands {
+     padding: 5px 0 5px 0;
+} 
