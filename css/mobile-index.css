@@ -306,3 +306,11 @@ footer > .icons {
 .brands {
      padding: 5px 0 5px 0;
 } 
+
+.switch-lang {
+    display: none;
+}
+
+.header-bottom {
+    display: none;
+}
