@@ -245,3 +245,7 @@ textarea {
 .brands {
      padding: 5px 0 5px 0;
 } 
+
+select {
+    display: none;
+}
