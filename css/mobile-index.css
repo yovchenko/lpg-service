@@ -82,7 +82,7 @@ textarea {
 button {
     float:right;
     background-color: #10d648; /* Green */
-    border: none;
+    border: 1px solid #10d648;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -97,6 +97,7 @@ button {
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    border-style: outset;
 }
 #map {
     display: block;
@@ -198,7 +199,7 @@ nav a[href] {
     padding-left: 2px;
     text-shadow: 6px 6px 12px #c4d5e6;
     transition:transform 5s ease-in-out;
-    border: 1px solid #10d648;
+    border: 2px solid #10d648;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -207,6 +208,8 @@ nav a[href] {
     margin: 3px;
     position: relative;
     z-index: 2;
+    padding-bottom:2px;
+    border-style: outset;
 }
 
 nav ul {
