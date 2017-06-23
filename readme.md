@@ -1,5 +1,15 @@
 # List of files in the root directory:
---index.html 
+--indexUA.html 
+
+--contactsUA.html
+
+--serviceUA.html
+
+--installationUA.html
+
+--galleryUA.html
+
+--indexUA.html 
 
 --contacts.html
 
@@ -27,7 +37,7 @@
 
 --css
 
-
+--.vscode
 
 ### Author and Contributor list 
 ---------------------------
