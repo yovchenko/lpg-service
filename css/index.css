@@ -323,10 +323,6 @@ select:active {
     outline: none;
 }
 
-option:checked { 
-    display:none;
-}
-
 .imageIDpng {
     position: relative;
     float: left;
