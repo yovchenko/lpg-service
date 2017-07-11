@@ -1,9 +1,14 @@
 # Gascentr.com
-# Instruments used:
+# List of Instruments used:
+
 --HTML
+
 --CSS
+
 --JS
+
 --Bootstrap
+
 ### Author and Contributor list 
 ---------------------------
 Vladymyr.M Yovchenko
