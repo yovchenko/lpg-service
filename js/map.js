@@ -9,6 +9,6 @@ var myLatLng = {lat: 49.9899735, lng: 36.2505891};
 var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          title: 'Hello World!'
+          title: 'GasCentr'
         });
 }

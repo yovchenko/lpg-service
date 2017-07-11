@@ -1,0 +1,195 @@
+main {
+    display: block;
+    clear:both;
+}
+
+h1 {
+    align-self: center;
+    display: flex;
+    font-size: 1.5em;
+}
+
+.header-bottom {
+    display:block;
+    width: 100%;
+    height: 205px;
+}
+
+h3 {
+     color: #10d648;
+     font-family: 'Philosopher', sans-serif;
+     font-size: 1.5em;
+     text-shadow: 6px 6px 12px #c4d5e6;
+}
+
+.empty {
+     display:none;
+}
+
+.price-wrapper-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid #10d648;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: #c4d5e6;
+    -webkit-animation: bounceInUp 4s ease-in-out;
+    -moz-animation: bounceInUp 4s ease-in-out;
+    animation: bounceInUp 4s ease-in-out;
+    border-style: outset;
+}
+
+.price-wrapper-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid #10d648;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: #c4d5e6;
+    -webkit-animation: bounceInUp 6s ease-in-out;
+    -moz-animation: bounceInUp 6s ease-in-out;
+    animation: bounceInUp 6s ease-in-out;
+    border-style: outset;
+}
+
+.price-wrapper-3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid #10d648;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: #c4d5e6;
+    -webkit-animation: bounceInUp 8s ease-in-out;
+    -moz-animation: bounceInUp 8s ease-in-out;
+    animation: bounceInUp 8s ease-in-out;
+    border-style: outset;
+}
+
+.price-value {
+    display: flex;
+    width: 100%;
+}
+
+.price-value > div {
+    margin: 1%;
+    border: 2px solid #10d648;
+    flex-basis: 33.3332%;
+    height: 90%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 2px 0 0 0;
+    text-align: center;
+    background-color: white;
+    border-style: outset;
+}
+
+.price {
+    display: flex;
+    flex-basis: 100%;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.cylinder {
+    padding: 0 0 0 0;
+    display: inline-block;
+    width: 45px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 899px) {
+    .cylinder {
+    padding: 2% 0 0 0;
+    display: inline-block;
+    width: 30px;
+    margin: 0 auto;
+    }
+    .price-wrapper-1 {
+    margin: 15px 15px 15px 15px;
+    -webkit-animation: bounceInUp 3s ease-in-out;
+    -moz-animation: bounceInUp 3s ease-in-out;
+    animation: bounceInUp 3s ease-in-out;
+    }
+    .price-wrapper-2 {
+    margin: 15px 15px 15px 15px;
+     -webkit-animation: bounceInUp 5s ease-in-out;
+     -moz-animation: bounceInUp 5s ease-in-out;
+     animation: bounceInUp 5s ease-in-out;
+    }
+    .price-wrapper-3 {
+    margin: 15px 15px 15px 15px; 
+    -webkit-animation: bounceInUp 7s ease-in-out;
+    -moz-animation: bounceInUp 7s ease-in-out;
+    animation: bounceInUp 7s ease-in-out;
+    }
+    header {
+        padding-bottom: 8px;
+    }
+    .header-bottom {
+    display: none;
+    }
+}
+
+svg {
+   fill:#10d648;
+}
+
+footer {
+    padding-top: 2%;
+}
+
+.arrow {
+    float: right;
+    width: 32px;
+    padding-left: 2px;
+    padding-top: 7px;
+    -webkit-animation: bounce-1 2s infinite ease-in-out;
+    -moz-animation: bounce-1 1.6s infinite ease-in-out;
+    animation: bounce-1 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce-1 {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
+	60% { -webkit-transform: translateX(5px); }
+}
+
+@-moz-keyframes bounce-1 {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
+	40% { -webkit-transform: translateX(5px); }
+}
+
+@keyframes bounce-1 {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateX; }
+	40% { -webkit-transform: translateX(5px); }
+}
+
+.float {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
