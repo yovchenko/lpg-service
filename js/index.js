@@ -12,13 +12,17 @@ function sendForm(e) {
     dataType: "json"
 })
 .done(function() {
-$('form').html('<h1><span class="message">Спасибо, сообщение отправлено.<br> Мы свяжемся с вами в ближайшее время.</span></h1>');
+var el = document.getElementsByClassName('switch-lang')[0];
+if(el.value == 'contacts.html'){
+  $('form').html('<h1><span class="message">Спасибо, сообщение отправлено.<br> Мы свяжемся с вами в ближайшее время.</span></h1>');
+  }
+  else {
+  $('form').html("<h1><span class='message'>Дякуємо, повідомлення відправлено.<br> Ми зв'яжемося з вами найближчим часом.</span></h1>");
+  }
 });
   }
 }
 
-
- 
 
 
 
