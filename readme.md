@@ -1,43 +1,13 @@
-# List of files in the root directory:
---indexUA.html 
+# Gascentr.com
+# List of Instruments used:
 
---contactsUA.html
+--HTML
 
---serviceUA.html
+--CSS
 
---installationUA.html
+--JS
 
---galleryUA.html
-
---indexUA.html 
-
---contacts.html
-
---service.html
-
---installation.html
-
---gallery.html
-
---CNAME file
-
---favicon.ico
-
---robots.txt
-
---sitemap.xml
-
---googlea6157de0d8e5e89c.html
-
-## Folders:
-
---js
-
---pictures
-
---css
-
---.vscode
+--Bootstrap
 
 ### Author and Contributor list 
 ---------------------------
