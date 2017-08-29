@@ -142,6 +142,10 @@ p {
      line-height: 2em;
 }
 
+span .message {
+    font-size: 1.6em;
+}
+
 img {
     max-width: 100%;
   
