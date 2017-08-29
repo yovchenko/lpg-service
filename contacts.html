@@ -19,47 +19,60 @@
     <link rel="icon" href="https://gascentr.com/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="https://gascentr.com/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" media="(min-width: 900px)" href="css/index.css">
-    <link rel="stylesheet" media="(max-width: 899px) and (min-width: 320px)" href="css/mobile-index.css">
-    <link rel="stylesheet" media="(max-width: 319px)" href="css/320x340.css">
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
-    <header>
-        <div id="nav">
-            <nav>
-                <ul>
-                    <li>
-                        <h2><a href="index.html">О компании</a></h2>
-                    </li>
-                    <li>
-                        <h2><a href="installation.html">Установка ГБО</a></h2>
-                    </li>
-                    <li>
-                        <h2><a href="service.html">Сервис ГБО</a></h2>
-                    </li>
-                    <li>
-                        <h2><a href="gallery.html">Галерея работ</a></h2>
-                    </li>
-                    <li>
-                        <h2><a class="active-a" href="contacts.html">
-                                Контакты<img src="pictures/arrow.png" class="arrow" alt="arrow">
-                              </a>
-                        </h2>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="imageIDpng">
-          <select class="switch-lang" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-                       <option value="contacts.html">Ru</option>
-                       <option value="contactsUA.html">Ua</option>   
-          </select>
-            <img src="pictures/header.png" class="imageID1" alt="gas-centr" />
-            <img src="pictures/mobile-header.png" class="imageID2" alt="gas-centr" />
-        </div>
-    </header>
+        <header>
+                <nav>
+                    <div id="menuToggle" class="menuButton" onclick="myFunction()">
+                                <input type="checkbox" />
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                    </div>
+                    <div class='breadcrumbs'>
+                        <ul class="cf">
+                            <li>
+                                <h2>
+                                    <a href="index.html">
+                                     О компании
+                                    </a>
+                                </h2>
+                            </li>
+                            <li>
+                                <h2>
+                                    <a href="installation.html">Установка ГБО</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <h2>
+                                    <a href="service.html">Сервис ГБО</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <h2>
+                                    <a href="gallery.html">Галерея работ</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <h2>
+                                    <a href="contacts.html">Контакты</a>
+                                </h2>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="svg-home"> <a href="index.html"></a>
+                    </div>    
+                </nav>
+            </header>
+            <div class="header-img"><img src="pictures/wheel.svg" alt="wheels">
+                <div class="company-name"><span class="nameCo">Gas</span> Centr</div>
+                <img src="pictures/wheel.svg" alt="wheels">
+            </div>
+    <div class='grid-wrapper'>
     <main>
+        <section class="contacts">
         <div itemscope itemtype="http://schema.org/Organization" class="contact-info">
             <p itemprop="phone-number">
                 Контактный телефон: <br> (095)872-63-30 <br> (067)966-72-64 <br>
@@ -76,15 +89,22 @@
             </p>
         </div>
         <form>
-            <label>
-                    <span class="response-text">Напишите нам:</span>
-                    <textarea id="comment"></textarea>
-                     </label>
-            <br>
-            <button type="submit" id="send">Отправить</button>
+                    <label for="name">Імя:<br>
+                    <input type="text" name="name" id="name" minlength="1" required/>
+                    </label>
+                    <label for="email">Email:<br> 
+                    <input type="email" name="email" id="email" required/>
+                    </label>
+                    <label for="message">Ваше сообщение :<br> 
+                    <textarea name="message" value="Your Message" id="comment"></textarea>
+                    </label>
+                    <input type="text" name="_gotcha" style="display:none"/>
+            <button class= "btn btn-2 btn-2c" type="submit" id="send">Отправить</button>
         </form>
         <div id="map"></div>
+    </section>
     </main>
+</div>
     <footer>
         <div class="icons">
             <div class="icon-1">
@@ -137,8 +157,10 @@
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaHL0FMGIKqW0s2cpN5MvfZv-T2cXxeM4&callback=myMap"></script>
 </body>
 

@@ -19,52 +19,59 @@
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.css" type="text/css">
-	<link rel="stylesheet" media="(min-width: 900px)" href="css/index.css">
-	<link rel="stylesheet" media="(max-width: 899px) and (min-width: 320px)" href="css/mobile-index.css" type="text/css">
-	<link rel="stylesheet" media="(max-width: 319px)" href="css/320x340.css" type="text/css">
+	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/installation.css" type="text/css">
 </head>
 
 <body>
-	<header>
-		<div id="nav">
-			<nav>
-				<ul>
-					<li>
-						<h2><a href="index.html">О компании</a></h2>
-					</li>
-					<li>
-						<div class="div-active-li">
-							<h2><a class="active-a" href="installation.html">
-                                Установка ГБО<img src="pictures/arrow.png" class="arrow" alt="arrow">
-                              </a>
-							</h2>
-						</div>
-					</li>
-					<li>
-						<h2><a href="service.html">Сервис ГБО</a></h2>
-					</li>
-					<li>
-						<h2><a href="gallery.html">Галерея работ</a></h2>
-					</li>
-					<li>
-						<h2><a href="contacts.html">Контакты</a></h2>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<div id="header-pic">
-			<div class="imageIDpng">
-				<select class="switch-lang" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-                       <option value="installation.html">Ru</option>
-                       <option value="installationUA.html">Ua</option>   
-                </select>
-				<img src="pictures/header.png" class="imageID1" alt="gas-centr" />
-				<img src="pictures/mobile-header.png" class="imageID2" alt="gas-centr" />
+		<header>
+				<nav>
+					<div id="menuToggle" class="menuButton" onclick="myFunction()">
+								<input type="checkbox" />
+								<span></span>
+								<span></span>
+								<span></span>
+					</div>
+					<div class='breadcrumbs'>
+						<ul class="cf">
+							<li>
+								<h2>
+									<a href="index.html">
+									 О компании
+									</a>
+								</h2>
+							</li>
+							<li>
+								<h2>
+									<a href="installation.html">Установка ГБО</a>
+								</h2>
+							</li>
+							<li>
+								<h2>
+									<a href="service.html">Сервис ГБО</a>
+								</h2>
+							</li>
+							<li>
+								<h2>
+									<a href="gallery.html">Галерея работ</a>
+								</h2>
+							</li>
+							<li>
+								<h2>
+									<a href="contacts.html">Контакты</a>
+								</h2>
+							</li>
+						</ul>
+					</div>
+					<div class="svg-home"> <a href="index.html"></a>
+					</div>    
+				</nav>
+			</header>
+			<div class="header-img"><img src="pictures/wheel.svg" alt="wheels">
+				<div class="company-name"><span class="nameCo">Gas</span> Centr</div>
+				<img src="pictures/wheel.svg" alt="wheels">
 			</div>
-		</div>
-		<div class="header-bottom"></div>
-	</header>
+			<div class='grid-wrapper'>
 	<main>
 		<div class="float">
 			<div class="price-wrapper-1">
@@ -2813,6 +2820,7 @@
 			</div>
 		</div>
 	</main>
+</div>
 	<footer>
 		<div class="icons">
 			<div class="icon-1">
@@ -2864,6 +2872,10 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js">
+    </script>
+    <script type="text/javascript" src="js/index.js">
+    </script>
 </body>
 
 </html>

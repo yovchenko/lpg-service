@@ -1,21 +1,3 @@
-* {
-    box-sizing: content-box;
-}
-html {
-    max-width: 1000px;
-    margin: 0 auto;
-    font-family: 'Philosopher', sans-serif;
-    font-size: 71%;
-}
-
-body {
-    max-width: 1000px;
-    margin: 0 auto;
-    font-size: 141%;
-    font-family: 'Philosopher', sans-serif;
-    line-height: 1.5;
-    margin-bottom: 120px;
-}
 
 nav a[href] {
             display: inline-block;

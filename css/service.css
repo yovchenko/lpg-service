@@ -1,6 +1,7 @@
 .wrap-1 {
     width: 80%;
     margin: 0 auto;
+    margin-right: 12%;
 }
 
 main {
@@ -8,18 +9,15 @@ main {
 }
 
 h1 {
-    font-size: 1.4em;
+    font-size: 2.3em;
     color: white;
 }
 
 .ch-grid {
-    display: inline;
-}
-
-.content-img {
-    display: inline-block;
-    width: 28%;
-    margin: 25px 15px 25px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
 }
 
 .ch-item {
@@ -34,6 +32,7 @@ h1 {
     -ms-perspective: 900px;
     perspective: 900px;
     float: center;
+    margin: 2.5em;
 }
 
 .ch-info {
@@ -85,27 +84,27 @@ h1 {
 }
 
 .ch-img-1 {
-    background-image: url(../pictures/service/diagnostic.png);
+    background-image: url(../pictures/service/diagnostic.jpg);
     background-size: 120% 120%;
 }
 
 .ch-img-2 {
-    background-image: url(../pictures/service/fire.png);
+    background-image: url(../pictures/service/fire.jpg);
     background-size: 120% 120%;
 }
 
 .ch-img-3 {
-    background-image: url(../pictures/service/setting-injectors.png);
+    background-image: url(../pictures/service/setting-injectors.jpg);
     background-size: 120% 120%;
 }
 
 .ch-img-4 {
-    background-image: url(../pictures/service/injector-cleaning.png);
+    background-image: url(../pictures/service/injector-cleaning.jpg);
     background-size: 120% 120%;
 }
 
 .ch-img-5 {
-    background-image: url(../pictures/service/maintenance.png);
+    background-image: url(../pictures/service/maintenance.jpg);
     background-size: 120% 120%;
 }
 
@@ -170,65 +169,4 @@ footer {
     margin-top: 60px;
 }
 
-@media all and (max-width: 899px) {
-    .wrap-1 {
-        padding-right: 3%;
-    }   
-    .content-img {
-        width: 100%;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-
-    .ch-grid {
-        padding: 0 0 0 0;	
-        margin: 0 0 0 0;
-    }
-
-    .ch-item {
-        width: 180px;
-        height: 180px;
-        border-radius: 30%;
-        position: relative;
-        cursor: default;
-        -webkit-perspective: 900px;
-        -moz-perspective: 900px;
-        -o-perspective: 900px;
-        -ms-perspective: 900px;
-        perspective: 900px;
-        display: inline-block;
-    }
-}
-
-@media all and (max-width: 320px) {
-       .wrap-1 {
-        padding-right: 5%;
-    }
-    
-    .content-img {
-        width: 100%;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-
-    .ch-grid {
-        padding: 0 0 0 0;	
-        margin: 0 0 0 0;
-    }
-
-    .ch-item {
-        width: 180px;
-        height: 180px;
-        border-radius: 30%;
-        position: relative;
-        cursor: default;
-        -webkit-perspective: 900px;
-        -moz-perspective: 900px;
-        -o-perspective: 900px;
-        -ms-perspective: 900px;
-        perspective: 900px;
-        display: inline-block;
-    }
-
-}
 

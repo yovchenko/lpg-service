@@ -14,59 +14,69 @@
     <meta name="description" content="Газ Центр -это фото галерея газобалонного оборудования (ГБО) автомобиля" />
     <meta name="yandex-verification" content="3006ab32b5bfb86a" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="icon" href="http://gascentr.com/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="http://gascentr.com/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
-    <link rel="stylesheet" media="(min-width: 900px)" href="css/index.css">
-    <link rel="stylesheet" media="(max-width: 899px) and (min-width: 320px)" href="css/mobile-index.css">
-    <link rel="stylesheet" media="(max-width: 319px)" href="css/320x340.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/carousel-cars.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header>
-        <div id="nav">
-            <nav>
-                <ul>
-                    <li>
-                        <a class="link-1" href="index.html">О компании</a>
-                    </li>
-                    <li>
-                        <a href="installation.html">Установка ГБО</a>
-                    </li>
-                    <li>
-                        <a href="service.html">Сервис ГБО</a>
-                    </li>
-                    <li>
-                        <div class="div-active-li-gallery">
-                            <a class="active-a" href="gallery.html">Галерея работ<img src="pictures/arrow.png" class="arrow" alt="arrow"></a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="contacts.html">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="imageIDpng">
-            <select class="switch-lang" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-                       <option value="gallery.html">Ru</option>
-                       <option value="galleryUA.html">Ua</option>   
-            </select>
-            <img src="pictures/header.png" class="imageID1" alt="gas-centr" />
-            <img src="pictures/mobile-header.png" class="imageID2" alt="gas-centr" />
-        </div>
-        <div class="header-bottom"></div>
-    </header>
+        <header>
+                <nav>
+                    <div id="menuToggle" class="menuButton" onclick="myFunction()">
+                                <input type="checkbox" />
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                    </div>
+                    <div class='breadcrumbs'>
+                        <ul class="cf">
+                            <li>
+                                <h2>
+                                    <a href="index.html">
+                                     О компании
+                                    </a>
+                                </h2>
+                            </li>
+                            <li>
+                                <h2>
+                                    <a href="installation.html">Установка ГБО</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <h2>
+                                    <a href="service.html">Сервис ГБО</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <h2>
+                                    <a href="gallery.html">Галерея работ</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <h2>
+                                    <a href="contacts.html">Контакты</a>
+                                </h2>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="svg-home"> <a href="index.html"></a>
+                    </div>    
+                </nav>
+            </header>
+            <div class="header-img"><img src="pictures/wheel.svg" alt="wheels">
+                <div class="company-name"><span class="nameCo">Gas</span> Centr</div>
+                <img src="pictures/wheel.svg" alt="wheels">
+            </div>
+    <div class='grid-wrapper'>
     <main>
-
         <div id="carousel-cars" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -162,10 +172,10 @@
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-
             </div>
         </div>
     </main>
+</div>
     <footer>
         <div class="icons">
             <div class="icon-1">
@@ -217,6 +227,10 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js">
+    </script>
+    <script type="text/javascript" src="js/index.js">
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
 
