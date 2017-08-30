@@ -21,12 +21,12 @@ jQuery.extend(jQuery.validator.messages, {
 document.querySelector('button[id=send]').addEventListener('click', sendForm);
 function sendForm(e) {
   var form = $('#contactForm');
-  if (form.valid()) {
-    e.preventDefault();
-    $.ajax({
-      url: "https://formspree.io/gascentr.service@gmail.com",
-      method: "POST",
-    data: $(this).serialize(),
+  $.ajax({
+    url: "https://formspree.io/gascentr.service@gmail.com",
+    method: "POST",
+    data: {
+        textarea: $('#comment').val()
+    },
     dataType: "json"
 })
 .done(function() {
