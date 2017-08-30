@@ -146,6 +146,10 @@ span .message {
     font-size: 2em;
 }
 
+#name-error, #email-error {
+   font-size: 1.4em;
+}
+
 img {
     max-width: 100%;
   
