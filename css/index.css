@@ -406,10 +406,10 @@ main li {
 
 footer {
     text-align: center;
-    background: -webkit-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-    background: -o-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-    background: -moz-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-    background:  radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
+    background: -webkit-linear-gradient(bottom,rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(bottom,rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(bottom,rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0)); /*Fx 3.6-15*/
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0)); /*Standard*/
 }
 
 .icons {
@@ -619,12 +619,6 @@ label {
         border-bottom-width: 26px;
         border-left-width: 13px;
     }
-    footer {
-        background: -webkit-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background: -o-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background: -moz-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background:  radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-    }
 }
 
 @media all and (max-width: 830px){
@@ -823,13 +817,6 @@ label {
             justify-content: center;
             align-items: center;
         }
-
-        footer {
-            background: -webkit-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-            background: -o-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-            background: -moz-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-            background:  radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        }
     }
 
 @media all and (max-width: 720px){
@@ -850,13 +837,6 @@ label {
 
     .smoke {
         font-size: 5em;
-    }
-
-    footer {
-        background: -webkit-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background: -o-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background: -moz-radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background:  radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
     }
 }
 
@@ -892,13 +872,6 @@ label {
 
     .smoke {
         font-size: 4em;
-    }
-
-    footer {
-        background: -webkit-radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background: -o-radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background: -moz-radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
-        background:  radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1),rgba(0,0,0,0.1),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0));
     }
 }
 
