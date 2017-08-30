@@ -130,6 +130,10 @@ p {
     max-height: 70vh;
 }
 
+.carousel-inner {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 .glyphicon-chevron-left:before {
     color: #10d648;
     opacity: 1;
@@ -151,12 +155,14 @@ p {
   .car-brand {
     display: flex;
     justify-content: center;  
+    align-items: center;
+    margin: -50px auto;
   }
 
   .smoke {
       color: rgba(16, 214, 72, 1);
       max-width: 300px;
-      font-size: 5em;
+      font-size: 6em;
       text-align: initial;
   }
   
@@ -829,6 +835,10 @@ label {
         max-height: 10em;
         margin-left: 10px;
     }
+
+    .smoke {
+        font-size: 5em;
+    }
 }
 
 @media all and (max-width: 540px){
@@ -859,6 +869,10 @@ label {
   
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
         max-height: 80vh;
+    }
+
+    .smoke {
+        font-size: 4em;
     }
 }
 
