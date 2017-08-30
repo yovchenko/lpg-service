@@ -16,10 +16,16 @@ body,html {
 
 .carousel {
     margin: 50px 0 50px 0;
+    max-height: 80vh;
 }
 
 .carousel-indicators .active {
     background-color: #10d648;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    max-height: 80vh;
+    width: 100%;
 }
 
 .glyphicon-chevron-left:before {
