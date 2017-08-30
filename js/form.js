@@ -20,7 +20,7 @@ jQuery.extend(jQuery.validator.messages, {
 
 document.querySelector('button[id=send]').addEventListener('click', sendForm);
 function sendForm(e) {
-  var form = $('#contactForm');
+  var $contactForm = $('#contactForm');
   if ($contactForm.valid()) {
   e.preventDefault(); 
   $.ajax({
@@ -36,7 +36,6 @@ function sendForm(e) {
 });
   }
 }
-
 
 
 
