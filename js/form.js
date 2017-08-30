@@ -37,18 +37,4 @@ function sendForm(e) {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
 	
