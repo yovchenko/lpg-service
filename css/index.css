@@ -14,38 +14,6 @@ body,html {
     margin: 0 auto;
 }
 
-.carousel {
-    margin: 50px 0 50px 0;
-    max-height: 80vh;
-}
-
-.carousel-indicators .active {
-    background-color: #10d648;
-}
-
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    max-height: 80vh;
-    width: 100%;
-}
-
-.glyphicon-chevron-left:before {
-    color: #10d648;
-    opacity: 1;
-}
-
-.glyphicon-chevron-right:before {
-    color: #10d648;
-    opacity: 0.3;
-}
-
-  .right.carousel-control:hover .glyphicon-chevron-right:before  {
-    opacity: 1;
-  }
-
-  .carousel-indicators li {
-    border: 2px solid rgba(255, 255, 255, 0.5);
-  }
-
 .header-img {
     display: flex;
     justify-content: center;
@@ -148,6 +116,139 @@ p {
      line-height: 2em;
 }
 
+/*gallery.html*/
+.carousel {
+    margin: 50px 0;
+    display: inline-block;
+}
+
+.carousel-indicators .active {
+    background-color: #10d648;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    max-height: 70vh;
+}
+
+.glyphicon-chevron-left:before {
+    color: #10d648;
+    opacity: 1;
+}
+
+.glyphicon-chevron-right:before {
+    color: #10d648;
+    opacity: 0.3;
+}
+
+  .right.carousel-control:hover .glyphicon-chevron-right:before  {
+    opacity: 1;
+  }
+
+  .carousel-indicators li {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .car-brand {
+    display: flex;
+    justify-content: center;  
+  }
+
+  .smoke {
+      color: rgba(16, 214, 72, 1);
+      max-width: 300px;
+      font-size: 5em;
+      text-align: initial;
+  }
+  
+  .smokeActive {
+      text-indent: -9999px;
+  }
+  
+  .smoke.smokeActive span {
+      -ms-animation-name: smoke;
+      -moz-animation-name: smoke;
+      -webkit-animation-name: smoke;
+      -o-animation-name: smoke;
+      animation-name: smoke;
+  }
+  
+  .smoke span:nth-child(n) {
+      -ms-animation-duration: 800ms;
+      -moz-animation-duration: 800ms;
+      -webkit-animation-duration: 800ms;
+      -o-animation-duration: 800ms;
+      animation-duration: 800ms;
+  }
+  
+  .smoke span:nth-child(2n) {
+      -ms-animation-duration: 700ms;
+      -moz-animation-duration: 700ms;
+      -webkit-animation-duration: 700ms;
+      -o-animation-duration: 700ms;
+      animation-duration: 700ms;
+  }
+  
+  .smoke span:nth-child(3n) {
+      -ms-animation-duration: 900ms;
+      -moz-animation-duration: 900ms;
+      -webkit-animation-duration: 900ms;
+      -o-animation-duration: 900ms;
+      animation-duration: 900ms;
+  }
+  
+  .smoke span:nth-child(4n) {	
+      -ms-animation-duration: 500ms;
+      -moz-animation-duration: 500ms;
+      -webkit-animation-duration: 500ms;
+      -o-animation-duration: 500ms;
+      animation-duration: 500ms;
+  }
+  
+  .smoke span:nth-child(5n) {
+      -ms-animation-duration: 600ms;
+      -moz-animation-duration: 600ms;
+      -webkit-animation-duration: 600ms;
+      -o-animation-duration: 600ms;
+      animation-duration: 600ms;
+  }
+  
+  @-webkit-keyframes smoke
+  {
+      0%
+      {
+          text-shadow: 9999px 0 0 rgba(153, 153, 153, 1);
+      }
+      
+      90%
+      {
+          text-shadow: 9999px -40px 20px rgba(153, 153, 153, 0);
+      }
+      
+      100%
+      {
+          text-shadow: 9999px 0 0 rgba(0, 0, 0, 0);
+      }
+  }
+  
+  @-moz-keyframes smoke
+  {
+      0%
+      {
+          text-shadow: 9999px 0 0 rgba(153, 153, 153, 1);
+      }
+      
+      90%
+      {
+          text-shadow: 9999px -40px 20px rgba(153, 153, 153, 0);
+      }
+      
+      100%
+      {
+          text-shadow: 9999px 0 0 rgba(0, 0, 0, 0);
+      }
+  }
+  
+/*contacts .html*/
 .message {
     font-size: 1.6em;
 }
@@ -728,12 +829,6 @@ label {
         max-height: 10em;
         margin-left: 10px;
     }
-    .carousel {
-        margin: 50px 0 50px 0;
-        width: 100%;
-        position: absolute;
-        left: 0;
-    }
 }
 
 @media all and (max-width: 540px){
@@ -758,7 +853,12 @@ label {
     .header-img {
         overflow: hidden;
     }
-
-
+    .carousel {
+        max-height: 80vh;
+    }
+  
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        max-height: 80vh;
+    }
 }
 
