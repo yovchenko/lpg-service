@@ -458,6 +458,7 @@ footer {
     color: #10d648;
     text-shadow: 6px 6px 12px #c4d5e6;
     font-family: 'Philosopher', sans-serif;
+    font-size: 1.45em;
 }
 
 .block3 {
@@ -580,10 +581,6 @@ label {
 .licenses>ul>li>a[href]:hover {
      display: inline-block;
      transform: scale(1.2);
-}
-
-.name-part-2 + .info {
-    font-size: 1.45em;
 }
 
 .div-active-li {
