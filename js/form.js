@@ -21,6 +21,8 @@ jQuery.extend(jQuery.validator.messages, {
 document.querySelector('button[id=send]').addEventListener('click', sendForm);
 function sendForm(e) {
   var form = $('#contactForm');
+  if ($contactForm.valid()) {
+  e.preventDefault(); 
   $.ajax({
     url: "https://formspree.io/gascentr.service@gmail.com",
     method: "POST",
@@ -33,7 +35,7 @@ function sendForm(e) {
   $('form').html('<h1><span class="message">Спасибо, сообщение отправлено.<br> Мы свяжемся с вами в ближайшее время.</span></h1>');
 });
   }
-
+}
 
 
 
