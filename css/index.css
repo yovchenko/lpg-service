@@ -142,8 +142,8 @@ p {
      line-height: 2em;
 }
 
-span .message {
-    font-size: 2em;
+.message {
+    font-size: 1.6em;
 }
 
 #name-error, #email-error {
