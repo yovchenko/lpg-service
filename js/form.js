@@ -27,12 +27,14 @@ function sendForm(e) {
     url: "https://formspree.io/gascentr.service@gmail.com",
     method: "POST",
     data: {
+        name: $('#name').val(),
+        email:  $('#email').val(),
         textarea: $('#comment').val()
     },
     dataType: "json"
 })
 .done(function() {
-  $('form').html('<h1><span class="message">Спасибо, сообщение отправлено.<br> Мы свяжемся с вами в ближайшее время.</span></h1>');
+  $contactForm.html('<h1><span class="message">Спасибо, сообщение отправлено.<br> Мы свяжемся с вами в ближайшее время.</span></h1>');
 });
   }
 }
