@@ -31,7 +31,6 @@ h1 {
     -o-perspective: 900px;
     -ms-perspective: 900px;
     perspective: 900px;
-    float: center;
     margin: 2.5em;
 }
 

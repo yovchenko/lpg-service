@@ -6,7 +6,7 @@ main {
 h1 {
     align-self: center;
     display: flex;
-    font-size: 1.8em;
+    font-size: 2.5em;
 }
 
 .header-bottom {
@@ -18,7 +18,7 @@ h1 {
 h3 {
      color: #10d648;
      font-family: 'Philosopher', sans-serif;
-     font-size: 1.5em;
+     font-size: 2em;
      text-shadow: 6px 6px 12px #c4d5e6;
 }
 
@@ -40,10 +40,9 @@ h3 {
     align-items: flex-end;
     flex-wrap: wrap;
     background-color: #c4d5e6;
-    -webkit-animation: bounceInLeft 3s ease-in-out;
-    -moz-animation: bounceInLeft 3s ease-in-out;
-    animation: bounceInLeft 3s ease-in-out;
     border-style: outset;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .price-wrapper-2{
@@ -60,10 +59,8 @@ h3 {
     align-items: flex-end;
     flex-wrap: wrap;
     background-color: #c4d5e6;
-    -webkit-animation: bounceInRight 5s ease-in-out;
-    -moz-animation: bounceInRight 5s ease-in-out;
-    animation: bounceInRight 5s ease-in-out;
     border-style: outset;
+    
 }
 
 .price-wrapper-3{
@@ -80,9 +77,6 @@ h3 {
     align-items: flex-end;
     flex-wrap: wrap;
     background-color: #c4d5e6;
-    -webkit-animation: bounceInLeft 5s ease-in-out;
-    -moz-animation: bounceInLeft 5s ease-in-out;
-    animation: bounceInLeft 5s ease-in-out;
     border-style: outset;
 }
 
@@ -95,7 +89,6 @@ h3 {
     margin: 1%;
     border: 2px solid #10d648;
     flex-basis: 33.3332%;
-   
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -129,15 +122,9 @@ h3 {
     }
     .price-wrapper-1 {
     margin: 15px 15px 15px 15px;
-    -webkit-animation: bounceInLeft 3s ease-in-out;
-    -moz-animation: bounceInLeft 3s ease-in-out;
-    animation: bounceInLeft 3s ease-in-out;
     }
     .price-wrapper-2 {
     margin: 15px 15px 15px 15px;
-    -webkit-animation: bounceInRight 5s ease-in-out;
-    -moz-animation: bounceInRight 5s ease-in-out;
-    animation: bounceInRight 5s ease-in-out;
     }
     .price-wrapper-3 {
     margin: 15px 15px 15px 15px; 
@@ -145,6 +132,12 @@ h3 {
  
     .header-bottom {
     display: none;
+    }
+
+    .price-value > div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
 }
 
