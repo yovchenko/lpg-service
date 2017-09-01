@@ -11,7 +11,7 @@ $(document).ready(function(){
 var paragraph = document.getElementsByClassName("smoke")[0];
 var $smoke = $('.smoke');
 var $span = $('.smoke span');
-var txt = "BMW-1";
+var txt = "BMW-525";
 var dataArr = [];
 $carousel.on('slide.bs.carousel', function () {
     dataArr = txt.split('');
@@ -25,19 +25,37 @@ $carousel.on('slid.bs.carousel',function () {
     $smoke.removeClass('smokeActive');
     var num = $(this).find('.active').index();
     switch(num) {
-        case 0: txt = 'BMW-1'
+        case 0: txt = 'BMW-525'
         break;
-        case 1: txt = 'BMW-2' 
+        case 1: txt = 'BMW-525' 
         break;
-        case 2: txt = 'Sonata-1'
+        case 2: txt = 'Honda CR-V'
         break;
-        case 3: txt = 'Sonata-2' 
+        case 3: txt = 'Honda CR-V' 
         break;
-        case 4: txt = 'Sonata-3'
+        case 4: txt = 'Hummer'
         break;
-        case 5: txt = 'Vitara-1' 
+        case 5: txt = 'Hummer' 
         break;
-        case 6: txt = 'Vitara-2' 
+        case 6: txt = 'Hummer' 
+        break;
+        case 7: txt = 'Nissan Maxima'
+        break;
+        case 8: txt = 'Nissan Maxima' 
+        break;
+        case 9: txt = 'Opel Vectra'
+        break;
+        case 10: txt = 'Opel Vectra' 
+        break;
+        case 11: txt = 'Porsche Cayenne'
+        break;
+        case 12: txt = 'Porsche Cayenne' 
+        break;
+        case 13: txt = 'Porsche Cayenne' 
+        break;
+        case 14: txt = 'Subaru Outback'
+        break;
+        case 15: txt = 'Subaru Outback' 
         break;
     }
     dataArr = txt.split('');

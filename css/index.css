@@ -122,7 +122,7 @@ p {
 }
 
 .carousel-indicators .active {
-    background-color: #10d648;
+    background-color: rgba(16, 214, 72, 1);
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -148,8 +148,19 @@ p {
   }
 
   .carousel-indicators li {
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 7px dotted rgba(255, 255, 255, 0.5);
   }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    z-index: 15;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
 
   .car-brand {
     display: flex;
@@ -161,8 +172,9 @@ p {
   .smoke {
       color: rgba(16, 214, 72, 1);
       max-width: 300px;
-      font-size: 6em;
+      font-size: 4em;
       text-align: initial;
+      display: flex;
   }
   
   .smokeActive {
@@ -178,22 +190,14 @@ p {
   }
   
   .smoke span:nth-child(n) {
-      -ms-animation-duration: 800ms;
-      -moz-animation-duration: 800ms;
-      -webkit-animation-duration: 800ms;
-      -o-animation-duration: 800ms;
-      animation-duration: 800ms;
+      -ms-animation-duration: 1000ms;
+      -moz-animation-duration: 1000ms;
+      -webkit-animation-duration: 1000ms;
+      -o-animation-duration: 1000ms;
+      animation-duration: 1000ms;
   }
   
   .smoke span:nth-child(2n) {
-      -ms-animation-duration: 700ms;
-      -moz-animation-duration: 700ms;
-      -webkit-animation-duration: 700ms;
-      -o-animation-duration: 700ms;
-      animation-duration: 700ms;
-  }
-  
-  .smoke span:nth-child(3n) {
       -ms-animation-duration: 900ms;
       -moz-animation-duration: 900ms;
       -webkit-animation-duration: 900ms;
@@ -201,20 +205,28 @@ p {
       animation-duration: 900ms;
   }
   
+  .smoke span:nth-child(3n) {
+      -ms-animation-duration: 1100ms;
+      -moz-animation-duration: 1100ms;
+      -webkit-animation-duration: 1100ms;
+      -o-animation-duration: 1100ms;
+      animation-duration: 1100ms;
+  }
+  
   .smoke span:nth-child(4n) {	
-      -ms-animation-duration: 500ms;
-      -moz-animation-duration: 500ms;
-      -webkit-animation-duration: 500ms;
-      -o-animation-duration: 500ms;
-      animation-duration: 500ms;
+      -ms-animation-duration: 700ms;
+      -moz-animation-duration: 700ms;
+      -webkit-animation-duration: 700ms;
+      -o-animation-duration: 700ms;
+      animation-duration: 700ms;
   }
   
   .smoke span:nth-child(5n) {
-      -ms-animation-duration: 600ms;
-      -moz-animation-duration: 600ms;
-      -webkit-animation-duration: 600ms;
-      -o-animation-duration: 600ms;
-      animation-duration: 600ms;
+      -ms-animation-duration: 800ms;
+      -moz-animation-duration: 800ms;
+      -webkit-animation-duration: 800ms;
+      -o-animation-duration: 800ms;
+      animation-duration: 800ms;
   }
   
   @-webkit-keyframes smoke
@@ -831,10 +843,10 @@ label {
         max-height: 10em;
         margin-left: 10px;
     }
+    .carousel-indicators li {
+        border: 6px dotted rgba(255, 255, 255, 0.5);
+      }
 
-    .smoke {
-        font-size: 5em;
-    }
 }
 
 @media all and (max-width: 540px){
@@ -868,7 +880,11 @@ label {
     }
 
     .smoke {
-        font-size: 4em;
+        font-size: 3.5em;
     }
+
+    .carousel-indicators li {
+        border: 5px dotted rgba(255, 255, 255, 0.5);
+      }
 }
 
