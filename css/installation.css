@@ -1,10 +1,7 @@
-main {
-    display: block;
-    clear:both;
-}
 
 h1 {
     font-size: 2.5em;
+    text-shadow: 6px 6px 12px #c4d5e6;
 }
 
 .header-bottom {
@@ -103,3 +100,23 @@ hr {
 .price-value {
     margin: 5px;
 }
+
+  .come-in {
+    transform: translateY(150px);
+    animation: come-in 0.8s ease forwards;
+  }
+  
+  .come-in:nth-child(odd) {
+    animation-duration: 1.2s;
+  }
+  
+  .already-visible {
+    transform: translateY(0);
+    animation: none;
+  }
+  
+  @keyframes come-in {
+    to {
+      transform: translateY(0);
+    }
+  }
