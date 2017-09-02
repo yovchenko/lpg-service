@@ -1,7 +1,8 @@
 
 h1 {
     font-size: 2.5em;
-    text-shadow: 6px 6px 12px #c4d5e6;
+    color: #10d648;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.29);
 }
 
 .header-bottom {
