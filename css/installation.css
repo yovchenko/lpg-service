@@ -27,14 +27,16 @@ h3 {
 .price-wrapper-1{
     display: flex;
     flex-direction: column;
-    border: 3px rgba(255, 255, 255, 0.5);
+    border-top: 5px rgba(255, 255, 255, 0.1);
+    border-left: 2px rgba(255, 255, 255, 0.5);
+    border-right: 2px rgba(255, 255, 255, 0.5);
     margin: 20px 20px 20px 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background: -webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
-    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
-    border-style: outset;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
+    border-style: inset;
 }
 
 img[alt*='Двигатель'] {
@@ -45,28 +47,32 @@ img[alt*='Двигатель'] {
 .price-wrapper-2{
     display: flex;
     flex-direction: column;
-    border: 3px rgba(255, 255, 255, 0.5);
+    border-top: 5px rgba(255, 255, 255, 0.1);
+    border-left: 2px rgba(255, 255, 255, 0.5);
+    border-right: 2px rgba(255, 255, 255, 0.5);
     margin: 20px 20px 20px 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background: -webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
-    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
-    border-style: outset;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
+    border-style: inset;
     
 }
 
 .price-wrapper-3{
     display: flex;
     flex-direction: column;
-    border: 3px rgba(255, 255, 255, 0.5);
+    border-top: 5px rgba(255, 255, 255, 0.1);
+    border-left: 2px rgba(255, 255, 255, 0.5);
+    border-right: 2px rgba(255, 255, 255, 0.5);
     margin: 20px 20px 20px 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background: -webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
-    background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
-    border-style: outset;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
+    border-style: inset;
 }
 
 .price-value > div {
@@ -89,8 +95,13 @@ img[alt*='Двигатель'] {
     margin: 0 auto;
 }
 
-svg {
+.float svg, .float img {
     fill:rgba(0,0,0,0.8);
+    -webkit-filter: drop-shadow( -1px -1px 5px #000 );
+    filter: drop-shadow( -1px -1px 5px #000 );
+    -moz-filter: drop-shadow( -1px -1px 5px #000 );
+    -o-filter: drop-shadow( -1px -1px 5px #000 );
+    -ms-filter: drop-shadow( -1px -1px 5px #000 );
  }
 
 hr {
@@ -102,17 +113,35 @@ hr {
 }
 
   .come-in {
-    transform: translateY(150px);
-    animation: come-in 0.8s ease forwards;
+    transform: translateY(100px);
+    animation: come-in 1.2s ease forwards;
+    -moz-transform: translateY(100px);
+    -moz-animation: come-in 1.2s ease forwards;
+    -o-transform: translateY(100px);
+    -o-animation: come-in 1.2s ease forwards;
+    -ms-transform: translateY(100px);
+    -ms-animation: come-in 1.2s ease forwards;
+
   }
   
   .come-in:nth-child(odd) {
-    animation-duration: 1.2s;
+    animation-duration: 1.4s;
+    -moz-animation-duration: 1.4s;
+    -o-animation-duration: 1.4s;
+    -ms-animation-duration: 1.4s;
   }
   
   .already-visible {
     transform: translateY(0);
     animation: none;
+    -moz-transform: translateY(0);
+    -moz-animation: none;
+    -o-transform: translateY(0);
+    -o-animation: none;
+    -moz-transform: translateY(0);
+    -moz-animation: none;
+    -ms-transform: translateY(0);
+    -ms-animation: none;
   }
   
   @keyframes come-in {
