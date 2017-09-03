@@ -387,10 +387,11 @@ ul {
 
 .svg-lang-ua {
     position: absolute;
-    width: 40px;
+    width: 20px;
+    right: 35px;
     background-image: url(../pictures/ua.svg);
     background-size: contain;
-    height: 25px;
+    height: 15px;
     margin-top: 20px;
     border-radius: 10%;
     border: 2px solid #575756;
@@ -400,10 +401,10 @@ ul {
  .svg-lang-ru {
     position: absolute;
     right: 0;
-    width: 40px;
+    width: 20px;
     background-image: url(../pictures/ru.svg);
     background-size: contain;
-    height: 25px;
+    height: 15px;
     margin-top: 20px;
     border-radius: 10%;
     border: 2px solid #575756;
