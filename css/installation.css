@@ -115,21 +115,21 @@ hr {
 
   .come-in {
     transform: translateY(100px);
-    animation: come-in 1.2s ease forwards;
+    animation: come-in 1.6s ease forwards;
     -moz-transform: translateY(100px);
-    -moz-animation: come-in 1.2s ease forwards;
+    -moz-animation: come-in 1.6s ease forwards;
     -o-transform: translateY(100px);
-    -o-animation: come-in 1.2s ease forwards;
+    -o-animation: come-in 1.6s ease forwards;
     -ms-transform: translateY(100px);
-    -ms-animation: come-in 1.2s ease forwards;
+    -ms-animation: come-in 1.6s ease forwards;
 
   }
   
   .come-in:nth-child(odd) {
-    animation-duration: 1.4s;
-    -moz-animation-duration: 1.4s;
-    -o-animation-duration: 1.4s;
-    -ms-animation-duration: 1.4s;
+    animation-duration: 1.9s;
+    -moz-animation-duration: 1.9s;
+    -o-animation-duration: 1.9s;
+    -ms-animation-duration: 1.9Ws;
   }
   
   .already-visible {
@@ -146,6 +146,18 @@ hr {
   }
   
   @keyframes come-in {
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @-moz-keyframes come-in {
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @-webkit-keyframes come-in {
     to {
       transform: translateY(0);
     }

@@ -16,7 +16,7 @@
     
     var win = $(window);
     
-    var allMods = $("#slide");
+   var allMods = $(".slide");
     
     allMods.each(function(i, el) {
       var el = $(el);
