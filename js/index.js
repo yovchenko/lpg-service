@@ -1,12 +1,12 @@
 function myFunction() {
-var x = document.getElementById("menuToggle");
-if (x.className === "menuButton") {
-    x.className += " active";
-    var $nav = $(".breadcrumbs");
+var menu = document.getElementById("menuToggle");
+var $nav = $(".breadcrumbs");
+if (menu.className === "menuButton") {
+    menu.className += " active";
     $nav.addClass("responsive");
     var style = $(".responsive").stop(true, true).slideDown();
 } else {
-    x.className = "menuButton";
+    menu.className = "menuButton";
     style = $(".responsive").stop(true, true).slideUp();
 }
 }

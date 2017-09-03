@@ -661,7 +661,6 @@ label {
         cursor: pointer;
         opacity: 0; 
         z-index: 2; 
-        -webkit-touch-callout: none;
       }
       
       #menuToggle span {
@@ -686,18 +685,17 @@ label {
         transform-origin: 0% 100%;
       }
     
-      #menuToggle input:checked ~ span {
+      .menuButton.active > span {
         opacity: 1;
         transform: rotate(-45deg) translate(-1px, -1px);
-        background: #575756;
       }
     
-      #menuToggle input:checked ~ span:nth-last-child(2) {
+      .menuButton.active span:nth-last-child(2) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2);
       }
       
-      #menuToggle input:checked ~ span:nth-last-child(3) {
+      .menuButton.active span:nth-last-child(3) {
         opacity: 1;
         transform: rotate(45deg) translate(0px, 0px);
       }
