@@ -387,27 +387,25 @@ ul {
 
 .svg-lang-ua {
     position: absolute;
-    width: 20px;
-    right: 35px;
+    width: 25px;
+    right: 40px;
     background-image: url(../pictures/ua.svg);
     background-size: contain;
-    height: 15px;
-    margin-top: 20px;
+    height: 20px;
+    margin-top: 15px;
     border-radius: 10%;
-    border: 2px solid #575756;
     box-sizing: content-box;
  }
 
  .svg-lang-ru {
     position: absolute;
     right: 0;
-    width: 20px;
+    width: 25px;
     background-image: url(../pictures/ru.svg);
     background-size: contain;
-    height: 15px;
-    margin-top: 20px;
+    height: 20px;
+    margin-top: 15px;
     border-radius: 10%;
-    border: 2px solid #575756;
     box-sizing: content-box;
  }
 
@@ -416,6 +414,90 @@ ul {
     height: 100%;
     position: absolute;
  }
+
+ .svg-lang-ru::before {
+    box-sizing: border-box;
+    transform: translateX(0%);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 99.5%;
+    height: 1px;
+    border-radius: 10%;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+
+  .svg-lang-ru::after {
+    box-sizing: border-box;
+    transform: translateX(0%);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99.5%;
+    height: 1px;
+    border-radius: 10%;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+  }
+
+  .svg-lang-ru:hover::before {
+    transition: .1s transform linear, .1s height linear .1s;
+    transform: translateX(100);
+    height: 100%;
+    border-color: white;
+  }
+
+  .svg-lang-ru:hover::after {
+    transition: .1s transform linear .2s, .1s height linear .3s;
+    transform: translateX(-100);
+    height: 100%;
+    border-color: white;
+  }
+
+  .svg-lang-ua::before {
+    box-sizing: border-box;
+    transform: translateX(0%);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 99.5%;
+    height: 1px;
+    border-radius: 10%;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid transparent;
+  }
+
+  .svg-lang-ua::after {
+    box-sizing: border-box;
+    transform: translateX(0%);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99.5%;
+    height: 1px;
+    border-radius: 10%;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+  }
+
+  .svg-lang-ua:hover::before {
+    transition: .1s transform linear, .1s height linear .1s;
+    transform: translateX(100);
+    height: 100%;
+    border-color: white;
+  }
+
+  .svg-lang-ua:hover::after {
+    transition: .1s transform linear .2s, .1s height linear .3s;
+    transform: translateX(-100);
+    height: 100%;
+    border-color: white;
+  }
 
 main li {
     display: inline;
