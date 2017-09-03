@@ -637,11 +637,11 @@ label {
         text-align: center;
     }
     
-      .breadcrumbs {
+    .breadcrumbs {
           display: none;
-      }
+    }
     
-      #menuToggle {
+    #menuToggle {
         display: block;
         width: 40px;
         position: relative;
@@ -649,7 +649,7 @@ label {
         margin: 15.25px;
         -webkit-user-select: none;
         user-select: none;
-      }
+    }
       
       #menuToggle input {
         display: block;
@@ -729,7 +729,7 @@ label {
         height: 0;
         border: 10px solid transparent;
         border-bottom-color: rgba(87, 87, 86, 0.8);
-        z-index: 0;
+        z-index: 6;
     }
     
     .breadcrumbs li::after {
@@ -745,11 +745,10 @@ label {
         z-index: 1;
     }
     
-    .breadcrumbs li:hover::before {
-        border-bottom-color: #10d648;
+    .breadcrumbs a:hover,.breadcrumbs li:hover::before {
+        border-bottom-color: white;
+        text-shadow: 1px 1px 6px rgba(255,255,255,0.8);
     }
-    
-    
     
     .breadcrumbs ul {
          border: none;
