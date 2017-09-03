@@ -278,7 +278,6 @@ p {
 
 img {
     max-width: 100%;
-  
 }
 
 .brands img {
@@ -386,18 +385,35 @@ ul {
     display: none;
 }
 
-.svg-home {
-   display: none;
-   background-image: url(../pictures/home.svg);
-   background-size: cover;
-   margin: 8.25px;
-}
+.svg-lang-ua {
+    position: absolute;
+ 
+    width: 40px;
+    background-image: url(../pictures/ua.svg);
+    background-size: contain;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 10%;
+    border: 2px solid #575756
+ }
 
-.svg-home a {
-   display: block;
-   width: 100%;
-   height: 100%;
-}
+ .svg-lang-ru {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    background-image: url(../pictures/ru.svg);
+    background-size: contain;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 10%;
+    border: 2px solid #575756
+ }
+
+ .svg-lang-ua a,.svg-lang-ru a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ }
 
 main li {
     display: inline;
@@ -630,10 +646,42 @@ label {
         border-bottom-width: 26px;
         border-left-width: 13px;
     }
+    .svg-lang-ua {
+        margin-top: 15px;
+     }
+    
+     .svg-lang-ru {
+        margin-top: 15px;
+     }
 }
 
 @media all and (max-width: 830px){
-    
+     .svg-lang-ua {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 40px;
+        background-image: url(../pictures/ua.svg);
+        background-size: contain;
+        height: 25px;
+        margin: 15.25px;
+        border-radius: 10%;
+        border: 2px solid #575756
+     }
+
+     .svg-lang-ru {
+        position: absolute;
+        top: 0px;
+        right: 60.25px;
+        width: 40px;
+        background-image: url(../pictures/ru.svg);
+        background-size: contain;
+        height: 25px;
+        margin: 15.25px;
+        border-radius: 10%;
+        border: 2px solid #575756
+     }
+     
     p { 
         text-align: center;
     }
@@ -666,8 +714,8 @@ label {
       
       #menuToggle span {
         display: block;
-        width: 33px;
-        height: 4px;
+        width: 40px;
+        height: 5px;
         margin-bottom: 5px;
         position: relative;
         background: #575756;
@@ -688,7 +736,7 @@ label {
     
       .menuButton.active > span {
         opacity: 1;
-        transform: rotate(-45deg) translate(-1px, -1px);
+        transform: rotate(-45deg) translate(-2px, -2px);
       }
     
       .menuButton.active span:nth-last-child(2) {
@@ -698,7 +746,7 @@ label {
       
       .menuButton.active span:nth-last-child(3) {
         opacity: 1;
-        transform: rotate(45deg) translate(0px, 0px);
+        transform: rotate(45deg) translate(-2px, -2px);
       }
     
     .breadcrumbs.responsive {
@@ -802,14 +850,6 @@ label {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
-    .svg-home {
-         display: block;
-         position: absolute;
-         top: 0px;
-         right: 0px;
-         width: 40px;
-         height: 32px;
-     }
      form {
         grid-row: 3;
         grid-column: 1/4;

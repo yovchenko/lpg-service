@@ -16,45 +16,62 @@
         <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
         <link rel="icon" href="https://gascentr.com/favicon.ico" type="image/x-icon"/>
         <link rel="shortcut icon" href="https://gascentr.com/favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" media="(min-width: 900px)" href="css/index.css">
-        <link rel="stylesheet" media="(max-width: 899px) and (min-width: 320px)" href="css/mobile-index.css">
-        <link rel="stylesheet" media="(max-width: 319px)" href="css/320x340.css">
+        <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/service.css">
     </head>
     <body>
-        <header>
-            <div id="nav">
-                <nav>
-                    <ul>
-                        <li>
-                          <h2><a href="indexUA.html">Про нас</a></h2>
-                        </li>
-                        <li>
-                          <h2><a href="installationUA.html">Установка ГБО</a></h2>
-                        </li>
-                        <li>
-                          <h2><a class="active-a" href="serviceUA.html">Сервіс ГБО<img src="pictures/arrow.png" class="arrow" alt="arrow"></a></h2>
-                        </li>
-                        <li>
-                          <h2><a href="galleryUA.html">Галерея робіт</a></h2>
-                        </li>
-                        <li>
-                          <h2><a href="contactsUA.html">Контакти</a></h2>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="header-pic">
-                <div class="imageIDpng">
-                   <select class="switch-lang" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-                       <option value="serviceUA.html">Ua</option>
-                       <option value="service.html">Ru</option>
-                   </select>
-                    <img src="pictures/headerUA.png" class="imageID1" alt="gas-centr"/>
-                    <img src="pictures/mobile-header.png" class="imageID2" alt="gas-centr"/>
+            <header>
+                    <nav>
+                        <div id="menuToggle" class="menuButton" onclick="myFunction()">
+                                    <input type="checkbox" />
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                        </div>
+                        <div class='breadcrumbs'>
+                                <ul class="cf">
+                                        <li>
+                                            <h2>
+                                                <a href="index-ua.html">
+                                                 Про нас
+                                                </a>
+                                            </h2>
+                                        </li>
+                                        <li>
+                                            <h2>
+                                                <a href="installation-ua.html">Монтаж ГБО</a>
+                                            </h2>
+                                        </li>
+                                        <li>
+                                            <h2>
+                                                <a href="service-ua.html">Сервіс ГБО</a>
+                                            </h2>
+                                        </li>
+                                        <li>
+                                            <h2>
+                                                <a href="gallery-ua.html">Галерея робіт</a>
+                                            </h2>
+                                        </li>
+                                        <li>
+                                            <h2>
+                                                <a href="contacts-ua.html">Контакти</a>
+                                            </h2>
+                                        </li>
+                                    </ul>
+                        </div>
+                        <div class="svg-lang-ua">
+                                <a href="service-ua.html"></a>
+                            </div>
+                            <div class="svg-lang-ru">
+                                <a href="service.html"></a>
+                            </div>   
+                    </nav>
+                </header>
+                <div class="header-img"><img src="pictures/wheel.svg" alt="wheels">
+                    <div class="company-name"><span class="nameCo">Gas</span> Centr</div>
+                    <img src="pictures/wheel.svg" alt="wheels">
                 </div>
-            </div>
-        </header>
+                <div class='grid-wrapper'>
         <main>
         <div class= "wrap-1">
    	<section class="main">
@@ -99,7 +116,7 @@
 						<div class="ch-item">
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-5"></div>
-								<div class="ch-info-back"><h1>Ремонт і обслуговування автомобіля</h1>
+								<div class="ch-info-back"><h1>Ремонт та обслуговування авто</h1>
 								</div>
 							</div>
 						</div>
@@ -108,17 +125,22 @@
 			</section>
             </div>
         </main>
+    </div>
             <footer>
                 <div class="icons">
-                    <div class="icon-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 305.234 305.234" style="enable-background:new 0 0 305.234 305.234;" xml:space="preserve">
-                            <g>
-                                <path d="M211.501,115.797c20.711,16.198,49.306,14.402,70.227-8.266c17.072-18.499,22.088-65.622,23.5-86.653   c0.078-1.169-0.611-2.254-1.703-2.679c-1.093-0.424-2.336-0.092-3.066,0.824c-8.149,10.206-27.1,25.37-66.127,20.922   c-27.629-1.274-43.772,25.3-39.901,48.765c-0.269,0.024-0.498,0.005-0.776,0.04c-12.625,0.772-24.331,5.294-35.253,14.834   c-10.123-3.523-20.952-5.528-32.277-5.528c-50.093,0-91.359,37.458-97.529,85.878C10.729,195.819,0,210.609,0,226.702   c0,6.748,1.9,13.273,5.405,19.448c2.557,4.519,7.354,7.306,12.55,7.306h14.253c1.801-20.643,18.989-36.946,40.091-36.946   c21.1,0,38.288,16.303,40.089,36.946h52.314c1.801-20.643,18.989-36.946,40.091-36.946c21.1,0,38.288,16.303,40.089,36.946h16.164   c5.186,0,9.993-2.797,12.551-7.306c3.504-6.175,5.404-12.7,5.404-19.448c0-23.693-23.071-44.608-58.355-57.438   c-7.494-26.077-25.439-47.685-49.048-60.022c21.249-19.396,43.585,8.486,93.95-34.689c0.308-0.264,0.762-0.264,1.07-0.001   c0.309,0.263,0.38,0.712,0.167,1.058C248.681,105.045,222.131,113.749,211.501,115.797z M121.027,121.221v62.66H53.954   C58.632,150.02,86.491,123.615,121.027,121.221z M198.293,183.881H131.22v-62.66C165.757,123.615,193.615,150.02,198.293,183.881z" fill="#91DC5A"/>
-                                <path d="M72.299,226.703c-16.712,0-30.258,13.546-30.258,30.257c0,16.71,13.546,30.257,30.258,30.257   c16.71,0,30.256-13.546,30.256-30.257C102.555,240.249,89.009,226.703,72.299,226.703z M72.299,266.833   c-5.444,0-9.874-4.428-9.874-9.873c0-5.444,4.43-9.874,9.874-9.874c5.443,0,9.873,4.429,9.873,9.874   C82.172,262.405,77.742,266.833,72.299,266.833z" fill="#91DC5A"/>
-                                <path d="M204.793,226.703c-16.712,0-30.258,13.546-30.258,30.257c0,16.71,13.546,30.257,30.258,30.257   c16.71,0,30.256-13.546,30.256-30.257C235.049,240.249,221.503,226.703,204.793,226.703z M204.793,266.833   c-5.444,0-9.874-4.428-9.874-9.873c0-5.444,4.43-9.874,9.874-9.874c5.443,0,9.873,4.429,9.873,9.874   C214.666,262.405,210.236,266.833,204.793,266.833z" fill="#91DC5A"/>
-                            </g>
-                        </svg>
-                    </div>
+                        <div class="icon-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+                                    viewBox="0 0 305.234 305.234" style="enable-background:new 0 0 305.234 305.234;" xml:space="preserve">
+                                    <g>
+                                        <path d="M211.501,115.797c20.711,16.198,49.306,14.402,70.227-8.266c17.072-18.499,22.088-65.622,23.5-86.653   c0.078-1.169-0.611-2.254-1.703-2.679c-1.093-0.424-2.336-0.092-3.066,0.824c-8.149,10.206-27.1,25.37-66.127,20.922   c-27.629-1.274-43.772,25.3-39.901,48.765c-0.269,0.024-0.498,0.005-0.776,0.04c-12.625,0.772-24.331,5.294-35.253,14.834   c-10.123-3.523-20.952-5.528-32.277-5.528c-50.093,0-91.359,37.458-97.529,85.878C10.729,195.819,0,210.609,0,226.702   c0,6.748,1.9,13.273,5.405,19.448c2.557,4.519,7.354,7.306,12.55,7.306h14.253c1.801-20.643,18.989-36.946,40.091-36.946   c21.1,0,38.288,16.303,40.089,36.946h52.314c1.801-20.643,18.989-36.946,40.091-36.946c21.1,0,38.288,16.303,40.089,36.946h16.164   c5.186,0,9.993-2.797,12.551-7.306c3.504-6.175,5.404-12.7,5.404-19.448c0-23.693-23.071-44.608-58.355-57.438   c-7.494-26.077-25.439-47.685-49.048-60.022c21.249-19.396,43.585,8.486,93.95-34.689c0.308-0.264,0.762-0.264,1.07-0.001   c0.309,0.263,0.38,0.712,0.167,1.058C248.681,105.045,222.131,113.749,211.501,115.797z M121.027,121.221v62.66H53.954   C58.632,150.02,86.491,123.615,121.027,121.221z M198.293,183.881H131.22v-62.66C165.757,123.615,193.615,150.02,198.293,183.881z"
+                                            fill="#91DC5A" />
+                                        <path d="M72.299,226.703c-16.712,0-30.258,13.546-30.258,30.257c0,16.71,13.546,30.257,30.258,30.257   c16.71,0,30.256-13.546,30.256-30.257C102.555,240.249,89.009,226.703,72.299,226.703z M72.299,266.833   c-5.444,0-9.874-4.428-9.874-9.873c0-5.444,4.43-9.874,9.874-9.874c5.443,0,9.873,4.429,9.873,9.874   C82.172,262.405,77.742,266.833,72.299,266.833z"
+                                            fill="#30d900" />
+                                        <path d="M204.793,226.703c-16.712,0-30.258,13.546-30.258,30.257c0,16.71,13.546,30.257,30.258,30.257   c16.71,0,30.256-13.546,30.256-30.257C235.049,240.249,221.503,226.703,204.793,226.703z M204.793,266.833   c-5.444,0-9.874-4.428-9.874-9.873c0-5.444,4.43-9.874,9.874-9.874c5.443,0,9.873,4.429,9.873,9.874   C214.666,262.405,210.236,266.833,204.793,266.833z"
+                                            fill="#30d900" />
+                                    </g>
+                                </svg>
+                            </div>
                     <div class="icon-2">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
                             <path style="fill:#493322;" d="M270.4,0h-16.8c-84,0-152.8,64-167.2,144l0,0L37.6,368h48.8c8,72,38.4,128,116,128h118.4
@@ -149,6 +171,10 @@
                         </svg>
                     </div>
                 </div>
-            </footer>
+        </footer>
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js">
+        </script>
+        <script type="text/javascript" src="js/index.js">
+        </script>
     </body>
 </html>
