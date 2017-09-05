@@ -337,7 +337,7 @@ ul {
     padding: 20px;
     padding-right: 0 !important;
     /* important overrides media queries */
-    font-size: 1.9em;
+    font-size: 18px;
     text-shadow: 6px 6px 12px #c4d5e6;
     font-weight: bold;
     text-align: center;
@@ -723,10 +723,10 @@ label {
 
 @media all and (max-width: 	960px){
     .breadcrumbs a {
-        font-size: 1.7em;
+        font-size: 14px;
     }
     .breadcrumbs a {
-        padding: 15px;
+        padding: 17px;
     }
       .breadcrumbs a:before,
       .breadcrumbs a:after {
