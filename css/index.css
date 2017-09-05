@@ -686,18 +686,19 @@ label {
 
 .licenses>ul>li>a[href] {
     display: inline-block;
-    margin: 10px;
+    margin: 20px;
     transition: transform 2s ease-in-out;
 }
 
 .licenses>ul>li>a[href]>img {
     max-height: 210px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+  
 }
 
 .licenses>ul>li>a[href]:hover {
      display: inline-block;
-     transform: scale(1.2);
+     transform: scale(1.3);
 }
 
 .div-active-li {
