@@ -882,6 +882,7 @@ label {
         height: 0;
         border: 10px solid transparent;
         border-bottom-color: rgba(87, 87, 86, 0.8);
+        z-index: 6;
     }
     
     .breadcrumbs li::after {
