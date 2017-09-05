@@ -98,11 +98,11 @@ img[alt*='Двигатель'] {
 
 .float svg, .float img {
     fill:rgba(0,0,0,0.8);
-    -webkit-filter: drop-shadow( -1px -1px 5px #000 );
-    filter: drop-shadow( -1px -1px 5px #000 );
-    -moz-filter: drop-shadow( -1px -1px 5px #000 );
-    -o-filter: drop-shadow( -1px -1px 5px #000 );
-    -ms-filter: drop-shadow( -1px -1px 5px #000 );
+    -webkit-filter: drop-shadow( -1px -1px 5px rgb );
+    filter: drop-shadow( 2px 2px 4px rgba(0,0,0,0.7));
+    -moz-filter: drop-shadow( 2px 2px 4px rgba(0,0,0,0.7));
+    -o-filter: drop-shadow( 2px 2px 4px rgba(0,0,0,0.7));
+    -ms-filter: drop-shadow( 2px 2px 4px rgba(0,0,0,0.7));
  }
 
 hr {
