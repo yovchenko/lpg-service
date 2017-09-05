@@ -789,7 +789,10 @@ label {
         margin: 20px;
         line-height: 1.8em;
     }
-    
+    .breadcrumbs a {
+        font-size: 1.6em;
+    }
+
     .breadcrumbs {
           display: none;
     }
