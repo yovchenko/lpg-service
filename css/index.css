@@ -784,6 +784,9 @@ label {
      
     p { 
         text-align: center;
+        font-size: 1.8em;
+        margin: 20px;
+        line-height: 1.8em;
     }
     
     .breadcrumbs {
@@ -954,7 +957,7 @@ label {
         grid-row: 3;
         grid-column: 1/4;
         display: grid;
-        margin: 25px;
+        margin: 0;
         grid-template-columns: repeat(1, 1fr);
         -ms-grid-template-columns: repeat(1, 1fr);
     }
@@ -1036,6 +1039,12 @@ label {
     
     .name-part-2 {
         font-size: 2.2rem; 
+    }
+
+    p { 
+        text-align: center;
+        font-size: 1.6em;
+        line-height: 1.6em;
     }
 }
 
