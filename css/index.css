@@ -293,7 +293,7 @@ img {
 }
 
 .brands img {
-    margin: 10px;
+    margin: 20px;
 }
 
 #menuToggle {
@@ -1033,6 +1033,10 @@ label {
 }
 
 @media all and (max-width: 540px){
+    .brands img {
+        margin: 20px 0;
+    }
+
     .company-name {
         font-size: 8em;
     }
