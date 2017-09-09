@@ -60,17 +60,5 @@ $carousel.on('slid.bs.carousel',function () {
 });
 }());
 
-window.onload = function() {
-    var itemImg = Array.prototype.slice.call(document.querySelectorAll('.item img'));
-    var str = '';
-    var arr = [];
-    var pos = 0;
-    var count = 0;
-    while (count < 16){
-    str = itemImg[count].src; 
-    arr = str.split('/cars-img/');
-    arr[0] += '/cars-img/high-resolution/';
-    itemImg[count].src = arr[0] + arr[1];
-    count++;
-    }
-}
+
+
