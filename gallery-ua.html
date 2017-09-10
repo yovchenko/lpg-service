@@ -54,8 +54,9 @@
                  box-sizing: content-box;
              }
     </style>
-         <script>
+    <script>
                 function changeImg(obj) {
+                $(this).off();
                    var str = '';
                    var arr = [];
                    str = obj.src; 
@@ -66,7 +67,7 @@
                    obj.src = str;
                    }
                    }
-           </script>
+    </script>
 </head>
 
 <body>
