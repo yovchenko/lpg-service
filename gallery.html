@@ -54,18 +54,21 @@
                  box-sizing: content-box;
              }
     </style>
-     <script>
-         function changeImg(obj) {
-            var str = '';
-            var arr = [];
-            str = obj.src; 
-            arr = str.split('/cars-img/');
-            arr[0] += '/cars-img/high-resolution/';
-            str = arr[0] + arr[1];
-            if ((str.indexOf('/high-resolution/high-resolution/') === -1)) {
-            obj.src = str;
-            }
-            }
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js">
+    </script>
+    <script>
+          function changeImg(obj) {
+                     $(this).off();
+                      var str = '';
+                      var arr = [];
+                      str = obj.src; 
+                      if ((str.indexOf('/high-resolution/') === -1)) {
+                      arr = str.split('/cars-img/');
+                      arr[0] += '/cars-img/high-resolution/';
+                      str = arr[0] + arr[1];
+                      obj.src = str;
+                      }
+                      }
     </script>
 </head>
 
@@ -145,121 +148,119 @@
             </ol>
             <div class="wrapper">
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-
-                    <div class="item active">
-                        <img src="pictures/cars-img/bmw-525-1.jpg" onload="changeImg(this)" alt="BMW">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/bmw-525-2.jpg" onload="changeImg(this)" alt="BMW">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/honda-CR-V-1.jpg" onload="changeImg(this)" alt="Honda-CR-V">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/honda-CR-V-2.jpg" onload="changeImg(this)" alt="Honda-CR-V">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/hummer-1.jpg" onload="changeImg(this)" alt="Hummer">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/hummer-2.jpg" onload="changeImg(this)" alt="Hummer">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/hummer-3.jpg" onload="changeImg(this)" alt="Hummer">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/nissanMaxima-1.jpg" onload="changeImg(this)" alt="Nissan">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/nissanMaxima-2.jpg" onload="changeImg(this)" alt="Nissan">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/opelVectra-1.jpg" onload="changeImg(this)" alt="Opel">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/opelVectra-2.jpg" onload="changeImg(this)" alt="Opel">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/porscheCayenne-1.jpg" onload="changeImg(this)" alt="Porsche">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/porscheCayenne-2.jpg" onload="changeImg(this)" alt="Porsche">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="pictures/cars-img/porscheCayenne-3.jpg" onload="changeImg(this)" alt="Porsche">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/subaruOutback-1.jpg" onload="changeImg(this)" alt="Subaru">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="pictures/cars-img/subaruOutback-2.jpg" onload="changeImg(this)" alt="Subaru">
-                        <div class="carousel-caption">
-
-                        </div>
-                    </div>
-
-                </div>
-
+          <div class="carousel-inner" role="listbox">
+                
+                                    <div class="item active">
+                                        <img src="pictures/cars-img/bmw-525-1.jpg" onload="changeImg(this)" alt="BMW">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/bmw-525-2.jpg" onload="changeImg(this)" alt="BMW">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/honda-CR-V-1.jpg" onload="changeImg(this)" alt="Honda-CR-V">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/honda-CR-V-2.jpg" onload="changeImg(this)" alt="Honda-CR-V">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/hummer-1.jpg" onload="changeImg(this)" alt="Hummer">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/hummer-2.jpg" onload="changeImg(this)" alt="Hummer">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/hummer-3.jpg" onload="changeImg(this)" alt="Hummer">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/nissanMaxima-1.jpg" onload="changeImg(this)" alt="Nissan">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/nissanMaxima-2.jpg" onload="changeImg(this)" alt="Nissan">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/opelVectra-1.jpg" onload="changeImg(this)" alt="Opel">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/opelVectra-2.jpg" onload="changeImg(this)" alt="Opel">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/porscheCayenne-1.jpg" onload="changeImg(this)" alt="Porsche">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/porscheCayenne-2.jpg" onload="changeImg(this)" alt="Porsche">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="pictures/cars-img/porscheCayenne-3.jpg" onload="changeImg(this)" alt="Porsche">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/subaruOutback-1.jpg" onload="changeImg(this)" alt="Subaru">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="item">
+                                        <img src="pictures/cars-img/subaruOutback-2.jpg" onload="changeImg(this)" alt="Subaru">
+                                        <div class="carousel-caption">
+                
+                                        </div>
+                                    </div>
+                                </div>      
                 <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-cars" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -327,8 +328,7 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js">
-    </script>
+
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous">
       </script>
