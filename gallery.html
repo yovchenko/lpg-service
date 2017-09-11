@@ -54,22 +54,6 @@
                  box-sizing: content-box;
              }
     </style>
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js">
-    </script>
-    <script>
-                function changeImg(obj) {
-                $(this).off();
-                   var str = '';
-                   var arr = [];
-                   str = obj.src; 
-                   arr = str.split('/cars-img/');
-                   arr[0] += '/cars-img/high-resolution/';
-                   str = arr[0] + arr[1];
-                   if ((str.indexOf('/high-resolution/high-resolution/') === -1)) {
-                   obj.src = str;
-                   }
-                   }
-    </script>
 </head>
 
 <body>
@@ -151,7 +135,7 @@
           <div class="carousel-inner" role="listbox">
                 
                                     <div class="item active">
-                                        <img src="pictures/cars-img/bmw-525-1.jpg" onload="changeImg(this)" alt="BMW">
+                                        <img src="pictures/cars-img/bmw-525-1.jpg" alt="BMW">
                                         <div class="carousel-caption">
                 
                                         </div>
@@ -328,9 +312,11 @@
             </div>
         </div>
     </footer>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous">
-      </script>
+    </script>
     <script type="text/javascript" src="js/index.js">
     </script>
     <script type="text/javascript" src="js/gallery.js">

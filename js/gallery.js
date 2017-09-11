@@ -1,4 +1,5 @@
  // Activate Carousel
+ $( document ).ready(function() {
 var $carousel =  $("#carousel-cars");
 $carousel.carousel();
 (function smokeText () {
@@ -59,6 +60,5 @@ $carousel.on('slid.bs.carousel',function () {
     }
 });
 }());
-
-
+});
 
