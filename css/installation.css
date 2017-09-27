@@ -26,16 +26,20 @@ h3 {
 }
 
 .price-wrapper-1{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     border-top: 5px rgba(255, 255, 255, 0.1);
     border-left: 2px rgba(255, 255, 255, 0.5);
     border-right: 2px rgba(255, 255, 255, 0.5);
     margin: 20px 20px 20px 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background: -webkit-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0)),to(rgba(0,0,0,0.1)));
     background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
     border-style: inset;
 }
@@ -46,32 +50,40 @@ img[alt*='Двигатель'] {
 }
 
 .price-wrapper-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     border-top: 5px rgba(255, 255, 255, 0.1);
     border-left: 2px rgba(255, 255, 255, 0.5);
     border-right: 2px rgba(255, 255, 255, 0.5);
     margin: 20px 20px 20px 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background: -webkit-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0)),to(rgba(0,0,0,0.1)));
     background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
     border-style: inset;
     
 }
 
 .price-wrapper-3{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     border-top: 5px rgba(255, 255, 255, 0.1);
     border-left: 2px rgba(255, 255, 255, 0.5);
     border-right: 2px rgba(255, 255, 255, 0.5);
     margin: 20px 20px 20px 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background: -webkit-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.1)); /*Fx 3.6-15*/
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0)),to(rgba(0,0,0,0.1)));
     background: linear-gradient(to top, rgba(0,0,0,0),rgba(0,0,0,0.1)); /*Standard*/
     border-style: inset;
 }
@@ -86,6 +98,8 @@ img[alt*='Двигатель'] {
     padding: 2px 0 0 0;
     text-align: center;
     background-color: white;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
      justify-content: center;
 }
 
@@ -114,7 +128,9 @@ hr {
 }
 
   .come-in {
+    -webkit-transform: translateY(100px);
     transform: translateY(100px);
+    -webkit-animation: come-in 1.6s ease forwards;
     animation: come-in 1.6s ease forwards;
     -moz-transform: translateY(100px);
     -moz-animation: come-in 1.6s ease forwards;
@@ -126,6 +142,7 @@ hr {
   }
   
   .come-in:nth-child(odd) {
+    -webkit-animation-duration: 1.9s;
     animation-duration: 1.9s;
     -moz-animation-duration: 1.9s;
     -o-animation-duration: 1.9s;
@@ -133,7 +150,9 @@ hr {
   }
   
   .already-visible {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
+    -webkit-animation: none;
     animation: none;
     -moz-transform: translateY(0);
     -moz-animation: none;
@@ -147,18 +166,14 @@ hr {
   
   @keyframes come-in {
     to {
-      transform: translateY(0);
-    }
-  }
-
-  @-moz-keyframes come-in {
-    to {
+      -webkit-transform: translateY(0);
       transform: translateY(0);
     }
   }
 
   @-webkit-keyframes come-in {
     to {
+      -webkit-transform: translateY(0);
       transform: translateY(0);
     }
   }
