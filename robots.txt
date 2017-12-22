@@ -1,4 +1,4 @@
 User-Agent:*
 Host: gascentr.com
 
-Sitemap:  http://gascentr.com/sitemap.xml
+Sitemap:  https://gascentr.com/sitemap.xml
