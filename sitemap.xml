@@ -1,65 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
-		<loc>https://gascentr.com/index.html</loc>
-		<xhtml:link rel="alternate" hreflang="ru" href="index.html" />
-		<xhtml:link rel="alternate" hreflang="ua" href="index-ua.html" />
+		<loc>https://gascentr.com/</loc>
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>1.00</priority>
 	</url>
 	<url>
+		<loc>https://gascentr.com/index.html</loc>
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/index.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/index-ua.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
 		<loc>https://gascentr.com/installation.html</loc>
-		<xhtml:link rel="alternate" hreflang="ru" href="installation.html" />
-		<xhtml:link rel="alternate" hreflang="ua" href="installation-ua.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/installation.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/installation-ua.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/service.html</loc>
-		<xhtml:link rel="alternate" hreflang="ru" href="service.html" />
-		<xhtml:link rel="alternate" hreflang="ua" href="service-ua.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/service.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/service-ua.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/gallery.html</loc>
-		<xhtml:link rel="alternate" hreflang="ru" href="gallery.html" />
-		<xhtml:link rel="alternate" hreflang="ua" href="gallery-ua.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/gallery.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/gallery-ua.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/index-ua.html</loc>
-		<xhtml:link rel="alternate" hreflang="ua" href="index-ua.html" />
-		<xhtml:link rel="alternate" hreflang="ru" href="index.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/index-ua.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/index.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
-		<priority>1.00</priority>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/installation-ua.html</loc>
-		<xhtml:link rel="alternate" hreflang="ua" href="installation-ua.html" />
-		<xhtml:link rel="alternate" hreflang="ru" href="installation.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/installation-ua.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/installation.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/service-ua.html</loc>
-		<xhtml:link rel="alternate" hreflang="ua" href="service-ua.html" />
-		<xhtml:link rel="alternate" hreflang="ru" href="service.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/service-ua.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/service.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/gallery-ua.html</loc>
-		<xhtml:link rel="alternate" hreflang="ua" href="gallery-ua.html" />
-		<xhtml:link rel="alternate" hreflang="ru" href="gallery.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/gallery-ua.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/gallery.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/contacts-ua.html</loc>
-		<xhtml:link rel="alternate" hreflang="ua" href="contacts-ua.html" />
-		<xhtml:link rel="alternate" hreflang="ru" href="contacts.html" />
+		<xhtml:link rel="alternate" hreflang="ua" href="https://gascentr.com/contacts-ua.html" />
+		<xhtml:link rel="alternate" hreflang="ru" href="https://gascentr.com/contacts.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
