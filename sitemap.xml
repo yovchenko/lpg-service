@@ -4,46 +4,64 @@
 		<loc>index.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="index.html" />
 		<xhtml:link rel="alternate" hreflang="ua" href="index-ua.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>1.00</priority>
 	</url>
 	<url>
 		<loc>installation.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="installation.html" />
 		<xhtml:link rel="alternate" hreflang="ua" href="installation-ua.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>service.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="service.html" />
 		<xhtml:link rel="alternate" hreflang="ua" href="service-ua.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>gallery.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="gallery.html" />
 		<xhtml:link rel="alternate" hreflang="ua" href="gallery-ua.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>index-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="index-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="index.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>1.00</priority>
 	</url>
 	<url>
 		<loc>installation-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="installation-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="installation.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>service-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="service-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="service.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>gallery-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="gallery-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="gallery.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>contacts-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="contacts-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="contacts.html" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.80</priority>
 	</url>
 
 	<url>
