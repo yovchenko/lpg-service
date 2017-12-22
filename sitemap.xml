@@ -7,9 +7,9 @@
 
 <url>
   <loc>https://gascentr.com/</loc>
-  <image:image>
+    <image:image>
 		<image:loc>https://gascentr.com/pictures/certificates/certificate.jpg</image:loc>
-	<image:image>
+	</image:image>
 	<image:image>
 		<image:loc>https://gascentr.com/pictures/certificates/zavoli-1.jpg</image:loc>
 	</image:image>
