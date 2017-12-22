@@ -71,22 +71,27 @@
 
 	<url>
 		<loc>https://gascentr.com/pictures/certificates/certificate.jpg</loc>
-		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/certificate.jpg" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.60</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/pictures/certificates/zavoli-1.jpg</loc>
-		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/zavoli-1.jpg" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.60</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/pictures/certificates/torelli.jpg</loc>
-		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/torelli.jpg" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.60</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/pictures/certificates/digitronic.jpg</loc>
-		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/digitronic.jpg" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.60</priority>
 	</url>
 	<url>
 		<loc>https://gascentr.com/pictures/certificates/gratitude.jpg</loc>
-		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/gratitude.jpg" />
+		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
+		<priority>0.60</priority>
 	</url>
 </urlset>
