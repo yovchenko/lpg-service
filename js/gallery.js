@@ -1,7 +1,8 @@
 // Activate Carousel
 window.onload = function () {
 var $carousel =  $("#carousel-cars");
-$carousel.css('visibility', 'visible').carousel();
+$carousel.carousel();
+document.getElementsByClassName('carousel-indicators')[0].style.visibility = 'visible';
 (function smokeText () {
 var paragraph = document.getElementsByClassName("smoke")[0];
 var $smoke = $('.smoke');
@@ -55,7 +56,6 @@ $carousel.on('slid.bs.carousel',function () {
         default:
         txt = "Gascentr";
     }
-    
     dataArr = txt.split('');
     paragraph.innerHTML = '';
     for(var i = 0;i < dataArr.length;i++) {
