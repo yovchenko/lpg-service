@@ -1,7 +1,7 @@
 // Activate Carousel
 window.onload = function () {
 var $carousel =  $("#carousel-cars");
-$carousel.carousel();
+$carousel.css('visibility', 'visible').carousel();
 (function smokeText () {
 var paragraph = document.getElementsByClassName("smoke")[0];
 var $smoke = $('.smoke');
@@ -20,38 +20,40 @@ $carousel.on('slid.bs.carousel',function () {
     $smoke.removeClass('smokeActive');
     var num = $(this).find('.active').index();
     switch(num) {
-        case 0: txt = 'BMW-525'
+        case 0: txt = 'BMW-525';
         break;
-        case 1: txt = 'BMW-525' 
+        case 1: txt = 'BMW-525';
         break;
-        case 2: txt = 'Honda CR-V'
+        case 2: txt = 'Honda CR-V';
         break;
-        case 3: txt = 'Honda CR-V' 
+        case 3: txt = 'Honda CR-V'; 
         break;
-        case 4: txt = 'Hummer'
+        case 4: txt = 'Hummer';
         break;
-        case 5: txt = 'Hummer' 
+        case 5: txt = 'Hummer'; 
         break;
-        case 6: txt = 'Hummer' 
+        case 6: txt = 'Hummer'; 
         break;
-        case 7: txt = 'Nissan Maxima'
+        case 7: txt = 'Nissan Maxima';
         break;
-        case 8: txt = 'Nissan Maxima' 
+        case 8: txt = 'Nissan Maxima'; 
         break;
-        case 9: txt = 'Opel Vectra'
+        case 9: txt = 'Opel Vectra';
         break;
-        case 10: txt = 'Opel Vectra' 
+        case 10: txt = 'Opel Vectra'; 
         break;
-        case 11: txt = 'Porsche Cayenne'
+        case 11: txt = 'Porsche Cayenne';
         break;
-        case 12: txt = 'Porsche Cayenne' 
+        case 12: txt = 'Porsche Cayenne'; 
         break;
-        case 13: txt = 'Porsche Cayenne' 
+        case 13: txt = 'Porsche Cayenne'; 
         break;
-        case 14: txt = 'Subaru Outback'
+        case 14: txt = 'Subaru Outback';
         break;
-        case 15: txt = 'Subaru Outback' 
+        case 15: txt = 'Subaru Outback'; 
         break;
+        default:
+        txt = "Gascentr";
     }
     dataArr = txt.split('');
     paragraph.innerHTML = '';
