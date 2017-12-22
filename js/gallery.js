@@ -55,6 +55,7 @@ $carousel.on('slid.bs.carousel',function () {
         default:
         txt = "Gascentr";
     }
+    
     dataArr = txt.split('');
     paragraph.innerHTML = '';
     for(var i = 0;i < dataArr.length;i++) {
