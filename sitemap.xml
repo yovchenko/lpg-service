@@ -6,22 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://gascentr.com/</loc>
-    <image:image>
-		<image:loc>https://gascentr.com/pictures/certificates/certificate.jpg</image:loc>
-	</image:image>
-	<image:image>
-		<image:loc>https://gascentr.com/pictures/certificates/zavoli-1.jpg</image:loc>
-	</image:image>
-	<image:image>
-		<image:loc>https://gascentr.com/pictures/certificates/torelli.jpg</image:loc>
-	</image:image>
-	<image:image>
-		<image:loc>https://gascentr.com/pictures/certificates/digitronic.jpg</image:loc>
-	</image:image>
-	<image:image>
-		<image:loc>https://gascentr.com/pictures/certificates/gratitude.jpg</image:loc>
-	</image:image>
+        <loc>https://gascentr.com/</loc>
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>1.00</priority>
 </url>
