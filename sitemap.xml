@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
-		<loc>index.html</loc>
+		<loc>https://gascentr.com/index.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="index.html" />
 		<xhtml:link rel="alternate" hreflang="ua" href="index-ua.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>1.00</priority>
 	</url>
 	<url>
-		<loc>installation.html</loc>
+		<loc>https://gascentr.com/installation.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="installation.html" />
 		<xhtml:link rel="alternate" hreflang="ua" href="installation-ua.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>service.html</loc>
+		<loc>https://gascentr.com/service.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="service.html" />
 		<xhtml:link rel="alternate" hreflang="ua" href="service-ua.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>gallery.html</loc>
+		<loc>https://gascentr.com/gallery.html</loc>
 		<xhtml:link rel="alternate" hreflang="ru" href="gallery.html" />
 		<xhtml:link rel="alternate" hreflang="ua" href="gallery-ua.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>index-ua.html</loc>
+		<loc>https://gascentr.com/index-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="index-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="index.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>1.00</priority>
 	</url>
 	<url>
-		<loc>installation-ua.html</loc>
+		<loc>https://gascentr.com/installation-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="installation-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="installation.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>service-ua.html</loc>
+		<loc>https://gascentr.com/service-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="service-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="service.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>gallery-ua.html</loc>
+		<loc>https://gascentr.com/gallery-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="gallery-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="gallery.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>contacts-ua.html</loc>
+		<loc>https://gascentr.com/contacts-ua.html</loc>
 		<xhtml:link rel="alternate" hreflang="ua" href="contacts-ua.html" />
 		<xhtml:link rel="alternate" hreflang="ru" href="contacts.html" />
 		<lastmod>2017-12-22T20:23:11+00:00</lastmod>
@@ -65,23 +65,23 @@
 	</url>
 
 	<url>
-		<loc>pictures/certificates/certificate.jpg</loc>
+		<loc>https://gascentr.com/pictures/certificates/certificate.jpg</loc>
 		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/certificate.jpg" />
 	</url>
 	<url>
-		<loc>pictures/certificates/zavoli-1.jpg</loc>
+		<loc>https://gascentr.com/pictures/certificates/zavoli-1.jpg</loc>
 		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/zavoli-1.jpg" />
 	</url>
 	<url>
-		<loc>pictures/certificates/torelli.jpg</loc>
+		<loc>https://gascentr.com/pictures/certificates/torelli.jpg</loc>
 		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/torelli.jpg" />
 	</url>
 	<url>
-		<loc>pictures/certificates/digitronic.jpg</loc>
+		<loc>https://gascentr.com/pictures/certificates/digitronic.jpg</loc>
 		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/digitronic.jpg" />
 	</url>
 	<url>
-		<loc>pictures/certificates/gratitude.jpg</loc>
+		<loc>https://gascentr.com/pictures/certificates/gratitude.jpg</loc>
 		<xhtml:link rel="alternate" hreflang="URL" href="pictures/certificates/gratitude.jpg" />
 	</url>
 </urlset>
