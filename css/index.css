@@ -530,7 +530,8 @@ footer {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 .icon-1 {
   width: 50px;
