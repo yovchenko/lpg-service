@@ -10,9 +10,14 @@ body,html {
     max-width: 1140px;
     min-height: 100%;
     @include display-grid;
-    grid-template-columns: $msGrid;
     -ms-grid-columns: $msGrid;
     margin: 0 auto;
+}
+
+@supports (display: grid){
+    .grid-wrapper {
+    grid-template-columns: repeat(12, 1fr);
+    }
 }
 
 .header-img {
