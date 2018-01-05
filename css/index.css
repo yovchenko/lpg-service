@@ -576,10 +576,10 @@ footer {
     display: -ms-grid;
     display: grid;
     -ms-grid-column: 6;
-    -ms-grid-column-span: 6;
+    -ms-grid-column-span: 7;
     -ms-grid-row: 1;
     -ms-grid-row-span: 0;
-    grid-column: 6/12;
+    grid-column: 6/13;
     grid-row: 1/1;
     margin: 25px;
     padding: 7px 0 14px 0; }

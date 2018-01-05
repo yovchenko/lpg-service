@@ -645,7 +645,7 @@ footer {
     }
     form {
         @include display-grid;
-        @include grid-child(6,12,1,1);
+        @include grid-child(6,13,1,1);
         margin: 25px;
         padding: 7px 0 14px 0;
     }
@@ -1066,14 +1066,14 @@ label {
                    -ms-flex-align: center;
                        align-items: center;
            }
-           #map {
-            margin: 0 auto;
-            @include grid-child(2,11,2,2);
-            width: 100%;
-            margin-bottom: 5%;
-            -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        }
+         #map {
+        margin: 0 auto;
+        @include grid-child(2,11,2,2);
+        width: 100%;
+        margin-bottom: 5%;
+        -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
     }
     }
 
