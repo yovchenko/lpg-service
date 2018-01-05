@@ -291,7 +291,7 @@ header {
     max-width: 1140px;
     @include display-grid;
     grid-template-columns: repeat(12, 1fr);
-    -ms-grid-template-columns: $msGrid;
+    -ms-grid-columns: $msGrid;
     margin: 0 auto;
 }
 nav {
