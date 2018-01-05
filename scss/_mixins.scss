@@ -1,0 +1,11 @@
+@mixin display-grid {
+    display: -ms-grid;
+    display: grid;
+  }
+
+@mixin basic-styles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  

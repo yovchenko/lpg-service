@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 body,html {
     height: 100%;
     line-height: $lineHeight;
@@ -6,9 +7,9 @@ body,html {
 }
 
 .grid-wrapper {
+    @include display-grid;
     max-width: 1140px;
     min-height: 100%;
-    display: grid;
     grid-template-columns: repeat(12, 1fr);
     -ms-grid-template-columns: repeat(12, 1fr);
     margin: 0 auto;
@@ -288,9 +289,9 @@ img {
 
 header {
     max-width: 1140px;
-    display: grid;
+    @include display-grid;
     grid-template-columns: repeat(12, 1fr);
-    -ms-grid-template-columns: repeat(12, 1fr);
+    -ms-grid-template-columns: $msGrid;
     margin: 0 auto;
 }
 nav {

@@ -4,9 +4,10 @@ body, html {
   font-size: 10px; }
 
 .grid-wrapper {
+  display: -ms-grid;
+  display: grid;
   max-width: 1140px;
   min-height: 100%;
-  display: grid;
   grid-template-columns: repeat(12, 1fr);
   -ms-grid-template-columns: repeat(12, 1fr);
   margin: 0 auto; }
@@ -226,9 +227,10 @@ img {
 
 header {
   max-width: 1140px;
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  -ms-grid-template-columns: repeat(12, 1fr);
+  -ms-grid-template-columns: "1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr";
   margin: 0 auto; }
 
 nav {
