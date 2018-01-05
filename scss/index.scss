@@ -633,12 +633,11 @@ footer {
     -ms-grid-columns: $msGrid;
     -ms-grid-rows: 1fr 1fr;
     .contact-info {
-        @include grid-child(1,6,1,1);
+        @include grid-child(1,7,1,1);
         font-size: 1.1em;
     }
-    
     #map {
-        @include grid-child(1,12,2,2);
+        @include grid-child(1,13,2,2);
         height: 350px;
         margin-bottom: 3%;
         -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1067,14 +1066,14 @@ label {
                    -ms-flex-align: center;
                        align-items: center;
            }
-    }
-    #map {
-        margin: 0 auto;
-        @include grid-child(2,11,2,2);
-        width: 100%;
-        margin-bottom: 5%;
-        -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+           #map {
+            margin: 0 auto;
+            @include grid-child(2,11,2,2);
+            width: 100%;
+            margin-bottom: 5%;
+            -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
     }
     }
 
