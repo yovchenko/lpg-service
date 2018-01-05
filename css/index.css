@@ -599,6 +599,8 @@ textarea {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 .btn {
+  position: relative;
+  bottom: -85%;
   border: none;
   max-height: 50px;
   font-family: inherit;
@@ -611,10 +613,8 @@ textarea {
   position: relative;
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
-
-@supports (display: grid) {
-  .btn {
-    height: auto; } }
+  .btn:hover {
+    bottom: -87%; }
 
 .btn-2c {
   border-radius: 5px; }
@@ -634,12 +634,28 @@ textarea {
 .btn-2c:hover {
   -webkit-box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
-  top: 2px; }
+  bottom: -83%; }
 
 .btn-2c:active {
   -webkit-box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
   top: 6px; }
+
+label {
+  color: #10d648;
+  text-shadow: 6px 6px 12px #c4d5e6;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.4em;
+  line-height: 2.5em; }
+
+@supports (display: grid) {
+  .btn {
+    height: auto;
+    position: initial; }
+  label {
+    line-height: 1.6em; }
+  .btn-2:hover {
+    top: 2px; } }
 
 input[type] {
   width: 100%;
@@ -652,13 +668,6 @@ input[type] {
   border-color: #10d648;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
-label {
-  color: #10d648;
-  text-shadow: 6px 6px 12px #c4d5e6;
-  font-family: 'Philosopher', sans-serif;
-  font-size: 1.4em;
-  line-height: 1.6em; }
 
 .licenses > ul > li > a[href] {
   display: inline-block;
