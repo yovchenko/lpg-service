@@ -1,6 +1,7 @@
+@import 'variables';
 body,html {
     height: 100%;
-    line-height: 1.2;
+    line-height: $lineHeight;
     font-size: 10px;
 }
 
@@ -289,6 +290,7 @@ img {
 header {
     max-width: 1140px;
     display: grid;
+    display: -ms-grid;
     grid-template-columns: repeat(12, 1fr);
     -ms-grid-template-columns: repeat(12, 1fr);
     margin: 0 auto;
@@ -630,6 +632,7 @@ footer {
 
 .contacts {
     display: grid;
+    display: -ms-grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     -ms-grid-template-columns: repeat(2, 1fr);
@@ -638,6 +641,7 @@ footer {
 
 form {
     display: grid;
+    display: -ms-grid;
     margin: 25px;
     padding: 7px 0 14px 0;
     grid-template-columns: repeat(1, 1fr);
@@ -1065,6 +1069,7 @@ label {
         grid-row: 3;
         grid-column: 1/4;
         display: grid;
+        display: -ms-grid;
         margin: 0;
         grid-template-columns: repeat(1, 1fr);
         -ms-grid-template-columns: repeat(1, 1fr);
