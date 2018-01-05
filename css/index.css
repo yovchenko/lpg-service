@@ -4,16 +4,13 @@ body, html {
   font-size: 10px; }
 
 .grid-wrapper {
-  max-width: 1140px;
-  min-height: 100%;
   display: -ms-grid;
   display: grid;
+  max-width: 1140px;
+  min-height: 100%;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
   margin: 0 auto; }
-
-@supports (display: grid) {
-  .grid-wrapper {
-    grid-template-columns: repeat(12, 1fr); } }
 
 .header-img {
   display: -webkit-box;
@@ -73,6 +70,7 @@ body, html {
   text-shadow: 2px 2px 4px black; }
 
 main {
+  display: block;
   -ms-grid-column: 2;
   -ms-grid-column-span: 10;
   -ms-grid-row: 1;
