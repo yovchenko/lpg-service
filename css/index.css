@@ -229,11 +229,17 @@ header {
   max-width: 1140px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: repeat(12, 1fr);
+  -ms-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: 0 auto; }
 
 nav {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 0;
+  grid-column: 2/12;
+  grid-row: 1/1;
   grid-column: 2 / 12;
   position: relative; }
 

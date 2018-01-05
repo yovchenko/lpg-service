@@ -295,6 +295,7 @@ header {
     margin: 0 auto;
 }
 nav {
+    @include grid-child(2,12,1,1);
     grid-column: 2 / 12;
     position: relative;
 }
