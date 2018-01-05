@@ -229,8 +229,8 @@ header {
   max-width: 1140px;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
   -ms-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
   margin: 0 auto; }
 
 nav {
