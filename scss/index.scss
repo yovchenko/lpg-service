@@ -630,10 +630,11 @@ footer {
 
 .contacts {
     @include display-grid;
+    grid-template-columns: $msGrid;
     -ms-grid-columns: $msGrid;
     -ms-grid-rows: 1fr 1fr;
     .contact-info {
-        @include grid-child(1,7,1,1);
+        @include grid-child(1,6,1,1);
         font-size: 1.1em;
     }
     #map {
@@ -1046,16 +1047,17 @@ label {
         border-top-left-radius: 10px;
         border-style: outset;
     }
-    
+
     .contacts {
+        grid-template-columns: $msGrid;
+        -ms-grid-columns: $msGrid;
         form {
             @include display-grid;
-            @include grid-child(2,11,3,3);
+            @include grid-child(3,11,3,3);
            margin: 0;
        }
-       
        .contact-info {
-               @include grid-child(2,11,1,1);
+               @include grid-child(3,11,1,1);
                display: -webkit-box;
                display: -ms-flexbox;
                display: flex;
@@ -1068,7 +1070,7 @@ label {
            }
          #map {
         margin: 0 auto;
-        @include grid-child(2,11,2,2);
+        @include grid-child(2,12,2,2);
         width: 100%;
         margin-bottom: 5%;
         -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1098,6 +1100,34 @@ label {
 
       .header-img {
         background-size: contain;
+    }
+    .contacts {
+        form {
+            @include display-grid;
+            @include grid-child(2,11,3,3);
+           margin: 0;
+       }
+       
+       .contact-info {
+               @include grid-child(2,11,1,1);
+               display: -webkit-box;
+               display: -ms-flexbox;
+               display: flex;
+               -webkit-box-pack: center;
+                   -ms-flex-pack: center;
+                       justify-content: center;
+               -webkit-box-align: center;
+                   -ms-flex-align: center;
+                       align-items: center;
+           }
+         #map {
+        margin: 0 auto;
+        @include grid-child(2,11,2,2);
+        width: 100%;
+        margin-bottom: 5%;
+        -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
     }
 }
 

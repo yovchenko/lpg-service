@@ -551,14 +551,15 @@ footer {
 .contacts {
   display: -ms-grid;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr; }
   .contacts .contact-info {
     -ms-grid-column: 1;
-    -ms-grid-column-span: 6;
+    -ms-grid-column-span: 5;
     -ms-grid-row: 1;
     -ms-grid-row-span: 0;
-    grid-column: 1/7;
+    grid-column: 1/6;
     grid-row: 1/1;
     font-size: 1.1em; }
   .contacts #map {
@@ -888,6 +889,63 @@ label {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-style: outset; }
+  .contacts {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+    .contacts form {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-column: 3;
+      -ms-grid-column-span: 8;
+      -ms-grid-row: 3;
+      -ms-grid-row-span: 0;
+      grid-column: 3/11;
+      grid-row: 3/3;
+      margin: 0; }
+    .contacts .contact-info {
+      -ms-grid-column: 3;
+      -ms-grid-column-span: 8;
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 0;
+      grid-column: 3/11;
+      grid-row: 1/1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .contacts #map {
+      margin: 0 auto;
+      -ms-grid-column: 2;
+      -ms-grid-column-span: 10;
+      -ms-grid-row: 2;
+      -ms-grid-row-span: 0;
+      grid-column: 2/12;
+      grid-row: 2/2;
+      width: 100%;
+      margin-bottom: 5%;
+      -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
+
+@media all and (max-width: 720px) {
+  .company-name {
+    font-size: 10em; }
+  .header-img img:first-child {
+    max-width: 10em;
+    max-height: 10em;
+    margin-right: 10px; }
+  .header-img img:last-child {
+    max-width: 10em;
+    max-height: 10em;
+    margin-left: 10px; }
+  .carousel-indicators li {
+    border: 6px dotted rgba(255, 255, 255, 0.5); }
+  .header-img {
+    background-size: contain; }
   .contacts form {
     display: -ms-grid;
     display: grid;
@@ -926,22 +984,6 @@ label {
     margin-bottom: 5%;
     -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
-
-@media all and (max-width: 720px) {
-  .company-name {
-    font-size: 10em; }
-  .header-img img:first-child {
-    max-width: 10em;
-    max-height: 10em;
-    margin-right: 10px; }
-  .header-img img:last-child {
-    max-width: 10em;
-    max-height: 10em;
-    margin-left: 10px; }
-  .carousel-indicators li {
-    border: 6px dotted rgba(255, 255, 255, 0.5); }
-  .header-img {
-    background-size: contain; } }
 
 @media all and (max-width: 540px) {
   .brands img {
