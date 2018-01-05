@@ -647,6 +647,7 @@ footer {
     form {
         @include display-grid;
         @include grid-child(6,13,1,1);
+        -ms-grid-columns: 1fr;
         margin: 25px;
         padding: 7px 0 14px 0;
     }
@@ -667,6 +668,7 @@ textarea {
 
     .btn {
         border: none;
+        max-height: 50px;
         font-family: inherit;
         font-size: inherit;
         color: inherit;
@@ -677,6 +679,12 @@ textarea {
         position: relative;
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
+    }
+
+    @supports (display:grid){
+         .btn {
+             height: auto;
+         }
     }
 
     .btn-2c {
@@ -1104,12 +1112,12 @@ label {
     .contacts {
         form {
             @include display-grid;
-            @include grid-child(2,11,3,3);
+            @include grid-child(2,12,3,3);
            margin: 0;
        }
        
        .contact-info {
-               @include grid-child(2,11,1,1);
+               @include grid-child(2,12,1,1);
                display: -webkit-box;
                display: -ms-flexbox;
                display: flex;
@@ -1122,7 +1130,7 @@ label {
            }
          #map {
         margin: 0 auto;
-        @include grid-child(2,11,2,2);
+        @include grid-child(2,12,2,2);
         width: 100%;
         margin-bottom: 5%;
         -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);

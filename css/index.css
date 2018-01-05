@@ -582,6 +582,7 @@ footer {
     -ms-grid-row-span: 0;
     grid-column: 6/13;
     grid-row: 1/1;
+    -ms-grid-columns: 1fr;
     margin: 25px;
     padding: 7px 0 14px 0; }
 
@@ -599,6 +600,7 @@ textarea {
 
 .btn {
   border: none;
+  max-height: 50px;
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -609,6 +611,10 @@ textarea {
   position: relative;
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
+
+@supports (display: grid) {
+  .btn {
+    height: auto; } }
 
 .btn-2c {
   border-radius: 5px; }
@@ -950,18 +956,18 @@ label {
     display: -ms-grid;
     display: grid;
     -ms-grid-column: 2;
-    -ms-grid-column-span: 9;
+    -ms-grid-column-span: 10;
     -ms-grid-row: 3;
     -ms-grid-row-span: 0;
-    grid-column: 2/11;
+    grid-column: 2/12;
     grid-row: 3/3;
     margin: 0; }
   .contacts .contact-info {
     -ms-grid-column: 2;
-    -ms-grid-column-span: 9;
+    -ms-grid-column-span: 10;
     -ms-grid-row: 1;
     -ms-grid-row-span: 0;
-    grid-column: 2/11;
+    grid-column: 2/12;
     grid-row: 1/1;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -975,10 +981,10 @@ label {
   .contacts #map {
     margin: 0 auto;
     -ms-grid-column: 2;
-    -ms-grid-column-span: 9;
+    -ms-grid-column-span: 10;
     -ms-grid-row: 2;
     -ms-grid-row-span: 0;
-    grid-column: 2/11;
+    grid-column: 2/12;
     grid-row: 2/2;
     width: 100%;
     margin-bottom: 5%;
