@@ -8,6 +8,7 @@ body,html {
     max-width: 1140px;
     min-height: 100%;
     display: grid;
+    display: -ms-grid;
     grid-template-columns: repeat(12, 1fr);
     -ms-grid-template-columns: repeat(12, 1fr);
     margin: 0 auto;
