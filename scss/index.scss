@@ -10,8 +10,8 @@ body,html {
     @include display-grid;
     max-width: 1140px;
     min-height: 100%;
-    grid-template-columns: repeat(12, 1fr);
     -ms-grid-columns: $msGrid;
+    grid-template-columns: repeat(12, 1fr);
     margin: 0 auto;
 }
 
