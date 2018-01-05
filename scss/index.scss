@@ -632,13 +632,24 @@ footer {
     @include display-grid;
     -ms-grid-columns: $msGrid;
     -ms-grid-rows: 1fr 1fr;
-}
-
-form {
-    @include display-grid;
-    @include grid-child(6,12,1,1);
-    margin: 25px;
-    padding: 7px 0 14px 0;
+    .contact-info {
+        @include grid-child(1,6,1,1);
+        font-size: 1.1em;
+    }
+    
+    #map {
+        @include grid-child(1,12,2,2);
+        height: 350px;
+        margin-bottom: 3%;
+        -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    form {
+        @include display-grid;
+        @include grid-child(6,12,1,1);
+        margin: 25px;
+        padding: 7px 0 14px 0;
+    }
 }
 
 textarea {
@@ -717,19 +728,6 @@ label {
     font-family: 'Philosopher', sans-serif;
     font-size: 1.4em;
     line-height: 1.6em;
-}
-
-.contact-info {
-    @include grid-child(1,6,1,1);
-    font-size: 1.1em;
-}
-
-#map {
-    @include grid-child(1,12,2,2);
-    height: 350px;
-    margin-bottom: 3%;
-    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .licenses>ul>li>a[href] {
@@ -1050,36 +1048,33 @@ label {
         border-style: outset;
     }
     
+    .contacts {
+        form {
+            @include display-grid;
+            @include grid-child(2,11,3,3);
+           margin: 0;
+       }
+       
+       .contact-info {
+               @include grid-child(2,11,1,1);
+               display: -webkit-box;
+               display: -ms-flexbox;
+               display: flex;
+               -webkit-box-pack: center;
+                   -ms-flex-pack: center;
+                       justify-content: center;
+               -webkit-box-align: center;
+                   -ms-flex-align: center;
+                       align-items: center;
+           }
+    }
     #map {
         margin: 0 auto;
-        display: block;
+        @include grid-child(2,11,2,2);
         width: 100%;
         margin-bottom: 5%;
         -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-    
-     form {
-         @include display-grid;
-         @include grid-child(2,11,3,3);
-        margin: 0;
-    }
-    
-    .contact-info {
-            @include grid-child(2,11,1,1);
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
-        }
-
-     #map {
-            @include grid-child(2,11,2,2);
     }
     }
 
