@@ -295,7 +295,6 @@ header {
 }
 nav {
     @include grid-child(2,12,1,1);
-    grid-column: 2 / 12;
     position: relative;
 }
 
@@ -630,19 +629,19 @@ footer {
 }
 
 .contacts {
-    display: grid;
+    @include display-grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    -ms-grid-template-columns: repeat(2, 1fr);
-    -ms-grid-template-rows: repeat(2, 1fr);
+    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
 }
 
 form {
-    display: grid;
+    @include display-grid;
     margin: 25px;
     padding: 7px 0 14px 0;
     grid-template-columns: repeat(1, 1fr);
-    -ms-grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: 1fr;
 }
 
 textarea {
@@ -728,7 +727,7 @@ label {
 }
 
 #map {
-    grid-column: 1/4;
+    @include grid-child(1,4,2,2);
     height: 350px;
     margin-bottom: 3%;
     -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1063,16 +1062,15 @@ label {
     }
     
      form {
-        grid-row: 3;
-        grid-column: 1/4;
-        display: grid;
+         @include display-grid;
+         @include grid-child(1,4,3,3);
         margin: 0;
         grid-template-columns: repeat(1, 1fr);
-        -ms-grid-template-columns: repeat(1, 1fr);
+        -ms-grid-columns: 1fr;
     }
     
     .contact-info {
-            grid-column: 1/3;
+            @include grid-child(1,3,1,1);
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
