@@ -7,11 +7,11 @@ body,html {
 }
 
 .grid-wrapper {
-    @include display-grid;
     max-width: 1140px;
     min-height: 100%;
-    -ms-grid-columns: $msGrid;
+    @include display-grid;
     grid-template-columns: repeat(12, 1fr);
+    -ms-grid-columns: $msGrid;
     margin: 0 auto;
 }
 
