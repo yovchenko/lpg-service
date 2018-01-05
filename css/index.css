@@ -635,6 +635,12 @@ label {
   line-height: 1.6em; }
 
 .contact-info {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 0;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 0;
+  grid-column: 1/1;
+  grid-row: 1/1;
   font-size: 1.1em; }
 
 #map {
