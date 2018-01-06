@@ -899,7 +899,7 @@ label {
     transform: rotate(45deg) translate(-2px, -2px); }
   .refMenu {
     position: absolute;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     width: 100%;
     padding-top: 14px; }
@@ -1129,7 +1129,8 @@ label {
     font-size: 1.1em; } }
 
 .grid-wrapper {
-  min-height: 75%; }
+  min-height: 75%;
+  font-family: 'Philosopher', sans-serif; }
 
 .wrap-1 {
   width: 80%;
@@ -1140,8 +1141,9 @@ main {
   text-align: center; }
 
 h1 {
-  font-size: 2.3em;
-  color: #10d648; }
+  font-size: 1.8em;
+  color: #10d648;
+  padding: 0px 10px; }
 
 .ch-grid {
   display: -webkit-box;
@@ -1279,3 +1281,11 @@ h1 {
 
 footer {
   margin-top: 25px; }
+
+@media all and (max-width: 830px) {
+  h1 {
+    font-size: 1.6em; } }
+
+@media all and (max-width: 540px) {
+  h1 {
+    font-size: 1.4em; } }

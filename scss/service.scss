@@ -1,6 +1,7 @@
 @import "index.scss";
 .grid-wrapper {
-    min-height: 75%;;
+    min-height: 75%;
+    font-family: 'Philosopher', sans-serif;
 }
 .wrap-1 {
     width: 80%;
@@ -13,8 +14,9 @@ main {
 }
 
 h1 {
-    font-size: 2.3em;
+    font-size: 1.8em;
     color: #10d648;
+    padding: 0px 10px;
 }
 
 .ch-grid {
@@ -166,4 +168,16 @@ h1 {
 
 footer {
     margin-top: 25px;
+}
+
+@media all and (max-width: 830px) {
+    h1 {
+        font-size: 1.6em;
+    }
+}
+
+@media all and (max-width: 540px) {
+    h1 {
+        font-size: 1.4em;
+    }
 }
