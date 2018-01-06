@@ -140,7 +140,7 @@ h1 {
     color: #10d648;
     text-align: center;
     font-size: 1.25em;
-    line-height: 1.5;
+    line-height: 1.7;
     margin: 15px 0px;
 }
 
@@ -168,6 +168,7 @@ p {
     padding-top: 24px;
     left: 0;
     padding-left: 8px;
+    letter-spacing: 1.1px;
 }
 
 
@@ -891,7 +892,7 @@ label {
     }
     h1 {
         font-size: 1.1em;
-        line-height: 1.8;
+        line-height: 1.6;
         margin: 15px 0px;
     }
     .name-part-1 {
@@ -1214,7 +1215,7 @@ label {
 @media all and (max-width: 540px) {
     h1 {
         font-size: 1em;
-        line-height: 1.6;
+        line-height: 1.5;
         margin: 15px 0px;
     }
     .name-part-1 {
