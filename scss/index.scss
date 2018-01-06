@@ -318,7 +318,7 @@ p {
 
 #name-error,
 #email-error {
-    font-size: 1.05em;
+    font-size: 1em;
     display: block;
     color: red;
 }
@@ -1263,10 +1263,11 @@ label {
     }
     label {
         line-height: 2.2em;
+        font-size: 1.4em;
     }
     #name-error,
     #email-error {
-    font-size: 1.1em;
+    font-size: 1em;
     }
 }
 
