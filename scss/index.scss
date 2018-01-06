@@ -1119,6 +1119,9 @@ label {
         border-top-left-radius: 10px;
         border-style: outset;
     }
+    .btn {
+        font-size: 16px;
+    }
     .contacts {
         grid-template-columns: $msGrid;
         -ms-grid-columns: $msGrid;
@@ -1265,9 +1268,19 @@ label {
         line-height: 2.2em;
         font-size: 1.4em;
     }
+    .contacts p {
+        font-size: 1.3em;
+    }
+
     #name-error,
     #email-error {
     font-size: 1em;
+    }
+    .refMenu {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px;
     }
 }
 
