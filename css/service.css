@@ -266,7 +266,8 @@ p {
 
 /*contacts .html*/
 .message {
-  font-size: 1.6em; }
+  font-size: 18px;
+  font-family: 'Philosopher', sans-serif; }
 
 #name-error,
 #email-error {
@@ -776,6 +777,8 @@ label {
   font-size: 1.8em; }
 
 @media all and (max-width: 960px) {
+  .message {
+    font-size: 16px; }
   .svg-lang-ua {
     margin-top: 15px; }
   .svg-lang-ru {
@@ -811,7 +814,9 @@ label {
   .breadcrumbs a:after {
     border-top-width: 26px;
     border-bottom-width: 26px;
-    border-left-width: 13px; } }
+    border-left-width: 13px; }
+  .btn {
+    font-size: 16px; } }
 
 @media all and (max-width: 830px) {
   .svg-lang-ua {
@@ -979,8 +984,6 @@ label {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-style: outset; }
-  .btn {
-    font-size: 16px; }
   .contacts {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
@@ -1135,6 +1138,8 @@ label {
   .refMenu {
     font-size: 14px; }
   .btn {
+    font-size: 14px; }
+  .message {
     font-size: 14px; } }
 
 .grid-wrapper {

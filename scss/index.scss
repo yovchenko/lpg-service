@@ -313,7 +313,8 @@ p {
 /*contacts .html*/
 
 .message {
-    font-size: 1.6em;
+    font-size: 18px;
+    font-family: 'Philosopher', sans-serif;
 }
 
 #name-error,
@@ -879,6 +880,9 @@ label {
     font-size: 1.8em;
 }
 @media all and (max-width: 960px) {
+    .message {
+        font-size: 16px;
+    }
     .svg-lang-ua {
         margin-top: 15px;
     }
@@ -925,6 +929,9 @@ label {
         border-top-width: 26px;
         border-bottom-width: 26px;
         border-left-width: 13px;
+    }
+    .btn {
+        font-size: 16px;
     }
 }
 
@@ -1119,9 +1126,6 @@ label {
         border-top-left-radius: 10px;
         border-style: outset;
     }
-    .btn {
-        font-size: 16px;
-    }
     .contacts {
         grid-template-columns: $msGrid;
         -ms-grid-columns: $msGrid;
@@ -1280,6 +1284,9 @@ label {
         font-size: 14px;
     }
     .btn {
+        font-size: 14px;
+    }
+    .message {
         font-size: 14px;
     }
 }
