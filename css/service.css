@@ -143,7 +143,7 @@ p {
   font-size: 1.4em;
   text-shadow: 6px 6px 12px #c4d5e6;
   margin: 25px;
-  line-height: 2.8em; }
+  line-height: 2.6em; }
 
 .refMenu {
   position: absolute;
@@ -608,9 +608,7 @@ footer {
   font-family: 'Philosopher', sans-serif; }
 
 .licenses {
-  background-color: white;
-  padding-top: 7px;
-  padding-bottom: 7px; }
+  background-color: white; }
 
 .info {
   color: #10d648;
@@ -688,10 +686,6 @@ textarea {
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
 
-@supports not (display: -ms-grid) {
-  .btn {
-    margin: 0; } }
-
 .btn-2c {
   border-radius: 5px;
   font-family: 'Philosopher', sans-serif; }
@@ -765,17 +759,12 @@ label {
   position: relative;
   right: 12px; }
 
-.brands {
-  padding: 5px 0 5px 0; }
-
-.licenses {
-  padding: 10px 0 10px 0; }
-
 .contacts p {
   font-size: 1.6em; }
 
 label {
-  font-size: 1.8em; }
+  font-size: 1.8em;
+  line-height: 2.6px; }
 
 @media all and (max-width: 960px) {
   .message {
@@ -795,11 +784,12 @@ label {
   .contacts p {
     font-size: 1.45em;
     margin: 25px;
-    line-height: 2.6em; }
+    line-height: 2.5em; }
   form {
     padding: 6px 0 13px 0; }
   label {
-    font-size: 1.55em; }
+    font-size: 1.55em;
+    line-height: 2.5em; }
   .refMenu {
     position: absolute;
     font-size: 16px;
@@ -846,8 +836,6 @@ label {
     margin: 15px;
     line-height: 2em;
     text-align: center; }
-  label {
-    line-height: 2.4em; }
   .breadcrumbs {
     display: none; }
   #menuToggle {
@@ -1129,10 +1117,11 @@ label {
     line-height: 2em;
     text-align: center; }
   label {
-    line-height: 2.2em;
+    line-height: 2.4em;
     font-size: 1.4em; }
   .contacts p {
-    font-size: 1.3em; }
+    font-size: 1.3em;
+    line-height: 2.4em; }
   #name-error,
   #email-error {
     font-size: 1em; }

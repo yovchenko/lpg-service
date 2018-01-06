@@ -157,7 +157,7 @@ p {
     font-size: 1.4em;
     text-shadow: 6px 6px 12px #c4d5e6;
     margin: 25px;
-    line-height: 2.8em;
+    line-height: 2.6em;
 }
 
 .refMenu {
@@ -703,8 +703,6 @@ footer {
 
 .licenses {
     background-color: white;
-    padding-top: 7px;
-    padding-bottom: 7px;
 }
 
 .info {
@@ -772,12 +770,6 @@ textarea {
     position: relative;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-}
-
-@supports not (display: -ms-grid) {
-    .btn {
-        margin: 0;
-    }
 }
 
 .btn-2c {
@@ -865,20 +857,13 @@ label {
     right: 12px;
 }
 
-.brands {
-    padding: 5px 0 5px 0;
-}
-
-.licenses {
-    padding: 10px 0 10px 0;
-}
-
 .contacts p {
     font-size: 1.6em;
 }
 
 label {
     font-size: 1.8em;
+    line-height: 2.6px;
 }
 @media all and (max-width: 960px) {
     .message {
@@ -904,13 +889,14 @@ label {
    .contacts p {
         font-size: 1.45em;
         margin: 25px;
-        line-height: 2.6em;
+        line-height: 2.5em;
     }
     form {
         padding: 6px 0 13px 0;
     }
     label {
         font-size: 1.55em;
+        line-height: 2.5em;
     }
     .refMenu {
         position: absolute;
@@ -965,9 +951,6 @@ label {
         margin: 15px;
         line-height: 2em;
         text-align: center;
-    }
-    label {
-        line-height: 2.4em;
     }
     .breadcrumbs {
         display: none;
@@ -1270,11 +1253,12 @@ label {
         text-align: center;
     }
     label {
-        line-height: 2.2em;
+        line-height: 2.4em;
         font-size: 1.4em;
     }
     .contacts p {
         font-size: 1.3em;
+        line-height: 2.4em;
     }
 
     #name-error,
