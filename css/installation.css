@@ -271,7 +271,7 @@ p {
 
 #name-error,
 #email-error {
-  font-size: 1em;
+  font-size: 1.05em;
   display: block;
   color: red; }
 
@@ -769,7 +769,7 @@ label {
   padding: 10px 0 10px 0; }
 
 .contacts p {
-  font-size: 1.55em; }
+  font-size: 1.555em; }
 
 label {
   font-size: 1.7em; }
