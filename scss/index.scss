@@ -46,7 +46,7 @@ table {
 body,
 html {
     line-height: $lineHeight;
-    font-size: 10px;
+    font-size: $fontSize;
     height: 100%;
 }
 
@@ -318,7 +318,7 @@ p {
 
 #name-error,
 #email-error {
-    font-size: 1.4em;
+    font-size: 1em;
     display: block;
     color: red;
 }
@@ -770,6 +770,12 @@ textarea {
     transition: all 0.3s;
 }
 
+@supports not (display: -ms-grid) {
+    .btn {
+        margin: 0;
+    }
+}
+
 .btn-2c {
     border-radius: 5px;
 }
@@ -862,6 +868,13 @@ label {
     padding: 10px 0 10px 0;
 }
 
+.contacts p {
+    font-size: 1.55em;
+}
+
+label {
+    font-size: 1.7em;
+}
 @media all and (max-width: 960px) {
     .svg-lang-ua {
         margin-top: 15px;
@@ -889,7 +902,7 @@ label {
         padding: 6px 0 13px 0;
     }
     label {
-        font-size: 1.3em;
+        font-size: 1.55em;
     }
     .refMenu {
         position: absolute;
@@ -1181,6 +1194,11 @@ label {
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
     }
+    @supports not (display: -ms-grid) {
+        .btn {
+            margin: 25px 0;
+        }
+    }
 }
 
 @media all and (max-width: 540px) {
@@ -1243,4 +1261,9 @@ label {
     label {
         line-height: 2.2em;
     }
+    #name-error,
+    #email-error {
+    font-size: 1.1em;
+    }
 }
+
