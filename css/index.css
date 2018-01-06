@@ -803,7 +803,8 @@ label {
     width: 100%;
     padding-top: 19px;
     left: 0;
-    padding-left: 8px; }
+    padding-left: 8px;
+    letter-spacing: 0.5px; }
   .breadcrumbs a {
     height: 52px; }
   .breadcrumbs a:before,
