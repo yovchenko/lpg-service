@@ -341,7 +341,8 @@ ul {
   cursor: pointer; }
 
 .breadcrumbs a:hover {
-  background: #10d648; }
+  background: #10d648;
+  text-shadow: 6px 6px 12px #335678; }
 
 .breadcrumbs a:before,
 .breadcrumbs a:after {
