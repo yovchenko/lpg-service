@@ -983,6 +983,8 @@ label {
   .contacts {
     display: flex;
     flex-direction: column;
+    margin: 0px 25px;
+    text-align: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
     .contacts form {
@@ -1023,7 +1025,11 @@ label {
       width: 100%;
       margin-bottom: 5%;
       -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } }
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  @supports (display: grid) {
+    .contacts {
+      margin: 0px;
+      text-align: start; } } }
 
 @media all and (max-width: 720px) {
   .company-name {
