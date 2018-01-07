@@ -130,7 +130,12 @@ h1 {
   text-align: center;
   font-size: 1.25em;
   line-height: 1.7;
+  padding: 0 25px;
   margin: 15px 0px; }
+
+@supports (display: grid) {
+  h1 {
+    padding: 0; } }
 
 h3 {
   color: #10d648;
@@ -385,7 +390,7 @@ ul {
   background-image: url(../pictures/ua.svg);
   background-size: contain;
   height: 20px;
-  margin-top: 15px;
+  margin-top: -15px;
   border-radius: 10%;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
@@ -397,10 +402,14 @@ ul {
   background-image: url(../pictures/ru.svg);
   background-size: contain;
   height: 20px;
-  margin-top: 15px;
+  margin-top: -15px;
   border-radius: 10%;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
+
+@supports (display: grid) {
+  .svg-lang-ua, .svg-lang-ru {
+    margin-top: 15px; } }
 
 .svg-lang-ua a,
 .svg-lang-ru a {
@@ -974,9 +983,12 @@ label {
     border-top-left-radius: 10px;
     border-style: outset; }
   .contacts {
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
     .contacts form {
+      order: 2;
       display: -ms-grid;
       display: grid;
       -ms-grid-column: 3;
@@ -1124,6 +1136,13 @@ h3 {
   text-shadow: 6px 6px 12px #c4d5e6;
   margin: 5px;
   width: 100%; }
+
+.float {
+  padding: 0 25px; }
+
+@supports (display: grid) {
+  .float {
+    padding: 0px; } }
 
 .empty {
   font-size: 2.5em;
