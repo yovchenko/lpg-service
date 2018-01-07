@@ -149,11 +149,6 @@ h1 {
     font-family: 'Open Sans',Arial,sans-serif;
 }
 
-.ch-info p a:hover {
-    color: #fff222;
-    color: rgba(255,242,34,0.8);
-}
-
 .ch-item:hover .ch-info-front {
     -webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
     transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
@@ -161,6 +156,18 @@ h1 {
 }
 
 .ch-item:hover .ch-info-back {
+    -webkit-transform: rotate3d(1,0,0,0deg);
+    transform: rotate3d(1,0,0,0deg);
+    opacity: 1;
+}
+
+.ch-item:focus .ch-info-front {
+    -webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    opacity: 0;
+}
+
+.ch-item:focus .ch-info-back {
     -webkit-transform: rotate3d(1,0,0,0deg);
     transform: rotate3d(1,0,0,0deg);
     opacity: 1;
