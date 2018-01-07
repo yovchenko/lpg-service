@@ -751,12 +751,12 @@ footer {
         @include grid-child(6, 13, 1, 1);
         -ms-grid-columns: 1fr;
         margin: 25px;
-        padding: 7px 0 14px 0;
     }
 }
 
 #contactForm {
         text-align: start;
+        padding: 5px;
 }
 
 textarea {
@@ -904,12 +904,8 @@ label {
         margin: 25px;
         line-height: 2.5em;
     }
-    form {
-        padding: 6px 0 13px 0;
-    }
     label {
         font-size: 1.55em;
-        line-height: 2.5em;
     }
     .refMenu {
         position: absolute;
@@ -965,6 +961,9 @@ label {
         margin: 15px;
         line-height: 2em;
         text-align: center;
+    }
+    label {
+        line-height: 2.5em;
     }
     .breadcrumbs {
         display: none;

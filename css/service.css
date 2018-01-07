@@ -664,11 +664,11 @@ footer {
     grid-column: 6/13;
     grid-row: 1/1;
     -ms-grid-columns: 1fr;
-    margin: 25px;
-    padding: 7px 0 14px 0; }
+    margin: 25px; }
 
 #contactForm {
-  text-align: start; }
+  text-align: start;
+  padding: 5px; }
 
 textarea {
   width: 100%;
@@ -795,11 +795,8 @@ label {
     font-size: 1.45em;
     margin: 25px;
     line-height: 2.5em; }
-  form {
-    padding: 6px 0 13px 0; }
   label {
-    font-size: 1.55em;
-    line-height: 2.5em; }
+    font-size: 1.55em; }
   .refMenu {
     position: absolute;
     font-size: 16px;
@@ -846,6 +843,8 @@ label {
     margin: 15px;
     line-height: 2em;
     text-align: center; }
+  label {
+    line-height: 2.5em; }
   .breadcrumbs {
     display: none; }
   #menuToggle {
