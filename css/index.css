@@ -667,10 +667,14 @@ footer {
     margin: 25px;
     padding: 7px 0 14px 0; }
 
+#contactForm {
+  text-align: start; }
+
 textarea {
   width: 100%;
   height: 6em;
   resize: none;
+  box-sizing: border-box;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -683,6 +687,7 @@ textarea {
   border: none;
   max-height: 50px;
   -ms-grid-row: 3;
+  width: 100%;
   height: 100%;
   margin: 25px 0;
   font-family: inherit;
@@ -724,6 +729,7 @@ textarea {
 input[type] {
   width: 100%;
   height: 1.6em;
+  box-sizing: border-box;
   border: 1px solid #10d648;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
