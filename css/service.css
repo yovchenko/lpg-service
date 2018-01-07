@@ -389,7 +389,7 @@ ul {
   background-image: url(../pictures/ua.svg);
   background-size: contain;
   height: 20px;
-  margin-top: 0px 10px 0px 0px;
+  margin: 0px 10px 0px 0px;
   border-radius: 10%;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
@@ -401,7 +401,7 @@ ul {
   background-image: url(../pictures/ru.svg);
   background-size: contain;
   height: 20px;
-  margin-top: 0px 10px 0px 0px;
+  margin: 0px 10px 0px 0px;
   border-radius: 10%;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
@@ -822,7 +822,7 @@ label {
     background-image: url(../pictures/ua.svg);
     background-size: contain;
     height: 25px;
-    margin-top: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
     border-radius: 10%;
     border: 2px solid #575756; }
   .svg-lang-ru {
@@ -833,7 +833,7 @@ label {
     background-image: url(../pictures/ru.svg);
     background-size: contain;
     height: 25px;
-    margin-top: 0px 10px 0px 0px;
+    margin: 0px 10px 0px 0px;
     border-radius: 10%;
     border: 2px solid #575756; }
   @supports (display: grid) {
