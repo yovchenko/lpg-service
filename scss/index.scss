@@ -149,6 +149,12 @@ h1 {
     h1 {
     padding: 0;
     }
+    .svg-lang-ua,.svg-lang-ru {
+        margin-top: 15px;
+    }
+    input[type] {
+    height: 1.6em;
+    }
 }
 
 h3 {
@@ -471,12 +477,6 @@ ul {
     border-radius: 10%;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
-}
-
-@supports (display: grid) {
-    .svg-lang-ua,.svg-lang-ru {
-        margin-top: 15px;
-    }
 }
 
 .svg-lang-ua a,
@@ -824,7 +824,7 @@ textarea {
 
 input[type] {
     width: 100%;
-    height: 1.6em;
+    height: 28px;
     box-sizing: border-box;
     border: 1px solid #10d648;
     border-bottom-right-radius: 10px;
@@ -959,12 +959,6 @@ label {
         margin: 0px 10px 0px 0px;
         border-radius: 10%;
         border: 2px solid #575756
-    }
-
-    @supports (display: grid) {
-        .svg-lang-ua,.svg-lang-ru {
-            margin: 13px;
-        }
     }
 
     p {
@@ -1168,6 +1162,9 @@ label {
         .contacts {
             margin: 0px;
             text-align: start;
+        }
+        .svg-lang-ua,.svg-lang-ru {
+            margin: 13px;
         }
     }
 }
