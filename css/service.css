@@ -1140,6 +1140,9 @@ label {
 main {
   text-align: center; }
 
+main li {
+  display: inline-block; }
+
 h1 {
   font-size: 1.8em;
   color: #10d648;
