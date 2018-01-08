@@ -1,3 +1,1 @@
-window.sr = ScrollReveal();
-sr.reveal('.slide', { duration: 700 });
-
+window.sr=ScrollReveal(),sr.reveal(".slide",{duration:700});

@@ -1,8 +1,15 @@
 let gulp = require('gulp');
-let cleanCSS = require('gulp-clean-css');
+var minify = require('gulp-minify');
  
-gulp.task('minify-css', () => {
-  return gulp.src('./css/*.css')
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('dist'));
+gulp.task('compress', function() {
+  gulp.src('./js/*.js')
+    .pipe(minify({
+        ext:{
+            src:'-debug.js',
+            min:'.js'
+        },
+        exclude: ['tasks'],
+        ignoreFiles: ['.combo.js', '-min.js']
+    }))
+    .pipe(gulp.dest('dist'))
 });
