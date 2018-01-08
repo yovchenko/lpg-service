@@ -1,7 +1,8 @@
-const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
-gulp.task('compress', function() {
-    gulp.src('pictures/asphalt.jpg')
-    .pipe(imagemin())
-    .pipe(gulp.dest('build/images'))
-  });
+var gulp = require('gulp');
+var htmlmin = require('gulp-htmlmin');
+
+gulp.task('minify', function() {
+  return gulp.src('./*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('dist'));
+});
