@@ -124,11 +124,23 @@ html {
 }
 
 .company-name {
+    visibility: hidden;
     font-family: 'Qwigley', cursive;
     text-align: center;
     font-size: 15em;
     color: #10d648;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.company-name.loaded {
+    visibility: visible;
+    font-family: 'Qwigley', cursive;
+}
+
+.company-name.error {
+    visibility: visible;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: 'Qwigley', cursive;
 }
 
 main {
