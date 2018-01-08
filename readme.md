@@ -22,7 +22,7 @@ FontFaceObserver has been tested and works on the following browsers:
 
 ### Author and Contributor list 
 ---------------------------
-Vladymyr.M Yovchenko
+Volodymyr.M Yovchenko
 
 All bugs and fixes can be sent to yovchenko.w@gmail.com
 
