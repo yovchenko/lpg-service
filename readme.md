@@ -9,6 +9,17 @@
 
 --Bootstrap
 
+## Browser support
+
+FontFaceObserver has been tested and works on the following browsers:
+
+* Chrome (desktop & Android)
+* Firefox
+* Opera
+* Safari (desktop & iOS)
+* IE8+
+* Android WebKit
+
 ### Author and Contributor list 
 ---------------------------
 Vladymyr.M Yovchenko
