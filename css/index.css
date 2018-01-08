@@ -456,22 +456,22 @@ ul {
 .svg-lang-ru:hover::before {
   -webkit-transition: .1s transform linear, .1s height linear .1s;
   transition: .1s transform linear, .1s height linear .1s;
-  transform: translateX(100);
-  -ms-transform: translateX(100);
-  -moz-transform: translateX(100);
-  -webkit-transform: translateX(100);
-  -o-transform: translateX(100);
+  transform: translateX(100deg);
+  -ms-transform: translateX(100deg);
+  -moz-transform: translateX(100deg);
+  -webkit-transform: translateX(100deg);
+  -o-transform: translateX(100deg);
   height: 100%;
   border-color: white; }
 
 .svg-lang-ru:hover::after {
   -webkit-transition: .1s transform linear .2s, .1s height linear .3s;
   transition: .1s transform linear .2s, .1s height linear .3s;
-  transform: translateX(-100);
-  -ms-transform: translateX(-100);
-  -moz-transform: translateX(-100);
-  -webkit-transform: translateX(-100);
-  -o-transform: translateX(-100);
+  transform: translateX(-100deg);
+  -ms-transform: translateX(-100deg);
+  -moz-transform: translateX(-100deg);
+  -webkit-transform: translateX(-100deg);
+  -o-transform: translateX(-100deg);
   height: 100%;
   border-color: white; }
 
