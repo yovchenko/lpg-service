@@ -1,8 +1,8 @@
-let gulp = require('gulp');
-let cleanCSS = require('gulp-clean-css');
+var gulp = require('gulp');
+var htmlmin = require('gulp-htmlmin');
  
-gulp.task('minify-css', () => {
-  return gulp.src('./css/*.css')
-    .pipe(cleanCSS({compatibility: 'ie8'}))
+gulp.task('minify', function() {
+  return gulp.src('./*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'));
 });
