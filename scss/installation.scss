@@ -1,6 +1,6 @@
 @import "index.scss";
 h1 {
-    font-size: 2.4em;
+    font-size: 2.2em;
     line-height: 1.6;
     margin: 15px 0px;
 }
@@ -14,7 +14,7 @@ h1 {
 h3 {
      color: #10d648;
      font-family: 'Philosopher', sans-serif;
-     font-size: 1.8em;
+     font-size: 2em;
      text-shadow: 6px 6px 12px #c4d5e6;
      margin: 5px;
      width: 100%;
@@ -190,11 +190,11 @@ hr {
 
   @media all and (max-width: 960px){
     h1 {
-        font-size: 2.2em;
+        font-size: 2em;
         line-height: 1.4;
     }
     h3 {
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
   }
 

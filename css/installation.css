@@ -142,7 +142,7 @@ main {
 h1 {
   color: #10d648;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.35em;
   line-height: 1.7;
   padding: 0 25px;
   margin: 15px 0px; }
@@ -586,13 +586,13 @@ footer {
   width: 50px; }
 
 .name-part-1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #529be1;
   text-shadow: 6px 6px 12px #c4d5e6;
   font-family: 'Philosopher', sans-serif; }
 
 .name-part-2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #10d648;
   text-shadow: 6px 6px 12px #c4d5e6;
   font-family: 'Philosopher', sans-serif; }
@@ -632,7 +632,7 @@ footer {
     grid-column: 1/13;
     grid-row: 2/2;
     height: 350px;
-    margin-bottom: 3%;
+    margin: 5% 0%;
     -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .contacts form {
@@ -649,7 +649,8 @@ footer {
 
 #contactForm {
   text-align: start;
-  padding: 5px; }
+  padding: 5px;
+  margin-bottom: 5%; }
 
 textarea {
   width: 100%;
@@ -672,6 +673,7 @@ textarea {
   height: 100%;
   margin: 25px 0;
   font-family: inherit;
+  font-size: 2em;
   color: inherit;
   background: none;
   cursor: pointer;
@@ -690,7 +692,7 @@ textarea {
   color: #fff;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 1.6em;
+  font-size: 2em;
   -webkit-transition: none;
   transition: none; }
 
@@ -756,28 +758,29 @@ label {
   right: 12px; }
 
 .contacts p {
-  font-size: 1.6em; }
+  font-size: 20px;
+  line-height: 2.2em; }
 
 label {
-  font-size: 1.8em; }
+  font-size: 20px; }
 
 @media all and (max-width: 960px) {
   .message {
     font-size: 16px; }
   h1 {
-    font-size: 1.1em;
+    font-size: 1.25em;
     line-height: 1.6;
     margin: 15px 0px; }
   .name-part-1 {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .name-part-2 {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .contacts p {
-    font-size: 1.45em;
-    margin: 25px;
+    font-size: 18px;
+    margin: 25px 25px 25px 0px;
     line-height: 2.5em; }
   label {
-    font-size: 1.55em; }
+    font-size: 18px; }
   .refMenu {
     font-size: 18px;
     padding-left: 13px;
@@ -792,9 +795,11 @@ label {
     border-bottom-width: 26px;
     border-left-width: 13px; }
   .btn {
-    font-size: 16px; } }
+    font-size: 18px; } }
 
 @media all and (max-width: 830px) {
+  .contacts p {
+    margin: 25px; }
   .svg-lang-ua {
     position: absolute;
     top: 0px;
@@ -1001,7 +1006,7 @@ label {
       grid-column: 2/12;
       grid-row: 2/2;
       width: 100%;
-      margin-bottom: 5%;
+      margin: 5% 0%;
       -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   @supports (display: grid) {
@@ -1061,7 +1066,7 @@ label {
     grid-column: 2/12;
     grid-row: 2/2;
     width: 100%;
-    margin-bottom: 5%;
+    margin: 5% 0%;
     -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   @supports not (display: -ms-grid) {
@@ -1104,7 +1109,7 @@ label {
     text-align: center; } }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 2.2em;
   line-height: 1.6;
   margin: 15px 0px; }
 
@@ -1116,7 +1121,7 @@ h1 {
 h3 {
   color: #10d648;
   font-family: 'Philosopher', sans-serif;
-  font-size: 1.8em;
+  font-size: 2em;
   text-shadow: 6px 6px 12px #c4d5e6;
   margin: 5px;
   width: 100%; }
@@ -1281,10 +1286,10 @@ hr {
 
 @media all and (max-width: 960px) {
   h1 {
-    font-size: 2.2em;
+    font-size: 2em;
     line-height: 1.4; }
   h3 {
-    font-size: 1.6em; } }
+    font-size: 1.8em; } }
 
 @media all and (max-width: 540px) {
   .price-wrapper-1 {
