@@ -739,7 +739,7 @@ footer {
 #contactForm {
         text-align: start;
         padding: 5px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
 }
 
 textarea {
@@ -831,10 +831,10 @@ label {
 .licenses>ul>li>a[href] {
     display: inline-block;
     margin: 20px;
-    -webkit-transition: -webkit-transform 2s ease-in-out;
-    transition: -webkit-transform 2s ease-in-out;
-    transition: transform 2s ease-in-out;
-    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition: -webkit-transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
 }
 
 .licenses>ul>li>a[href]>img {
@@ -870,6 +870,12 @@ label {
     font-size: 20px;
 }
 @media all and (max-width: 960px) {
+    .licenses>ul>li>a[href] {
+        -webkit-transition: none;
+        transition: none;
+        transition: none;
+        transition: none, none;
+    }
     .message {
         font-size: 16px;
     }
