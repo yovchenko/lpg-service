@@ -12,3 +12,5 @@ function myFunction() {
 document.addEventListener('DOMContentLoaded',function(e){
     document.getElementsByClassName("company-name")[0].className += " loaded";
 });
+
+
