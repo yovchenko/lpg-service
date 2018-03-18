@@ -142,10 +142,6 @@ html {
     visibility: visible;
 }
 
-.company-name.error {
-    visibility: visible;
-}
-
 main {
     display: block;
     @include grid-child(2, 12, 1, 1);

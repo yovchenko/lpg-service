@@ -8,11 +8,7 @@ function myFunction() {
         $(".responsive").stop(!0, !0).slideDown()
     } else e.className = "menuButton", $(".responsive").stop(!0, !0).slideUp()
 }
-var font = new FontFaceObserver('Qwigley',{
-    weight: 400
-});
-font.load('GasCentr', 500).then(function () {
-    document.getElementsByClassName("company-name")[0].className += " loaded"
-}, function () {
-    document.getElementsByClassName("company-name")[0].className += " error"
+
+document.addEventListener('DOMContentLoaded',function(e){
+    document.getElementsByClassName("company-name")[0].className += " loaded";
 });
