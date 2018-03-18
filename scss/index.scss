@@ -134,13 +134,11 @@ html {
 
 .company-name.loaded {
     visibility: visible;
-    font-family: 'Qwigley', cursive;
 }
 
 .company-name.error {
     visibility: visible;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-family: 'Qwigley', cursive;
+    font-family: Georgia, serif;
 }
 
 main {

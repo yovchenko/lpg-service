@@ -11,7 +11,9 @@ if (menu.className === "menuButton") {
     style = $(".responsive").stop(true, true).slideUp();
 }
 }
-var font = new FontFaceObserver('Qwigley');
+var font = new FontFaceObserver('Qwigley',{
+    weight: 400
+});
   font.load().then(function () {
         document.getElementsByClassName('company-name')[0].className += " loaded";
   }, function () {
