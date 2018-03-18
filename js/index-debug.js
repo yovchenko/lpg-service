@@ -1,21 +1,16 @@
-'use strict';
+"use strict";
+
 function myFunction() {
-var menu = document.getElementById("menuToggle");
-var $nav = $(".breadcrumbs");
-if (menu.className === "menuButton") {
-    menu.className += " active";
-    $nav.addClass("responsive");
-    var style = $(".responsive").stop(true, true).slideDown();
-} else {
-    menu.className = "menuButton";
-    style = $(".responsive").stop(true, true).slideUp();
+    var e = document.getElementById("menuToggle"),
+        s = $(".breadcrumbs");
+    if ("menuButton" === e.className) {
+        e.className += " active", s.addClass("responsive");
+        $(".responsive").stop(!0, !0).slideDown()
+    } else e.className = "menuButton", $(".responsive").stop(!0, !0).slideUp()
 }
-}
-var font = new FontFaceObserver('Qwigley',{
-    weight: 400
+
+document.addEventListener('DOMContentLoaded',function(e){
+    document.getElementsByClassName("company-name")[0].className += " loaded";
 });
-  font.load().then(function () {
-        document.getElementsByClassName('company-name')[0].className += " loaded";
-  }, function () {
-        document.getElementsByClassName('company-name')[0].className += " error";
-  });
+
+
