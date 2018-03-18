@@ -113,6 +113,9 @@ html {
     -webkit-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
     margin-right: 10px;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility:hidden;
 }
 
 .header-img img:last-child {
@@ -121,6 +124,9 @@ html {
     -webkit-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
     margin-left: 10px;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility:hidden;
 }
 
 .company-name {
@@ -184,14 +190,20 @@ p {
 }
 
 .refMenu {
+    display: table-cell;
+    vertical-align: middle;
     position: absolute;
-    font-size: 18px;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    padding-left: 16px;
+    font-size: 20px;
     text-align: center;
     width: 100%;
-    padding-top: 24px;
-    left: 0;
-    padding-left: 8px;
     letter-spacing: 1.1px;
+    z-index: 2;
 }
 
 
@@ -407,12 +419,12 @@ ul {
 
 .breadcrumbs a {
     position: relative;
-    display: block;
+    display: table;
     height: 64px;
     width: 100%;
     padding-right: 0 !important;
     /* important overrides media queries */
-    text-shadow: 6px 6px 12px #c4d5e6;
+    text-shadow: 0px 6px 12px #c4d5e6;
     font-weight: bold;
     text-align: center;
     color: #10d648;
@@ -422,7 +434,7 @@ ul {
 
 .breadcrumbs a:hover {
     background: #10d648;
-    text-shadow: 6px 6px 12px darken(#c4d5e6, 50%);
+    text-shadow: 0px 6px 12px darken(#c4d5e6, 50%);
 }
 
 .breadcrumbs a:before,
@@ -878,13 +890,10 @@ label {
         font-size: 1.55em;
     }
     .refMenu {
-        position: absolute;
-        font-size: 16px;
+        font-size: 18px;
+        padding-left: 13px;
         text-align: center;
         width: 100%;
-        padding-top: 19px;
-        left: 0;
-        padding-left: 0px;
         letter-spacing: 0.5px;
     }
     .breadcrumbs a {
@@ -1000,11 +1009,9 @@ label {
         transform: rotate(45deg) translate(-2px, -2px);
     }
     .refMenu {
-        position: absolute;
-        font-size: 16px;
+        padding: 0;
         text-align: center;
         width: 100%;
-        padding-top: 14px;
     }
     .breadcrumbs.responsive {
         border: none;
