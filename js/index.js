@@ -11,7 +11,7 @@ function myFunction() {
 var font = new FontFaceObserver('Qwigley',{
     weight: 400
 });
-font.load('GasCentr').then(function () {
+font.load('GasCentr', 1000).then(function () {
     document.getElementsByClassName("company-name")[0].className += " loaded"
 }, function () {
     document.getElementsByClassName("company-name")[0].className += " error"
