@@ -925,7 +925,7 @@ label {
         background-image: url(../pictures/ua.svg);
         background-size: contain;
         height: 25px;
-        margin: 0px 10px 0px 0px;
+        margin: 11px 15px 15px 0px;
         border-radius: 10%;
         border: 2px solid #575756
     }
@@ -937,7 +937,7 @@ label {
         background-image: url(../pictures/ru.svg);
         background-size: contain;
         height: 25px;
-        margin: 0px 10px 0px 0px;
+        margin: 11px 15px 15px 0px;
         border-radius: 10%;
         border: 2px solid #575756
     }
@@ -958,7 +958,7 @@ label {
         width: 40px;
         position: relative;
         z-index: 1;
-        margin: 15.25px;
+        margin: 14.5px;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -1146,7 +1146,7 @@ label {
             text-align: start;
         }
         .svg-lang-ua,.svg-lang-ru {
-            margin: 13px;
+            margin: 11px 15px 15px 0px;
         }
     }
 }
