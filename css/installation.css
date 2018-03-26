@@ -801,24 +801,24 @@ label {
     margin: 25px; }
   .svg-lang-ua {
     position: absolute;
-    top: 0px;
+    top: -12.5px;
     right: 0px;
     width: 40px;
+    margin: 0;
     background-image: url(../pictures/ua.svg);
     background-size: contain;
     height: 25px;
-    margin: 12.5px 15px 12.5px 0px;
     border-radius: 10%;
     border: 2px solid #575756; }
   .svg-lang-ru {
     position: absolute;
-    top: 0px;
-    right: 60.25px;
+    top: -12.5px;
+    right: 65.25px;
     width: 40px;
+    margin: 0;
     background-image: url(../pictures/ru.svg);
     background-size: contain;
     height: 25px;
-    margin: 12.5px 15px 12.5px 0px;
     border-radius: 10%;
     border: 2px solid #575756; }
   p {
@@ -1016,9 +1016,7 @@ label {
   @supports (display: grid) {
     .contacts {
       margin: 0px;
-      text-align: start; }
-    .svg-lang-ua, .svg-lang-ru {
-      margin: 12.5px 15px 12.5px 0px; } } }
+      text-align: start; } } }
 
 @media all and (max-width: 720px) {
   .company-name {
