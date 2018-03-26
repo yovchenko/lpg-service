@@ -11,7 +11,7 @@
 
 ## Browser support
 
-FontFaceObserver has been tested and works on the following browsers:
+this website has been tested and works on the following browsers:
 
 * Chrome (desktop & Android)
 * Firefox
