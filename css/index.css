@@ -368,6 +368,9 @@ ul {
   font-weight: bold;
   text-align: center;
   color: #10d648;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */
   text-decoration: none;
   cursor: pointer; }
 
@@ -830,6 +833,10 @@ label {
     text-align: center; }
   label {
     line-height: 2.5em; }
+  h2 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    /* For some Androids */ }
   .breadcrumbs {
     display: none; }
   #menuToggle {

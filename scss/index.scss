@@ -425,6 +425,8 @@ ul {
     font-weight: bold;
     text-align: center;
     color: #10d648;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
     text-decoration: none;
     cursor: pointer;
 }
@@ -951,6 +953,10 @@ label {
     }
     label {
         line-height: 2.5em;
+    }
+    h2 {
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-tap-highlight-color: transparent; /* For some Androids */
     }
     .breadcrumbs {
         display: none;
