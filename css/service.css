@@ -800,7 +800,7 @@ label {
     margin: 25px; }
   .svg-lang-ua {
     position: absolute;
-    top: -12.5px;
+    top: 12.5px;
     right: 0px;
     width: 40px;
     margin: 0;
@@ -811,7 +811,7 @@ label {
     border: 2px solid #575756; }
   .svg-lang-ru {
     position: absolute;
-    top: -12.5px;
+    top: 12.5px;
     right: 65.25px;
     width: 40px;
     margin: 0;
