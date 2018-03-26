@@ -252,6 +252,7 @@ p {
   text-indent: -9999px; }
 
 .smoke.smokeActive span {
+  color: #10d648;
   -webkit-animation-name: smoke;
   animation-name: smoke; }
 
