@@ -369,6 +369,8 @@ img {
 
 header {
     max-width: 1140px;
+    display: flex;
+    flex-direction: column;
     @include display-grid;
     width: 100%;
     grid-template-columns: repeat(12, 1fr);

@@ -312,6 +312,8 @@ img {
 
 header {
   max-width: 1140px;
+  display: flex;
+  flex-direction: column;
   display: -ms-grid;
   display: grid;
   width: 100%;
