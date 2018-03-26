@@ -806,7 +806,7 @@ label {
     background-image: url(../pictures/ua.svg);
     background-size: contain;
     height: 25px;
-    margin: 0px 10px 0px 0px;
+    margin: 12.5px 10px 0px 0px;
     border-radius: 10%;
     border: 2px solid #575756; }
   .svg-lang-ru {
@@ -817,7 +817,7 @@ label {
     background-image: url(../pictures/ru.svg);
     background-size: contain;
     height: 25px;
-    margin: 0px 10px 0px 0px;
+    margin: 12.5px 10px 0px 0px;
     border-radius: 10%;
     border: 2px solid #575756; }
   p {
@@ -1017,7 +1017,7 @@ label {
       margin: 0px;
       text-align: start; }
     .svg-lang-ua, .svg-lang-ru {
-      margin: 13px; } } }
+      margin: 12.5px; } } }
 
 @media all and (max-width: 720px) {
   .company-name {
