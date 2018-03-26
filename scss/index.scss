@@ -245,7 +245,7 @@ p {
 }
 
 .carousel-indicators li {
-    border: 7px dotted rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .carousel-indicators {
@@ -1173,9 +1173,6 @@ label {
         max-height: 10em;
         margin-left: 10px;
     }
-    .carousel-indicators li {
-        border: 6px dotted rgba(255, 255, 255, 0.5);
-    }
     .header-img {
         background-size: contain;
     }
@@ -1249,9 +1246,6 @@ label {
     }
     .smoke {
         font-size: 3.5em;
-    }
-    .carousel-indicators li {
-        border: 5px dotted rgba(255, 255, 255, 0.5);
     }
     p {
         margin: 15px;

@@ -215,7 +215,7 @@ p {
   opacity: 1; }
 
 .carousel-indicators li {
-  border: 7px dotted rgba(255, 255, 255, 0.5); }
+  border: 1px solid white; }
 
 .carousel-indicators {
   position: absolute;
@@ -1033,8 +1033,6 @@ label {
     max-width: 10em;
     max-height: 10em;
     margin-left: 10px; }
-  .carousel-indicators li {
-    border: 6px dotted rgba(255, 255, 255, 0.5); }
   .header-img {
     background-size: contain; }
   .contacts form {
@@ -1108,8 +1106,6 @@ label {
     max-height: 80vh; }
   .smoke {
     font-size: 3.5em; }
-  .carousel-indicators li {
-    border: 5px dotted rgba(255, 255, 255, 0.5); }
   p {
     margin: 15px;
     text-align: center; } }
