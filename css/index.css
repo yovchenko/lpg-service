@@ -800,24 +800,24 @@ label {
     margin: 25px; }
   .svg-lang-ua {
     position: absolute;
-    top: 12.5px;
+    top: 0px;
     right: 0px;
     width: 40px;
-    margin: 0;
     background-image: url(../pictures/ua.svg);
     background-size: contain;
     height: 25px;
+    margin: 0px 10px 0px 0px;
     border-radius: 10%;
     border: 2px solid #575756; }
   .svg-lang-ru {
     position: absolute;
-    top: 12.5px;
-    right: 75px;
+    top: 0px;
+    right: 60.25px;
     width: 40px;
-    margin: 0;
     background-image: url(../pictures/ru.svg);
     background-size: contain;
     height: 25px;
+    margin: 0px 10px 0px 0px;
     border-radius: 10%;
     border: 2px solid #575756; }
   p {
@@ -896,13 +896,8 @@ label {
     width: 100%;
     border-top: 2px solid rgba(87, 87, 86, 0.8); }
   .breadcrumbs li h2 a:active {
-    background: #10d648;
-    color: white;
-    text-shadow: 0px 6px 12px #335678; }
-  .breadcrumbs li h2 a:hover {
-    background: #10d648;
-    color: white;
-    text-shadow: 0px 6px 12px #335678; }
+    color: transparent;
+    background-color: transparent; }
   .breadcrumbs li::before {
     content: '';
     display: block;
@@ -1015,7 +1010,9 @@ label {
   @supports (display: grid) {
     .contacts {
       margin: 0px;
-      text-align: start; } } }
+      text-align: start; }
+    .svg-lang-ua, .svg-lang-ru {
+      margin: 13px; } } }
 
 @media all and (max-width: 720px) {
   .company-name {
