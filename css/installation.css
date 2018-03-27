@@ -281,7 +281,7 @@ p {
   0% {
     text-shadow: 9999px 0 0 #999999; }
   90% {
-    text-shadow: 9999px -40px 20px rgba(0, 0, 0, 0.5); }
+    text-shadow: 9999px -40px 20px rgba(0, 0, 0, 0.3); }
   100% {
     text-shadow: 9999px 0 0 transparent; } }
 
@@ -289,7 +289,7 @@ p {
   0% {
     text-shadow: 9999px 0 0 #999999; }
   90% {
-    text-shadow: 9999px -40px 20px rgba(0, 0, 0, 0.5); }
+    text-shadow: 9999px -40px 20px rgba(0, 0, 0, 0.3); }
   100% {
     text-shadow: 9999px 0 0 transparent; } }
 
@@ -1242,12 +1242,7 @@ img[alt*='Двигатель'] {
 .float svg, .float img {
   fill: rgba(0, 0, 0, 0.8);
   filter: url("#drop-shadow");
-  -webkit-filter: url("#drop-shadow");
-  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
-  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
-  -moz-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
-  -o-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
-  -ms-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7)); }
+  -webkit-filter: url("#drop-shadow"); }
 
 hr {
   width: 90%; }
