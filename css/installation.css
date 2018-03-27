@@ -1220,7 +1220,7 @@ img[alt*='Двигатель'] {
   border-style: inset; }
 
 .price-value > div {
-  margin: 1%;
+  margin: 5px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -1251,7 +1251,8 @@ hr {
   width: 90%; }
 
 .price-value {
-  margin: 5px; }
+  margin: 5px;
+  margin-bottom: -5px; }
 
 .come-in {
   -webkit-transform: translateY(100px);
