@@ -128,6 +128,8 @@ img[alt*='Двигатель'] {
     -moz-filter: drop-shadow( 2px 2px 4px rgba(0,0,0,0.7));
     -o-filter: drop-shadow( 2px 2px 4px rgba(0,0,0,0.7));
     -ms-filter: drop-shadow( 2px 2px 4px rgba(0,0,0,0.7));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=1, Color='#444')";
  }
 
 hr {
