@@ -1,48 +1,137 @@
 @import 'variables';
 @import 'mixins';
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 body,
 html {
     line-height: $lineHeight;
@@ -85,7 +174,7 @@ html {
 @-webkit-keyframes rotating
 /* Safari and Chrome */
 
-{
+    {
     from {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -113,9 +202,9 @@ html {
     -webkit-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
     margin-right: 10px;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-backface-visibility:hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
 }
 
 .header-img img:last-child {
@@ -124,9 +213,9 @@ html {
     -webkit-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
     margin-left: 10px;
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
-    -webkit-backface-visibility:hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
 }
 
 .company-name {
@@ -158,13 +247,14 @@ h1 {
 
 @supports (display: grid) {
     h1 {
-    padding: 0;
+        padding: 0;
     }
-    .svg-lang-ua,.svg-lang-ru {
+    .svg-lang-ua,
+    .svg-lang-ru {
         margin-top: 15px;
     }
     input[type] {
-    height: 1.6em;
+        height: 1.6em;
     }
 }
 
@@ -200,7 +290,6 @@ p {
     letter-spacing: 1.1px;
     z-index: 2;
 }
-
 
 /*gallery.html*/
 
@@ -343,6 +432,7 @@ p {
 }
 
 /*contacts .html*/
+
 .message {
     font-size: 18px;
     font-family: 'Philosopher', sans-serif;
@@ -425,8 +515,9 @@ ul {
     font-weight: bold;
     text-align: center;
     color: #10d648;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-tap-highlight-color: transparent; /* For some Androids */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    /* For some Androids */
     text-decoration: none;
     cursor: pointer;
 }
@@ -472,7 +563,6 @@ ul {
 .breadcrumbs li:last-child a:after {
     display: none;
 }
-
 
 .svg-lang-ua {
     position: absolute;
@@ -650,8 +740,8 @@ footer {
     /*Safari 5.1-6*/
     /*Opera 11.1-12*/
     /*Fx 3.6-15*/
-    background: -webkit-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2));
-    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2));
+    background: -webkit-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
     /*Standard*/
 }
 
@@ -723,7 +813,7 @@ footer {
     #map {
         @include grid-child(1, 13, 2, 2);
         height: 350px;
-         margin: 5% 0%;
+        margin: 5% 0%;
         -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -736,9 +826,9 @@ footer {
 }
 
 #contactForm {
-        text-align: start;
-        padding: 5px;
-        margin-bottom: 25px;
+    text-align: start;
+    padding: 5px;
+    margin-bottom: 25px;
 }
 
 textarea {
@@ -868,12 +958,12 @@ label {
 label {
     font-size: 20px;
 }
+
 @media all and (max-width: 960px) {
     .licenses>ul>li>a[href]:hover {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-    
     .message {
         font-size: 16px;
     }
@@ -888,7 +978,7 @@ label {
     .name-part-2 {
         font-size: 2rem;
     }
-   .contacts p {
+    .contacts p {
         font-size: 18px;
         margin: 25px 25px 25px 0px;
         line-height: 2.5em;
@@ -945,7 +1035,6 @@ label {
         border-radius: 10%;
         border: 2px solid #575756
     }
-
     p {
         margin: 15px;
         line-height: 2em;
@@ -955,8 +1044,9 @@ label {
         line-height: 2.5em;
     }
     h2 {
-        -webkit-tap-highlight-color: rgba(0,0,0,0);
-        -webkit-tap-highlight-color: transparent; /* For some Androids */
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
+        /* For some Androids */
     }
     .breadcrumbs {
         display: none;
@@ -1039,16 +1129,16 @@ label {
         width: 100%;
         border-top: 2px solid rgba(87, 87, 86, 0.8);
     }
-    .breadcrumbs li h2 a:active {	   
-            background: #10d648;	    
-            color: white;	    
-            text-shadow: 0px 6px 12px #335678; 
-        }	
-          .breadcrumbs li h2 a:hover {	
-            background: #10d648;	
-            color: white;	
-            text-shadow: 0px 6px 12px #335678; 
-        }
+    .breadcrumbs li h2 a:active {
+        background: #10d648;
+        color: white;
+        text-shadow: 0px 6px 12px #335678;
+    }
+    .breadcrumbs li h2 a:hover {
+        background: #10d648;
+        color: white;
+        text-shadow: 0px 6px 12px #335678;
+    }
     .breadcrumbs li::before {
         content: '';
         display: block;
@@ -1159,7 +1249,8 @@ label {
             margin: 0px;
             text-align: start;
         }
-        .svg-lang-ua,.svg-lang-ru {
+        .svg-lang-ua,
+        .svg-lang-ru {
             margin: 12.5px;
         }
     }
@@ -1258,4 +1349,3 @@ label {
         text-align: center;
     }
 }
-
