@@ -120,7 +120,7 @@ html {
   visibility: hidden;
   font-family: 'Qwigley', cursive;
   text-align: center;
-  font-size: 15em;
+  font-size: 16em;
   color: #10d648;
   text-shadow: 2px 2px 4px black; }
 
@@ -776,7 +776,18 @@ label {
 label {
   font-size: 20px; }
 
+@media all and (max-width: 1280px) {
+  .header-img {
+    background-size: 40%;
+    background-position: center top; } }
+
+@media all and (max-width: 1024px) {
+  .header-img {
+    background-size: 50%; } }
+
 @media all and (max-width: 960px) {
+  .company-name {
+    font-size: 14em; }
   .licenses > ul > li > a[href]:hover {
     -webkit-transform: scale(1);
     transform: scale(1); }
@@ -814,16 +825,9 @@ label {
   .btn {
     font-size: 18px; } }
 
-@media all and (max-width: 1280px) {
-  .header-img {
-    background-size: 40%;
-    background-position: center top; } }
-
-@media all and (max-width: 1024px) {
-  .header-img {
-    background-size: 50%; } }
-
 @media all and (max-width: 830px) {
+  .company-name {
+    font-size: 12em; }
   .header-img {
     background-size: 60%; }
   .contacts p {
@@ -1113,19 +1117,20 @@ label {
   .brands img {
     margin: 20px 0; }
   .company-name {
-    font-size: 8em; }
+    font-size: 8em;
+    padding: 0px 65px; }
   .header-img img:first-child {
     max-width: 8em;
     max-height: 8em;
     margin-right: 10px;
     position: relative;
-    left: 10px; }
+    left: 65px; }
   .header-img img:last-child {
     max-width: 8em;
     max-height: 8em;
     margin-left: 10px;
     position: relative;
-    right: 10px; }
+    right: 65px; }
   .header-img {
     overflow: hidden; }
   .carousel {
