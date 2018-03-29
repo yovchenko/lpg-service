@@ -48,13 +48,9 @@ html {
   height: 100%; }
 
 .grid-wrapper {
-  display: -ms-grid;
-  display: grid;
   max-width: 1140px;
   min-height: 100%;
-  width: 100%;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: repeat(12, 1fr);
+  width: 90%;
   margin: 0 auto; }
 
 .header-img {
@@ -97,8 +93,8 @@ html {
     transform: rotate(360deg); } }
 
 .header-img img:first-child {
-  max-width: 10em;
-  max-height: 10em;
+  width: 13em;
+  height: 13em;
   -webkit-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
   margin-right: 10px;
@@ -107,8 +103,8 @@ html {
   -webkit-backface-visibility: hidden; }
 
 .header-img img:last-child {
-  max-width: 10em;
-  max-height: 10em;
+  width: 13em;
+  height: 13em;
   -webkit-animation: rotating 2s linear infinite;
   animation: rotating 2s linear infinite;
   margin-left: 10px;
@@ -120,7 +116,7 @@ html {
   visibility: hidden;
   font-family: 'Qwigley', cursive;
   text-align: center;
-  font-size: 16em;
+  font-size: 15em;
   color: #10d648;
   text-shadow: 2px 2px 4px black; }
 
@@ -179,7 +175,6 @@ p {
   font-size: 20px;
   text-align: center;
   width: 100%;
-  letter-spacing: 1px;
   z-index: 2; }
 
 /*gallery.html*/
@@ -319,12 +314,8 @@ img {
 header {
   max-width: 1140px;
   display: flex;
+  width: 90%;
   flex-direction: column;
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(12, 1fr);
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: 0 auto; }
 
 nav {
@@ -778,16 +769,19 @@ label {
 
 @media all and (max-width: 1280px) {
   .header-img {
-    background-size: 40%;
-    background-position: center top; } }
-
-@media all and (max-width: 1024px) {
-  .header-img {
     background-size: 50%; } }
 
 @media all and (max-width: 960px) {
+  .header-img {
+    background-size: 70%; }
   .company-name {
-    font-size: 14em; }
+    font-size: 13em; }
+  .header-img img:first-child {
+    width: 11em;
+    height: 11em; }
+  .header-img img:last-child {
+    width: 11em;
+    height: 11em; }
   .licenses > ul > li > a[href]:hover {
     -webkit-transform: scale(1);
     transform: scale(1); }
@@ -813,11 +807,7 @@ label {
     font-size: 18px;
     padding-left: 13px;
     text-align: center;
-    width: 100%;
-    letter-spacing: 0.5px; }
-  @-moz-document url-prefix() {
-    .refMenu {
-      letter-spacing: 0.1px; } }
+    width: 100%; }
   .breadcrumbs a {
     height: 52px; }
   .breadcrumbs a:before,
@@ -829,10 +819,8 @@ label {
     font-size: 18px; } }
 
 @media all and (max-width: 830px) {
-  .company-name {
-    font-size: 12em; }
   .header-img {
-    background-size: 60%; }
+    background-size: 80%; }
   .contacts p {
     margin: 25px; }
   .svg-lang-ua {
@@ -1063,15 +1051,13 @@ label {
 
 @media all and (max-width: 720px) {
   .company-name {
-    font-size: 10em; }
+    font-size: 11em; }
   .header-img img:first-child {
-    max-width: 10em;
-    max-height: 10em;
-    margin-right: 10px; }
+    width: 9em;
+    height: 9em; }
   .header-img img:last-child {
-    max-width: 10em;
-    max-height: 10em;
-    margin-left: 10px; }
+    width: 9em;
+    height: 9em; }
   .header-img {
     background-size: contain; }
   .contacts form {
@@ -1123,11 +1109,13 @@ label {
     font-size: 8em;
     padding: 0px 65px; }
   .header-img img:first-child {
+    width: 8em;
     height: 8em;
     margin-right: 10px;
     position: relative;
     left: 65px; }
   .header-img img:last-child {
+    width: 8em;
     height: 8em;
     margin-left: 10px;
     position: relative;
@@ -1147,6 +1135,23 @@ label {
   p {
     margin: 15px;
     text-align: center; } }
+
+@media all and (max-width: 320px) {
+  .company-name {
+    font-size: 6em;
+    padding: 0px 65px; }
+  .header-img img:first-child {
+    width: 6em;
+    height: 6em;
+    margin-right: 10px;
+    position: relative;
+    left: 65px; }
+  .header-img img:last-child {
+    width: 6em;
+    height: 6em;
+    margin-left: 10px;
+    position: relative;
+    right: 65px; } }
 
 h1 {
   font-size: 2.2em;

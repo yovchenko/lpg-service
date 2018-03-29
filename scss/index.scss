@@ -51,12 +51,9 @@ html {
 }
 
 .grid-wrapper {
-    @include display-grid;
     max-width: 1140px;
     min-height: 100%;
-    width: 100%;
-    -ms-grid-columns: $msGrid;
-    grid-template-columns: repeat(12, 1fr);
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -110,8 +107,8 @@ html {
 }
 
 .header-img img:first-child {
-    max-width: 10em;
-    max-height: 10em;
+    width: 13em;
+    height: 13em;
     -webkit-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
     margin-right: 10px;
@@ -121,8 +118,8 @@ html {
 }
 
 .header-img img:last-child {
-    max-width: 10em;
-    max-height: 10em;
+    width: 13em;
+    height: 13em;
     -webkit-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
     margin-left: 10px;
@@ -135,7 +132,7 @@ html {
     visibility: hidden;
     font-family: 'Qwigley', cursive;
     text-align: center;
-    font-size: 16em;
+    font-size: 15em;
     color: #10d648;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
@@ -199,11 +196,8 @@ p {
     font-size: 20px;
     text-align: center;
     width: 100%;
-    letter-spacing: 1px;
     z-index: 2;
 }
-
-
 /*gallery.html*/
 
 .carousel {
@@ -374,11 +368,8 @@ img {
 header {
     max-width: 1140px;
     display: flex;
+    width: 90%;
     flex-direction: column;
-    @include display-grid;
-    width: 100%;
-    grid-template-columns: repeat(12, 1fr);
-    -ms-grid-columns: $msGrid;
     margin: 0 auto;
 }
 
@@ -880,24 +871,28 @@ label {
 }
 @media all and (max-width: 1280px) {
     .header-img {
-        background-size: 40%;
-        background-position: center top;
-    }
-}
-@media all and (max-width: 1024px) {
-    .header-img {
         background-size: 50%;
-    }
+    } 
 }
 @media all and (max-width: 960px) {
+    .header-img {
+        background-size: 70%;
+    } 
     .company-name {
-        font-size: 14em;
+        font-size: 13em;
+    }
+    .header-img img:first-child {
+        width: 11em;
+        height: 11em;
+    }
+    .header-img img:last-child {
+        width: 11em;
+        height: 11em;
     }
     .licenses>ul>li>a[href]:hover {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-    
     .message {
         font-size: 16px;
     }
@@ -928,12 +923,6 @@ label {
         padding-left: 13px;
         text-align: center;
         width: 100%;
-        letter-spacing: 0.5px;
-    }
-    @-moz-document url-prefix() { 
-        .refMenu {
-            letter-spacing: 0.1px;
-        }
     }
     .breadcrumbs a {
         height: 52px;
@@ -949,11 +938,8 @@ label {
     }
 }
 @media all and (max-width: 830px) {
-    .company-name {
-        font-size: 12em;
-    }
     .header-img {
-        background-size: 60%;
+        background-size: 80%;
     }
     .contacts p {
         margin: 25px;
@@ -1205,17 +1191,15 @@ label {
 
 @media all and (max-width: 720px) {
     .company-name {
-        font-size: 10em;
+        font-size: 11em;
     }
     .header-img img:first-child {
-        max-width: 10em;
-        max-height: 10em;
-        margin-right: 10px;
+        width: 9em;
+        height: 9em;
     }
     .header-img img:last-child {
-        max-width: 10em;
-        max-height: 10em;
-        margin-left: 10px;
+        width: 9em;
+        height: 9em;
     }
     .header-img {
         background-size: contain;
@@ -1263,12 +1247,14 @@ label {
         padding: 0px 65px;
     }
     .header-img img:first-child {
+        width: 8em;
         height: 8em;
         margin-right: 10px;
         position: relative;
         left: 65px;
     }
     .header-img img:last-child {
+        width: 8em;
         height: 8em;
         margin-left: 10px;
         position: relative;
@@ -1296,3 +1282,23 @@ label {
     }
 }
 
+@media all and (max-width: 320px) {
+    .company-name {
+        font-size: 6em;
+        padding: 0px 65px;
+    }
+    .header-img img:first-child {
+        width: 6em;
+        height: 6em;
+        margin-right: 10px;
+        position: relative;
+        left: 65px;
+    }
+    .header-img img:last-child {
+        width: 6em;
+        height: 6em;
+        margin-left: 10px;
+        position: relative;
+        right: 65px;
+    }
+}
