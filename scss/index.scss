@@ -199,7 +199,7 @@ p {
     font-size: 20px;
     text-align: center;
     width: 100%;
-    letter-spacing: 1.1px;
+    letter-spacing: 1px;
     z-index: 2;
 }
 
@@ -930,6 +930,11 @@ label {
         width: 100%;
         letter-spacing: 0.5px;
     }
+    @-moz-document url-prefix() { 
+        .refMenu {
+            letter-spacing: 0.1px;
+        }
+    }
     .breadcrumbs a {
         height: 52px;
     }
@@ -1258,15 +1263,13 @@ label {
         padding: 0px 65px;
     }
     .header-img img:first-child {
-        max-width: 8em;
-        max-height: 8em;
+        height: 8em;
         margin-right: 10px;
         position: relative;
         left: 65px;
     }
     .header-img img:last-child {
-        max-width: 8em;
-        max-height: 8em;
+        height: 8em;
         margin-left: 10px;
         position: relative;
         right: 65px;
