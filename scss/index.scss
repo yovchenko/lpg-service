@@ -171,6 +171,7 @@ html {
 
 @-webkit-keyframes rotating
 /* Safari and Chrome */
+
     {
     from {
         -webkit-transform: rotate(0deg);
@@ -224,7 +225,7 @@ html {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
-.nameCo + br {
+.nameCo+br {
     display: none;
 }
 
@@ -242,17 +243,8 @@ h1 {
     text-align: center;
     font-size: 1.35em;
     line-height: 1.7;
-    padding: 0 25px;
+    padding: 0;
     margin: 15px 0px;
-}
-
-@supports (display: grid) {
-    h1 {
-        padding: 0;
-    }
-    input[type] {
-        height: 1.6em;
-    }
 }
 
 h3 {
@@ -857,7 +849,7 @@ footer {
     p {
         font-size: 20px;
         line-height: 33px;
-        span:nth-child(2){
+        span:nth-child(2) {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -1225,10 +1217,8 @@ footer {
             text-align: center;
             float: none;
             width: 100%;
-            p {
-              
-            }
-            span:nth-child(2),span:nth-child(3) {
+            span:nth-child(2),
+            span:nth-child(3) {
                 position: relative;
                 bottom: 0;
             }
@@ -1237,25 +1227,12 @@ footer {
             display: block;
             float: none;
             width: 100%;
-            input[type],
-            textarea {
-             
-            }
-            label {
-            
-            }
-            .btn {
-                
-            }
         }
-    }
-    #map {
-     
     }
 }
 
 @media all and (max-width: 540px) {
-    .nameCo + br {
+    .nameCo+br {
         display: block;
     }
     .brands img {
@@ -1299,5 +1276,3 @@ footer {
         text-align: center;
     }
 }
-
-

@@ -220,7 +220,7 @@ h1 {
   text-align: center;
   font-size: 1.35em;
   line-height: 1.7;
-  padding: 0 25px;
+  padding: 0;
   margin: 15px 0px; }
 
 @supports (display: grid) {
@@ -1036,7 +1036,8 @@ footer {
     text-align: center;
     float: none;
     width: 100%; }
-    .contacts .contact-info span:nth-child(2), .contacts .contact-info span:nth-child(3) {
+    .contacts .contact-info span:nth-child(2),
+    .contacts .contact-info span:nth-child(3) {
       position: relative;
       bottom: 0; }
   .contacts form {
