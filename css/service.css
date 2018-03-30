@@ -223,12 +223,6 @@ h1 {
   padding: 0;
   margin: 15px 0px; }
 
-@supports (display: grid) {
-  h1 {
-    padding: 0; }
-  input[type] {
-    height: 1.6em; } }
-
 h3 {
   color: #10d648;
   font-family: 'Philosopher', sans-serif;
