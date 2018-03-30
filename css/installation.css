@@ -227,9 +227,6 @@ h1 {
 @supports (display: grid) {
   h1 {
     padding: 0; }
-  .svg-lang-ua,
-  .svg-lang-ru {
-    margin-top: 15px; }
   input[type] {
     height: 1.6em; } }
 
@@ -364,7 +361,7 @@ p {
   0% {
     text-shadow: 9999px 0 0 #999999; }
   90% {
-    text-shadow: 9999px -40px 20px rgba(0, 0, 0, 0.3); }
+    text-shadow: 9999px -40px 20px rgba(0, 0, 0, 0.2); }
   100% {
     text-shadow: 9999px 0 0 transparent; } }
 
@@ -372,7 +369,7 @@ p {
   0% {
     text-shadow: 9999px 0 0 #999999; }
   90% {
-    text-shadow: 9999px -40px 20px rgba(0, 0, 0, 0.3); }
+    text-shadow: 9999px -40px 20px rgba(0, 0, 0, 0.2); }
   100% {
     text-shadow: 9999px 0 0 transparent; } }
 
@@ -398,18 +395,10 @@ img {
 
 header {
   max-width: 1140px;
-  display: flex;
   width: 90%;
-  flex-direction: column;
   margin: 0 auto; }
 
 nav {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 10;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 0;
-  grid-column: 2/12;
-  grid-row: 1/1;
   position: relative; }
 
 ul {
@@ -496,7 +485,7 @@ ul {
   background-image: url(../pictures/ua.svg);
   background-size: contain;
   height: 20px;
-  margin: 10px 10px 0px 0px;
+  margin: 10px 0px 0px 0px;
   border-radius: 10%;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
@@ -508,7 +497,7 @@ ul {
   background-image: url(../pictures/ru.svg);
   background-size: contain;
   height: 20px;
-  margin: 10px 10px 0px 0px;
+  margin: 10px 0px 0px 0px;
   border-radius: 10%;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
@@ -917,7 +906,8 @@ label {
     background-image: url(../pictures/ua.svg);
     background-size: contain;
     height: 25px;
-    margin: 12.5px 10px 0px 0px;
+    margin: 0;
+    top: -2px;
     border-radius: 10%;
     border: 2px solid #575756; }
   .svg-lang-ru {
@@ -928,7 +918,8 @@ label {
     background-image: url(../pictures/ru.svg);
     background-size: contain;
     height: 25px;
-    margin: 12.5px 10px 0px 0px;
+    margin: 0;
+    top: -2px;
     border-radius: 10%;
     border: 2px solid #575756; }
   p {
@@ -948,7 +939,7 @@ label {
     width: 40px;
     position: relative;
     z-index: 1;
-    margin: 14.5px;
+    margin: 14.5px 0px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -1131,10 +1122,7 @@ label {
   @supports (display: grid) {
     .contacts {
       margin: 0px;
-      text-align: start; }
-    .svg-lang-ua,
-    .svg-lang-ru {
-      margin: 12.5px; } } }
+      text-align: start; } } }
 
 @media all and (max-width: 720px) {
   .company-name {

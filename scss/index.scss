@@ -172,7 +172,6 @@ html {
 
 @-webkit-keyframes rotating
 /* Safari and Chrome */
-
     {
     from {
         -webkit-transform: rotate(0deg);
@@ -251,10 +250,6 @@ h1 {
 @supports (display: grid) {
     h1 {
         padding: 0;
-    }
-    .svg-lang-ua,
-    .svg-lang-ru {
-        margin-top: 15px;
     }
     input[type] {
         height: 1.6em;
@@ -463,14 +458,11 @@ img {
 
 header {
     max-width: 1140px;
-    display: flex;
     width: 90%;
-    flex-direction: column;
     margin: 0 auto;
 }
 
 nav {
-    @include grid-child(2, 12, 1, 1);
     position: relative;
 }
 
@@ -572,7 +564,7 @@ ul {
     background-image: url(../pictures/ua.svg);
     background-size: contain;
     height: 20px;
-    margin: 10px 10px 0px 0px;
+    margin: 10px 0px 0px 0px;
     border-radius: 10%;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
@@ -585,7 +577,7 @@ ul {
     background-image: url(../pictures/ru.svg);
     background-size: contain;
     height: 20px;
-    margin: 10px 10px 0px 0px;
+    margin: 10px 0px 0px 0px;
     border-radius: 10%;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
@@ -1052,7 +1044,8 @@ label {
         background-image: url(../pictures/ua.svg);
         background-size: contain;
         height: 25px;
-        margin: 12.5px 10px 0px 0px;
+        margin: 0;
+        top: -2px;
         border-radius: 10%;
         border: 2px solid #575756
     }
@@ -1064,7 +1057,8 @@ label {
         background-image: url(../pictures/ru.svg);
         background-size: contain;
         height: 25px;
-        margin: 12.5px 10px 0px 0px;
+        margin: 0;
+        top: -2px;
         border-radius: 10%;
         border: 2px solid #575756
     }
@@ -1089,7 +1083,7 @@ label {
         width: 40px;
         position: relative;
         z-index: 1;
-        margin: 14.5px;
+        margin: 14.5px 0px;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -1282,10 +1276,6 @@ label {
         .contacts {
             margin: 0px;
             text-align: start;
-        }
-        .svg-lang-ua,
-        .svg-lang-ru {
-            margin: 12.5px;
         }
     }
 }
