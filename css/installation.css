@@ -1234,9 +1234,8 @@ h3 {
 .float {
   padding: 15px 25px; }
 
-@supports (display: grid) {
-  .float {
-    padding: 15px 0px; } }
+.cylinder-section {
+  display: inline; }
 
 .empty {
   font-size: 2.5em;
@@ -1394,6 +1393,8 @@ hr {
     font-size: 1.8em; } }
 
 @media all and (max-width: 540px) {
+  .cylinder-section {
+    display: block; }
   .price-wrapper-1 {
     margin: 20px 0px 20px 0px; }
   .price-wrapper-2 {
