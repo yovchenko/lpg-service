@@ -420,11 +420,6 @@ p {
 
 /*contacts .html*/
 
-.message {
-    font-size: 18px;
-    font-family: 'Philosopher', sans-serif;
-}
-
 #name-error,
 #email-error {
     font-size: 1em;
@@ -840,6 +835,18 @@ footer {
             font-size: 20px;
             line-height: 33px;
         }
+        h1 {
+            text-align: center;
+            height: 455px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            .message {
+                font-size: 20px;
+                line-height: 33px;
+                font-family: 'Philosopher', sans-serif;
+            }
+        }
     }
     &::after {
         content: "";
@@ -1009,6 +1016,14 @@ footer {
             .btn {
                 font-size: 18px;
                 line-height: 29px;
+            }
+            h1 {
+                height: 434px;
+                .message {
+                    font-size: 18px;
+                    line-height: 29px;
+                    font-family: 'Philosopher', sans-serif;
+                }
             }
         }
     }
