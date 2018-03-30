@@ -1,10 +1,15 @@
-var gulp = require('gulp');
-var log = require('fancy-log');
-var htmlmin = require('gulp-htmlmin');
+let gulp = require('gulp');
+var minify = require('gulp-minify');
  
-gulp.task('minify', function() {
-  return gulp.src('./*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
+gulp.task('compress', function() {
+  gulp.src('js/index.js')
+    .pipe(minify({
+        ext:{
+            src:'-debug.js',
+            min:'.js'
+        },
+        exclude: ['tasks'],
+        ignoreFiles: ['.combo.js', '-min.js']
+    }))
     .pipe(gulp.dest('dist'))
-    .on('end', function(){ log('Done!'); });
 });
