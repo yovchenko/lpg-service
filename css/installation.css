@@ -1,16 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,21 +87,34 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block; }
 
 body {
   line-height: 1; }
 
-ol, ul {
+ol,
+ul {
   list-style: none; }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none; }
 
@@ -120,6 +201,9 @@ html {
   color: #10d648;
   text-shadow: 2px 2px 4px black; }
 
+.nameCo + br {
+  display: none; }
+
 .company-name.loaded {
   visibility: visible; }
 
@@ -143,7 +227,8 @@ h1 {
 @supports (display: grid) {
   h1 {
     padding: 0; }
-  .svg-lang-ua, .svg-lang-ru {
+  .svg-lang-ua,
+  .svg-lang-ru {
     margin-top: 15px; }
   input[type] {
     height: 1.6em; } }
@@ -801,7 +886,8 @@ label {
     line-height: 2.5em; }
   label {
     font-size: 18px; }
-  input[type], textarea {
+  input[type],
+  textarea {
     font-size: 18px; }
   .refMenu {
     font-size: 18px;
@@ -1046,7 +1132,8 @@ label {
     .contacts {
       margin: 0px;
       text-align: start; }
-    .svg-lang-ua, .svg-lang-ru {
+    .svg-lang-ua,
+    .svg-lang-ru {
       margin: 12.5px; } } }
 
 @media all and (max-width: 720px) {
@@ -1103,23 +1190,24 @@ label {
       margin: 25px 0; } } }
 
 @media all and (max-width: 540px) {
+  .nameCo + br {
+    display: block; }
   .brands img {
     margin: 20px 0; }
   .company-name {
-    font-size: 8em;
-    padding: 0px 65px; }
+    font-size: 8em; }
   .header-img img:first-child {
     width: 8em;
     height: 8em;
-    margin-right: 10px;
+    margin-right: auto;
     position: relative;
-    left: 65px; }
+    left: calc(10% - 2em); }
   .header-img img:last-child {
     width: 8em;
     height: 8em;
-    margin-left: 10px;
+    margin-left: auto;
     position: relative;
-    right: 65px; }
+    right: calc(10% - 2em); }
   .header-img {
     overflow: hidden; }
   .carousel {
@@ -1135,23 +1223,6 @@ label {
   p {
     margin: 15px;
     text-align: center; } }
-
-@media all and (max-width: 320px) {
-  .company-name {
-    font-size: 6em;
-    padding: 0px 65px; }
-  .header-img img:first-child {
-    width: 6em;
-    height: 6em;
-    margin-right: 10px;
-    position: relative;
-    left: 65px; }
-  .header-img img:last-child {
-    width: 6em;
-    height: 6em;
-    margin-left: 10px;
-    position: relative;
-    right: 65px; } }
 
 h1 {
   font-size: 2.2em;

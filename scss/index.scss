@@ -226,6 +226,10 @@ html {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
+.nameCo + br {
+    display: none;
+}
+
 .company-name.loaded {
     visibility: visible;
 }
@@ -1336,26 +1340,28 @@ label {
 }
 
 @media all and (max-width: 540px) {
+    .nameCo + br {
+        display: block;
+    }
     .brands img {
         margin: 20px 0;
     }
     .company-name {
         font-size: 8em;
-        padding: 0px 65px;
     }
     .header-img img:first-child {
         width: 8em;
         height: 8em;
-        margin-right: 10px;
+        margin-right: auto;
         position: relative;
-        left: 65px;
+        left: calc(10% - 2em);
     }
     .header-img img:last-child {
         width: 8em;
         height: 8em;
-        margin-left: 10px;
+        margin-left: auto;
         position: relative;
-        right: 65px;
+        right: calc(10% - 2em);
     }
     .header-img {
         overflow: hidden;
@@ -1379,23 +1385,4 @@ label {
     }
 }
 
-@media all and (max-width: 320px) {
-    .company-name {
-        font-size: 6em;
-        padding: 0px 65px;
-    }
-    .header-img img:first-child {
-        width: 6em;
-        height: 6em;
-        margin-right: 10px;
-        position: relative;
-        left: 65px;
-    }
-    .header-img img:last-child {
-        width: 6em;
-        height: 6em;
-        margin-left: 10px;
-        position: relative;
-        right: 65px;
-    }
-}
+
