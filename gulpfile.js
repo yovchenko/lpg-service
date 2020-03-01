@@ -1,9 +1,8 @@
-let gulp = require('gulp');
-let cleanCSS = require('gulp-clean-css');
-
-gulp.task('minify-css', () => {
-  return gulp.src('css/*.css')
-    .pipe(cleanCSS({compatibility: 'ie8'}))
+const gulp = require('gulp');
+const htmlmin = require('gulp-htmlmin');
+ 
+gulp.task('minify', () => {
+  return gulp.src('./contacts.html')
+    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('dist'));
 });
-
