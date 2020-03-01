@@ -1,1 +1,1 @@
-function myMap(){var e={center:new google.maps.LatLng(49.9899735,36.2505891),zoom:15,mapTypeId:google.maps.MapTypeId.TERRAIN},a=new google.maps.Map(document.getElementById("map"),e);new google.maps.Marker({position:{lat:49.9899735,lng:36.2505891},map:a,title:"GasCentr"})}
+function myMap(){var e={center:new google.maps.LatLng(50.027694,36.336569),zoom:15,mapTypeId:google.maps.MapTypeId.TERRAIN},a=new google.maps.Map(document.getElementById("map"),e);new google.maps.Marker({position:{lat:50.027694,lng:36.336569},map:a,title:"GasCentr"})}
