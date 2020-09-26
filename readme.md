@@ -19,7 +19,7 @@ For development, you will only need Node.js installed on your environement.
 
 ### SCSS
 
-- [SCSS](https://sass-lang.com/documentation) SCSS is a stylesheet language that’s compiled to CSS.
+- [SCSS](https://sass-lang.com/documentation) is a stylesheet language that’s compiled to CSS.
 
 gulp-autoprefixer is included and use [caniuse.com](http://caniuse.com/) database to avoid outdated prefixes. 
 
@@ -35,7 +35,7 @@ this website has been tested and works on the following browsers:
 
 ### Author and Contributor list 
 ---------------------------
-Volodymyr.M Yovchenko
+Volodymyr M. Yovchenko
 
 All bugs and fixes can be sent to yovchenko.w@gmail.com
 
