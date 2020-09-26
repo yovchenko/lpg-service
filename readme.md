@@ -1,16 +1,29 @@
 # Gascentr.com
-# List of Instruments used:
 
---HTML
+## Requirements
 
---SCSS
+For development, you will only need Node.js installed on your environement.
 
---JS
+#### Node installation on Linux
 
---Bootstrap
+    sudo apt-get update
+    sudo apt-get install nodejs
+
+## Languages & tools
+
+### HTML
+
+### JavaScript
+
+- [ESLint](https://eslint.org/docs/user-guide/getting-started) is used to prevent JavaScript error.
+
+### SCSS
+
+- [SCSS](https://sass-lang.com/documentation) SCSS is a stylesheet language that’s compiled to CSS.
+
+gulp-autoprefixer is included and use [caniuse.com](http://caniuse.com/) database to avoid outdated prefixes. 
 
 ## Browser support
-
 this website has been tested and works on the following browsers:
 
 * Chrome (desktop & Android)
@@ -25,7 +38,5 @@ this website has been tested and works on the following browsers:
 Volodymyr.M Yovchenko
 
 All bugs and fixes can be sent to yovchenko.w@gmail.com
-
-Reported bugs/fixes will be submitted to correction.
 
 Thank you for your attention to the website.

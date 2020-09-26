@@ -8,14 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yovchenko/gas-service-.git"
+    "url": "git+https://github.com/yovchenko/lpg-service.git"
   },
   "author": "Vladimir Yovchenko",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yovchenko/gas-service-/issues"
-  },
-  "homepage": "https://github.com/yovchenko/gas-service-#readme",
+  "homepage": "https://github.com/yovchenko/lpg-service#readme",
   "devDependencies": {
     "gulp": "^4.0.0"
   }
