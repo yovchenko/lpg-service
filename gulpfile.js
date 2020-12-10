@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const minify = require('gulp-minify');
+const htmlmin = require('gulp-htmlmin');
 
 gulp.task('compressJs', function() {
   return gulp.src('js/debug/*.js')
@@ -16,7 +17,7 @@ gulp.task('compressJs', function() {
 
 
 gulp.task('minifyHtml', () => {
-  return gulp.src('./contacts.html')
+  return gulp.src('./contacts-ua.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('dist'));
 });

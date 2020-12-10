@@ -24,7 +24,7 @@ function sendForm(e) {
   if ($contactForm.valid()) {
   e.preventDefault(); 
   $.ajax({
-    url: "https://formspree.io/f/mrgoykvv",
+    url: "https://formspree.io/f/xeqprzjg",
     method: "POST",
     data: {
         name: $('#name').val(),
