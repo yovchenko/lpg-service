@@ -239,7 +239,7 @@ main {
 }
 
 h1 {
-    color: #10d648;
+    color: $fontColor;
     text-align: center;
     font-size: 1.35em;
     line-height: 1.7;
@@ -248,14 +248,14 @@ h1 {
 }
 
 h3 {
-    color: #10d648;
+    color: $fontColor;
     font-family: 'Philosopher', sans-serif;
     font-size: 1.45em;
     text-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 p {
-    color: #10d648;
+    color: $fontColor;
     font-family: 'Philosopher', sans-serif;
     font-size: 1.4em;
     text-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
@@ -350,7 +350,7 @@ p {
 }
 
 .smoke {
-    color: rgba(16, 214, 72, 1);
+    color: $fontColor;
     max-width: 300px;
     font-size: 4em;
     text-align: initial;
@@ -364,7 +364,7 @@ p {
 }
 
 .smoke.smokeActive span {
-    color: rgba(16, 214, 72, 1);
+    color: $fontColor;
     -webkit-animation-name: smoke;
     animation-name: smoke;
 }
@@ -490,7 +490,7 @@ ul {
     text-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
     font-weight: bold;
     text-align: center;
-    color: #10d648;
+    color: $fontColor;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
     /* For some Androids */
@@ -528,7 +528,7 @@ ul {
 }
 
 .breadcrumbs a:hover:after {
-    border-left-color: #10d648;
+    border-left-color:  #10d648;
 }
 
 .breadcrumbs a:hover {
@@ -766,7 +766,7 @@ footer {
 }
 
 .info {
-    color: #10d648;
+    color: $fontColor;
     text-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
     font-family: 'Philosopher', sans-serif;
     font-size: 1.45em;
@@ -808,7 +808,7 @@ footer {
             border-bottom-left-radius: 10px;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
-            border: 1px solid #10d648;
+            border: 1px solid $fontColor;
             -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
@@ -817,19 +817,19 @@ footer {
             height: 33px;
             font-size: 20px;
             box-sizing: border-box;
-            border: 1px solid #10d648;
+            border: 1px solid$fontColor;
             outline: none;
             font-family: "Times New Roman", Times, serif;
             border-bottom-right-radius: 10px;
             border-bottom-left-radius: 10px;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
-            border-color: #10d648;
+            border-color: $fontColor;
             -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
         label {
-            color: #10d648;
+            color: $fontColor;
             text-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
             font-family: 'Philosopher', sans-serif;
             font-size: 20px;
@@ -879,6 +879,7 @@ footer {
     margin: 25px 0;
     font-family: inherit;
     color: inherit;
+    font-weight: bold;
     background: none;
     cursor: pointer;
     text-transform: uppercase;
