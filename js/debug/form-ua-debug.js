@@ -24,7 +24,7 @@ jQuery.extend(jQuery.validator.messages, {
     if ($contactForm.valid()) {
     e.preventDefault(); 
     $.ajax({
-      url: "https://formspree.io/gascentr.service@gmail.com",
+      url: "https://formspree.io/f/mrgoykvv",
       method: "POST",
       data: {
           name: $('#name').val(),

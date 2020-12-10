@@ -31,7 +31,7 @@ this website has been tested and works on the following browsers:
 * Firefox
 * Opera
 * Safari (desktop & iOS)
-* IE9+
+* IE8+
 * Android WebKit
 
 ### Author and Contributor list 
