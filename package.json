@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": " LPG and Autogas Installation & Maintenance in Kharkiv ",
   "main": "index.js",
-  "scripts": {
-    "convert:scss": "node-sass -o css scss"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yovchenko/lpg-service.git"
@@ -14,8 +11,15 @@
   "license": "MIT",
   "homepage": "https://github.com/yovchenko/lpg-service#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-minify": "^3.1.0"
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "postcss-scss": "^3.0.4"
   }
 }
