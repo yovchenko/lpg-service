@@ -836,6 +836,7 @@ footer {
             line-height: 33px;
         }
         h1 {
+            position: relative;
             text-align: center;
             height: 455px;
             width: 100%;
@@ -844,10 +845,16 @@ footer {
             .message {
                 display: block;
                 border: 1px solid #10d648;
+                padding: 10px;
                 border-radius: 10px;
                 font-size: 20px;
                 line-height: 33px;
                 font-family: 'Philosopher', sans-serif;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
             }
         }
     }
@@ -1023,10 +1030,17 @@ footer {
             }
             h1 {
                 height: 434px;
+                position: relative;
                 .message {
                     font-size: 18px;
+                    padding: 10px;
                     line-height: 29px;
                     font-family: 'Philosopher', sans-serif;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
                 }
             }
         }
