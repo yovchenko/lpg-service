@@ -1,23 +1,22 @@
 const gulp = require('gulp');
-// const htmlmin = require('gulp-htmlmin');
 const minify = require('gulp-minify');
- 
-gulp.task('compress', function() {
-  gulp.src('js/*.js')
+
+gulp.task('compressJs', function() {
+  return gulp.src('js/debug/*.js')
     .pipe(minify({
         ext:{
-            src:'-debug.js',
-            min:'.js'
+            src:'.js',
+            min:[/-debug.js/, '.js']
         },
-        exclude: ['debug'],
+        noSource: true,
         ignoreFiles: ['-min.js']
     }))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('js'))
 });
 
-/*
-gulp.task('minify', () => {
+
+gulp.task('minifyHtml', () => {
   return gulp.src('./contacts.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('dist'));
-});*/
+});
