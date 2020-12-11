@@ -15,7 +15,7 @@ For development, you will only need Node.js installed on your environement.
 
 ### JavaScript
 
-- [ESLint](https://eslint.org/docs/user-guide/getting-started) is used to prevent JavaScript error.
+- [gulp](https://www.npmjs.com/package/gulp) is a toolkit that helps you automate painful or time-consuming tasks in your development workflow.
 - [jQuery](https://api.jquery.com) is a fast, small, and feature-rich JavaScript library.
 
 ### SCSS
