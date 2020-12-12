@@ -263,6 +263,11 @@ p {
     line-height: 2.6em;
 }
 
+hr {
+    border-top: 1px solid #ddd;
+    border-bottom: none;
+}
+
 .refMenu {
     display: table-cell;
     vertical-align: middle;
@@ -431,8 +436,10 @@ img {
     max-width: 100%;
 }
 
-.brands img {
-    margin: 20px;
+.brands {
+    img {
+        margin: 20px;
+    }
 }
 
 #menuToggle {
@@ -713,6 +720,8 @@ main li {
 footer {
     width: 100%;
     text-align: center;
+    border-top: 1px solid #ddd;
+    height: 100px;
     /*Safari 5.1-6*/
     /*Opera 11.1-12*/
     /*Fx 3.6-15*/
@@ -722,29 +731,19 @@ footer {
 }
 
 .icons {
-    padding-bottom: 3%;
-    padding-top: 1%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    align-items: center;
+    list-style: none; 
+    box-sizing: content-box;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    width: 100%;
+    display: inline-flex;
+    height: $footerIconSize;
+    min-height: $footerIconSize;
 }
 
-.icon-1 {
-    width: 50px;
-    padding-right: 2px;
-    padding-top: 3px;
-}
-
-.icon-2 {
-    width: 50px;
-}
-
-.icon-3 {
-    width: 50px;
+.icon-1, .icon-2, .icon-3, 
+.icon-4, .icon-5 {
+    height: 100%;
 }
 
 .name-part-1 {

@@ -17,7 +17,7 @@ gulp.task('css', function () {
 		.pipe(gulp.dest('./css'));
 });
 
-gulp.task('compressJs', function() {
+gulp.task('js', function() {
   return gulp.src('js/debug/*.js')
     .pipe(minify({
         ext:{
@@ -31,7 +31,7 @@ gulp.task('compressJs', function() {
 });
 
 
-gulp.task('minifyHtml', () => {
+gulp.task('html', () => {
   return gulp.src('./contacts-ua.html')
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('dist'));

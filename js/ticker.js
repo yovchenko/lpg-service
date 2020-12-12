@@ -1,0 +1,1 @@
+$("#web-ticker").webTicker({height:"200px",hoverpause:!1,speed:75});

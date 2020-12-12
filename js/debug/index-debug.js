@@ -27,4 +27,8 @@ function screenTest(e) {
       else navbar.css("display", "none");
    }
 }
-mql.addListener(screenTest);
+
+mql.addEventListener("change", function (e) {
+    screenTest(e)
+});
+
