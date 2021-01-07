@@ -3,12 +3,12 @@ const minify = require('gulp-minify');
 const htmlmin = require('gulp-htmlmin');
 const postcss = require('gulp-postcss');
 const sass = require('gulp-sass');
-const autoprefixer = require('autoprefixer');
-const cssnano = require('cssnano');
+const autoprefixer =  require('autoprefixer')({ grid: 'autoplace' });
+const cssnano = require('cssnano'); 
 
 gulp.task('css', function () {
     const processors = [
-		autoprefixer,
+    autoprefixer,
 		cssnano
 	];
 	return gulp.src('./scss/*.scss')

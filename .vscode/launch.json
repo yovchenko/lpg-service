@@ -5,11 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "firefox",
+            "name": "Launch Chrome",
             "request": "launch",
-            "name": "Launch Firefox",
+            "type": "pwa-chrome",
             "file": "${workspaceFolder}/index.html"
-        },
-
+        }
     ]
 }
