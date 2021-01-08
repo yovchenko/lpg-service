@@ -1068,6 +1068,10 @@ footer {
         border-bottom-width: 26px;
         border-left-width: 13px;
     }
+    .icon-1, .icon-2, .icon-3, 
+    .icon-4, .icon-5 {
+        width: 45px;
+    }
 }
 
 @media all and (max-width: 830px) {
@@ -1234,6 +1238,10 @@ footer {
     .breadcrumbs a {
         z-index: 5;
     }
+    .icon-1, .icon-2, .icon-3, 
+    .icon-4, .icon-5 {
+        width: 45px;
+    }
 }
 
 @media all and (max-width: 720px) {
@@ -1269,6 +1277,10 @@ footer {
             float: none;
             width: 100%;
         }
+    }
+    .icon-1, .icon-2, .icon-3, 
+    .icon-4, .icon-5 {
+        width: 45px;
     }
 }
 
@@ -1315,5 +1327,9 @@ footer {
     p {
         margin: 15px;
         text-align: center;
+    }
+    .icon-1, .icon-2, .icon-3, 
+    .icon-4, .icon-5 {
+        width: 40px;
     }
 }
