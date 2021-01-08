@@ -447,6 +447,10 @@ img {
     }
 }
 
+#web-ticker{
+    will-change: transform;
+}
+
 #menuToggle {
     display: none;
 }
@@ -1241,7 +1245,7 @@ footer {
     }
     .icon-1, .icon-2, .icon-3, 
     .icon-4, .icon-5 {
-        width: 45px;
+        width: 40px;
     }
 }
 
