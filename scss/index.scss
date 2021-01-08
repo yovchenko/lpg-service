@@ -206,7 +206,8 @@ html {
     margin-right: 10px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
 }
 
 .header-img img:last-child {
@@ -217,7 +218,8 @@ html {
     margin-left: 10px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
 }
 
 .company-name {
@@ -449,6 +451,8 @@ img {
 
 #web-ticker{
     will-change: transform;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
 }
 
 #menuToggle {
