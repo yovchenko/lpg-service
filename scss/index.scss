@@ -745,6 +745,7 @@ footer {
     margin: 0 auto;
     display: inline-flex;
     justify-content: space-around;
+    align-items: center;
     height: $footerIconSize;
     min-height: $footerIconSize;
 }
@@ -1280,7 +1281,7 @@ footer {
     }
     .icon-1, .icon-2, .icon-3, 
     .icon-4, .icon-5 {
-        width: 45px;
+        width: 40px;
     }
 }
 
