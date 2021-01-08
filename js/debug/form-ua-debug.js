@@ -34,7 +34,7 @@ jQuery.extend(jQuery.validator.messages, {
       dataType: "json"
   })
   .done(function() {
-    $contactForm.html('<h1><span class="message">Дякуємо,повідомлення було відправлено.<br> Ми свяжемося з вами найближчим часом.</span></h1>');
+    $contactForm.html('<h1><span class="message">Дякуємо, повідомлення було відправлено.<br> Ми зв\'яжемося з вами, найближчим часом.</span></h1>');
   });
     }
   }

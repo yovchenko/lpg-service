@@ -34,7 +34,7 @@ function sendForm(e) {
     dataType: "json"
 })
 .done(function() {
-  $contactForm.html('<h1><span class="message">Спасибо, сообщение отправлено.<br> Мы свяжемся с вами в ближайшее время.</span></h1>');
+  $contactForm.html('<h1><span class="message">Спасибо, сообщение отправлено.<br> Мы свяжемся с вами, в ближайшее время.</span></h1>');
 });
   }
 }
