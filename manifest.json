@@ -3,6 +3,8 @@
  "short_name": "GS",
  "description": "Установка ГБО в Харькове",
  "start_url": "https://gascentr.com/",
+ "background_color": "#FFF",
+ "theme_color": "#FFF",
  "display": "standalone",
  "icons": [
   {
@@ -41,7 +43,13 @@
    "sizes": "192x192",
    "type": "image\/png",
    "density": "4.0"
-  }
+  },
+  {
+    "src": "favicon/ms-icon-310x310.png",
+    "sizes": "310x310",
+    "type": "image\/png",
+    "density": "4.0"
+   }
  ],
  "form.js": "js/form.js",
  "form-ua.js": "js/form-ua.js",
