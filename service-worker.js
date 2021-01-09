@@ -21,6 +21,22 @@ self.toolbox.precache([
     "/pictures/certificates/small/digitronic.jpg",
     "/pictures/certificates/small/gratitude.jpg",
     "/pictures/certificates/small/torelli.jpg",
-    "/pictures/certificates/small/zavoli-1.jpg"
+    "/pictures/certificates/small/zavoli-1.jpg",
+    "/pictures/cars-img/bmw-525-1.jpg",
+    "/pictures/cars-img/bmw-525-2.jpg",
+    "/pictures/cars-img/honda-CR-V-1.jpg",
+    "/pictures/cars-img/honda-CR-V-2.jpg",
+    "/pictures/cars-img/hummer-1.jpg",
+    "/pictures/cars-img/hummer-2.jpg",
+    "/pictures/cars-img/hummer-3.jpg",
+    "/pictures/cars-img/nissanMaxima-1.jpg",
+    "/pictures/cars-img/nissanMaxima-2.jpg",
+    "/pictures/cars-img/opelVectra-1.jpg",
+    "/pictures/cars-img/opelVectra-2.jpg",
+    "/pictures/cars-img/porscheCayenne-1.jpg",
+    "/pictures/cars-img/porscheCayenne-2.jpg",
+    "/pictures/cars-img/porscheCayenne-3.jpg",
+    "/pictures/cars-img/subaruOutback-1.jpg",
+    "/pictures/cars-img/subaruOutback-2.jpg"
 ]);
 self.toolbox.router.get('/*', toolbox.networkFirst);
