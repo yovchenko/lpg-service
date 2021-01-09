@@ -33,9 +33,10 @@ mql.addEventListener("change", function (e) {
 });
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-        self.importScripts('sw-toolbox/sw-toolbox.js');
+    navigator.serviceWorker.register('/service-worker.js')
+    .then(function(registration) {
+      console.info('ServiceWorker registration successful!');
     }).catch(function(err) {
-      console.log('ServiceWorker registration failed: ', err);
+      console.error('ServiceWorker registration failed: ', err);
     });
   }
