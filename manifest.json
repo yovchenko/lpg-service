@@ -1,5 +1,9 @@
 {
- "name": "App",
+ "name": "gascenter",
+ "short_name": "GS",
+ "description": "Установка ГБО в Харькове",
+ "start_url": "https://gascentr.com/",
+ "display": "standalone",
  "icons": [
   {
    "src": "favicon/android-icon-36x36.png",
@@ -23,6 +27,7 @@
    "src": "favicon/android-icon-96x96.png",
    "sizes": "96x96",
    "type": "image\/png",
+   "purpose": "any maskable",
    "density": "2.0"
   },
   {
@@ -37,5 +42,43 @@
    "type": "image\/png",
    "density": "4.0"
   }
- ]
+ ],
+ "form.js": "js/form.js",
+ "form-ua.js": "js/form-ua.js",
+ "gallery.js": "js/gallery.js",
+ "index.js": "js/index.js",
+ "installation.js": "js/installation.js",
+ "jquery-3.2.1.min.js": "js/jquery-3.2.1.min.js",
+ "jquery.validate.min.js": "js/jquery.validate.min.js",
+ "jquery.webticker.min.js": "js/jquery.webticker.min.js",
+ "map.js": "js/map.js",
+ "scrollreveal.min.js": "js/scrollreveal.min.js",
+ "fontfaceobserver.js": "js/fontfaceobserver.js",
+ "ticker.js": "js/ticker.js",
+ "index.css": "css/index.css",
+ "installation.css": "css/installation.css",
+ "service.css": "css/service.css",
+ "/pictures/asphalt.jpg": "/pictures/asphalt.jpg",
+ "/pictures/home.svg": "/pictures/home.svg",
+ "/pictures/ru.svg": "/pictures/ru.svg",
+ "/pictures/ua.svg": "/pictures/ua.svg",
+ "/pictures/wheel.svg": "/pictures/wheel.svg",
+ "/pictures/engine.svg": "/pictures/engine.svg",
+ "/pictures/brands-logo/gif/aeb.gif": "/pictures/brands-logo/gif/aeb.gif",
+ "/pictures/brands-logo/gif/brc.gif": "/pictures/brands-logo/gif/brc.gif",
+ "/pictures/brands-logo/gif/lpg.gif": "/pictures/brands-logo/gif/lpg.gif",
+ "/pictures/brands-logo/gif/pride.gif": "/pictures/brands-logo/gif/pride.gif",
+ "/pictures/brands-logo/gif/zavoli.gif": "/pictures/brands-logo/gif/zavoli.gif",
+ "/pictures/brands-logo/gif/digitronic.gif": "/pictures/brands-logo/gif/digitronic.gif",
+ "/pictures/certificates/certificate.jpg": "/pictures/certificates/certificate.jpg",
+ "/pictures/certificates/digitronic.jpg": "/pictures/certificates/digitronic.jpg",
+ "/pictures/certificates/gratitude.jpg": "/pictures/certificates/gratitude.jpg",
+ "/pictures/certificates/torelli.jpg": "/pictures/certificates/torelli.jpg",
+ "/pictures/certificates/zavoli-1.jpg": "/pictures/certificates/zavoli-1.jpg",
+ "/pictures/certificates/small/certificate.jpg": "/pictures/certificates/small/certificate.jpg",
+ "/pictures/certificates/small/digitronic.jpg": "/pictures/certificates/small/digitronic.jpg",
+ "/pictures/certificates/small/gratitude.jpg": "/pictures/certificates/small/gratitude.jpg",
+ "/pictures/certificates/small/torelli.jpg": "/pictures/certificates/small/torelli.jpg",
+ "/pictures/certificates/small/zavoli-1.jpg": "/pictures/certificates/small/zavoli-1.jpg",
+ "index.html": "index.html"
 }
