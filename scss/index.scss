@@ -444,12 +444,22 @@ img {
 }
 
 .brands {
-    img {
-        margin: 20px;
+    .mask {
+        .carousel-cell {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 33%;
+            height: 200px;
+            a{
+                display: block;
+            }
+        }
+  
     }
 }
 
-#web-ticker{
+.flickity-slider {
     will-change: transform;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
@@ -1268,6 +1278,15 @@ footer {
     .header-img {
         background-size: contain;
     }
+
+    .brands {
+        .mask {
+            .carousel-cell {
+                width: 50%;
+            }
+        }
+    }
+
     .contacts {
         .contact-info {
             display: block;
@@ -1297,9 +1316,22 @@ footer {
     .nameCo+br {
         display: block;
     }
-    .brands img {
-        margin: 20px 0;
+
+    .brands {
+        .mask {
+            .carousel-cell {
+                width: 50%;
+                a{
+                    img {
+                        max-width: 90%;
+                        margin: 0;
+                    }
+                }
+            }
+      
+        }
     }
+
     .company-name {
         font-size: 8em;
     }
