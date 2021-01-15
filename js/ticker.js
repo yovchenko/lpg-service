@@ -1,1 +1,1 @@
-$("#web-ticker").webTicker({height:"200px",hoverpause:!1,speed:125});
+$(".brands .mask").flickity({cellAlign:"left",wrapAround:!0,autoPlay:3e3,pauseAutoPlayOnHover:!1,prevNextButtons:!1,pageDots:!1});
