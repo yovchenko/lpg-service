@@ -604,48 +604,7 @@ ul {
     z-index: 100;
 }
 
-.svg-lang-ru::before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 99.5%;
-    height: 1px;
-    border-radius: 10%;
-    border-bottom: 1px solid transparent;
-    border-left: 1px solid transparent;
-}
-
-.svg-lang-ru::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 99.5%;
-    height: 1px;
-    border-radius: 10%;
-    border-top: 1px solid transparent;
-    border-right: 1px solid transparent;
-}
-
-.svg-lang-ru:hover::before {
-    -webkit-transition: .1s height linear .1s;
-    transition: .1s height linear .1s;
-    height: 100%;
-    border-color: white;
-}
-
-.svg-lang-ru:hover::after {
-    -webkit-transition: .1s height linear .3s;
-    transition: .1s height linear .3s;
-    height: 100%;
-    border-color: white;
-}
-
+.svg-lang-ru::before,
 .svg-lang-ua::before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -660,7 +619,8 @@ ul {
     border-left: 1px solid transparent;
 }
 
-.svg-lang-ua::after {
+.svg-lang-ua::after,
+.svg-lang-ru::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     content: '';
@@ -674,14 +634,16 @@ ul {
     border-right: 1px solid transparent;
 }
 
-.svg-lang-ua:hover::before {
+.svg-lang-ua:hover::before,
+.svg-lang-ru:hover::before {
     -webkit-transition: .1s height linear .1s;
     transition: .1s height linear .1s;
     height: 100%;
     border-color: white;
 }
 
-.svg-lang-ua:hover::after {
+.svg-lang-ua:hover::after,
+.svg-lang-ru:hover::after {
     -webkit-transition: .1s height linear .3s;
     transition: .1s height linear .3s;
     height: 100%;
@@ -762,7 +724,6 @@ footer {
     width: 90%;
     margin: 0 auto;
     display: inline-flex;
-    justify-content: space-around;
     align-items: center;
     height: $footerIconSize;
     min-height: $footerIconSize;
@@ -770,8 +731,21 @@ footer {
 
 .icon-1, .icon-2, .icon-3, 
 .icon-4, .icon-5 {
-    width: 50px;
+    width: 40px;
+    margin: 0px 15px;
     height: 100%;
+}
+
+.icons .icon-4 {
+    margin-left: auto;
+}
+
+.icons li:last-child {
+    margin-right: 0px;
+}
+
+.icons li:first-child {
+    margin-left: 0px;
 }
 
 .name-part-1 {
@@ -1087,10 +1061,6 @@ footer {
         border-bottom-width: 26px;
         border-left-width: 13px;
     }
-    .icon-1, .icon-2, .icon-3, 
-    .icon-4, .icon-5 {
-        width: 45px;
-    }
 }
 
 @media all and (max-width: 830px) {
@@ -1108,7 +1078,7 @@ footer {
         margin: 0;
         top: -2px;
         border-radius: 10%;
-        border: 2px solid #575756
+        border: 2px solid #575756;
     }
     .svg-lang-ru {
         position: absolute;
@@ -1121,7 +1091,7 @@ footer {
         margin: 0;
         top: -2px;
         border-radius: 10%;
-        border: 2px solid #575756
+        border: 2px solid #575756;
     }
     h2 {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1259,7 +1229,7 @@ footer {
     }
     .icon-1, .icon-2, .icon-3, 
     .icon-4, .icon-5 {
-        width: 40px;
+        width: 35px;
     }
 }
 
@@ -1308,7 +1278,8 @@ footer {
     }
     .icon-1, .icon-2, .icon-3, 
     .icon-4, .icon-5 {
-        width: 40px;
+        width: 35px;
+        margin: 0 10px;
     }
 }
 
@@ -1371,6 +1342,9 @@ footer {
     }
     .icon-1, .icon-2, .icon-3, 
     .icon-4, .icon-5 {
-        width: 40px;
+        width: 35px;
+        margin: 0 10px;
+    }
+    .icon-4, .icon-5 {
     }
 }
